@@ -1,6 +1,7 @@
 "use client"
 import { useState } from 'react';
 import Link from 'next/link'
+import AppBar from './AppBar'
 import './header.scss';
 
 function Header() {
@@ -11,7 +12,8 @@ function Header() {
     return (
         <div className='header-div'>
             <Link href='/' >Home</Link>
-            
+            <Link href='/beginning'>Beginning</Link>
+            <AppBar />
         </div>
     );
 }
