@@ -11,8 +11,6 @@ function Header() {
 
     return (
         <div className='header-div'>
-            <Link href='/' >Home</Link>
-            <Link href='/beginning'>Beginning</Link>
             <AppBar />
         </div>
     );
