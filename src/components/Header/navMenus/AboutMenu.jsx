@@ -11,6 +11,7 @@ import Button from '@mui/material/Button';
 import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
 import AdbIcon from '@mui/icons-material/Adb';
+import { Popper } from '@mui/material';
 
 import Link from 'next/link';
 
@@ -18,11 +19,14 @@ import Link from 'next/link';
 
 const AboutMenu = ({ anchorElAbout, handleOpenAboutMenu, handleCloseAboutMenu }) => {
     return (
-        <>
+        <div
+            onMouseEnter={handleOpenAboutMenu}
+            onMouseLeave={handleCloseAboutMenu}
+        >
             <Button onClick={handleOpenAboutMenu} sx={{ p: 0 }}>
                 <Typography textAlign="center" style={{ color: 'white' }}>About</Typography>
             </Button>
-            <Menu
+            <Popper
                 sx={{ mt: '45px' }}
                 // id="menu-appbar"
                 anchorEl={anchorElAbout}
@@ -35,10 +39,10 @@ const AboutMenu = ({ anchorElAbout, handleOpenAboutMenu, handleCloseAboutMenu })
                     vertical: 'top',
                     horizontal: 'right',
                 }}
-                open={anchorElAbout}
+                open={Boolean(anchorElAbout)}
                 onClose={handleCloseAboutMenu}
             >
-
+                <Box sx={{ border: '1px solid #d3d4d5', bgcolor: 'background.paper' }} >
                 <MenuItem onClick={handleCloseAboutMenu}>
                     <Link href='/beginning'>
                         <Typography textAlign="center">Our Beginning</Typography>
@@ -59,9 +63,9 @@ const AboutMenu = ({ anchorElAbout, handleOpenAboutMenu, handleCloseAboutMenu })
                         <Typography textAlign="center">Employment</Typography>
                     </Link>
                 </MenuItem>
-
-            </Menu>
-        </>
+            </Box>
+        </Popper>
+        </div >
     )
 }
 

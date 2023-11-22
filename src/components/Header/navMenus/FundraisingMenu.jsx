@@ -21,9 +21,13 @@ import Link from 'next/link';
 
 const FundraisingMenu = ({ anchorElFundraising, handleOpenFundraisingMenu, handleCloseFundraisingMenu }) => {
     return (
-        <>
-
-            <Button onClick={handleOpenFundraisingMenu} sx={{ p: 0 }}>
+        <div
+        onMouseEnter={handleOpenFundraisingMenu}
+        onMouseLeave={handleCloseFundraisingMenu}
+        >
+            <Button
+             sx={{ p: 0 }}
+             >
                 <Typography textAlign="center" style={{ color: 'white' }}>Fundraising</Typography>
             </Button>
 
@@ -65,7 +69,7 @@ const FundraisingMenu = ({ anchorElFundraising, handleOpenFundraisingMenu, handl
             </ClickAwayListener>
             </Popper>
 
-        </>
+        </div>
 
     )
 }
