@@ -1,3 +1,4 @@
+"use client"
 import * as React from 'react';
 import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
@@ -14,6 +15,9 @@ import MenuItem from '@mui/material/MenuItem';
 import AdbIcon from '@mui/icons-material/Adb';
 
 import Link from 'next/link';
+import AboutMenu from './navMenus/AboutMenu';
+import AdmissionsMenu from './navMenus/AdmissionsMenu';
+import FundraisingMenu from './navMenus/FundraisingMenu';
 
 //navbar links:
 const pages = ['Products', 'Pricing', 'Blog'];
@@ -25,6 +29,12 @@ function ResponsiveAppBar() {
     const [anchorElNav, setAnchorElNav] = React.useState(null);
     const [anchorElUser, setAnchorElUser] = React.useState(null);
     const [anchorElAbout, setAnchorElAbout] = React.useState(null)
+    const [anchorElAdmissions, setAnchorElAdmissions] = React.useState(null)
+    const [anchorElFundraising, setAnchorElFundraising] = React.useState(null)
+    const [anchorElCurrentFamilies, setAnchorElCurrentFamilies] = React.useState(null)
+    const [anchorElBlog, setAnchorElBlog] = React.useState(null)
+
+    const [anchorEl, setAnchorEl] = React.useState(null);
 
     const handleOpenNavMenu = (event) => {
         setAnchorElNav(event.currentTarget);
@@ -42,6 +52,25 @@ function ResponsiveAppBar() {
     const handleCloseAboutMenu = () => {
         setAnchorElAbout(null);
     };
+    const handleOpenAdmissionsMenu = (event) => {
+        setAnchorElAdmissions(event.currentTarget);
+    }
+    const handleCloseAdmissionsMenu = () => {
+        setAnchorElAdmissions(null);
+    };
+    const handleOpenFundraisingMenu = (event) => {
+        setAnchorElFundraising(event.currentTarget);
+    }
+    const handleCloseFundraisingMenu = () => {
+        setAnchorElFundraising(null);
+    };
+    // const handleOpenFundraisingMenu = (event) => {
+    //     setAnchorEl(event.currentTarget);
+    // };
+    
+    // const handleCloseFundraisingMenu = () => {
+    //     setAnchorEl(null);
+    // };
 
 
 
@@ -140,7 +169,7 @@ function ResponsiveAppBar() {
 
 
                     {/* navigation menu items LARGER SCREENS: */}
-                    <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
+                    {/* <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
                         {pages.map((page) => (
                             <Button
                                 key={page}
@@ -150,7 +179,7 @@ function ResponsiveAppBar() {
                                 {page}
                             </Button>
                         ))}
-                    </Box>
+                    </Box> */}
 
 
 
@@ -161,49 +190,27 @@ function ResponsiveAppBar() {
 
 
                     {/* MODIFY THIS TO BE NAV DROPDOWN MENU: */}
-                    <Box sx={{ flexGrow: 0 }}>
-                        <Button onClick={handleOpenAboutMenu} sx={{ p: 0 }}>
-                            <Typography textAlign="center" style={{ color: 'white' }}>About</Typography>
-                        </Button>
-                        <Menu
-                            sx={{ mt: '45px' }}
-                            // id="menu-appbar"
-                            anchorEl={anchorElAbout}
-                            anchorOrigin={{
-                                vertical: 'top',
-                                horizontal: 'right',
-                            }}
-                            keepMounted
-                            transformOrigin={{
-                                vertical: 'top',
-                                horizontal: 'right',
-                            }}
-                            open={anchorElAbout}
-                            onClose={handleCloseAboutMenu}
-                        >
+                    <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }} className='nav-menu-lg'>
 
-                            <MenuItem onClick={handleCloseAboutMenu}>
-                                <Link href='/beginning'>
-                                    <Typography textAlign="center">Our Beginning</Typography>
-                                </Link>
-                            </MenuItem>
-                            <MenuItem onClick={handleCloseAboutMenu}>
-                                <Link href='/staff'>
-                                    <Typography textAlign="center">Faculty, Staff and School Board</Typography>
-                                </Link>
-                            </MenuItem>
-                            <MenuItem onClick={handleCloseAboutMenu}>
-                                <Link href='/contact'>
-                                    <Typography textAlign="center">Contact</Typography>
-                                </Link>
-                            </MenuItem>
-                            <MenuItem onClick={handleCloseAboutMenu}>
-                                <Link href='/employment'>
-                                    <Typography textAlign="center">Employment</Typography>
-                                </Link>
-                            </MenuItem>
+                        <AboutMenu
+                            anchorElAbout={anchorElAbout}
+                            handleOpenAboutMenu={handleOpenAboutMenu}
+                            handleCloseAboutMenu={handleCloseAboutMenu}
+                        />
 
-                        </Menu>
+                        <AdmissionsMenu 
+                            anchorElAdmissions={anchorElAdmissions}
+                            handleOpenAdmissionsMenu={handleOpenAdmissionsMenu}
+                            handleCloseAdmissionsMenu={handleCloseAdmissionsMenu}
+                        />
+                        {/* TO DO: FUNDRAISING MENU */}
+                        <FundraisingMenu 
+                            anchorElFundraising={anchorElFundraising}
+                            handleOpenFundraisingMenu={handleOpenFundraisingMenu}
+                            handleCloseFundraisingMenu={handleCloseFundraisingMenu}
+                        />
+                        {/* TO DO: CURRENT FAMILIES MENU */}
+                        {/* TO DO: BLOG MENU */}
                     </Box>
 
 
@@ -213,35 +220,7 @@ function ResponsiveAppBar() {
 
 
 
-                    <Box sx={{ flexGrow: 0 }}>
-                        <Tooltip title="Open settings">
-                            <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
-                                <Avatar alt="Remy Sharp" src="/static/images/avatar/2.jpg" />
-                            </IconButton>
-                        </Tooltip>
-                        <Menu
-                            sx={{ mt: '45px' }}
-                            id="menu-appbar"
-                            anchorEl={anchorElUser}
-                            anchorOrigin={{
-                                vertical: 'top',
-                                horizontal: 'right',
-                            }}
-                            keepMounted
-                            transformOrigin={{
-                                vertical: 'top',
-                                horizontal: 'right',
-                            }}
-                            open={anchorElUser}
-                            onClose={handleCloseUserMenu}
-                        >
-                            {settings.map((setting) => (
-                                <MenuItem key={setting} onClick={handleCloseUserMenu}>
-                                    <Typography textAlign="center">{setting}</Typography>
-                                </MenuItem>
-                            ))}
-                        </Menu>
-                    </Box>
+
                 </Toolbar>
             </Container>
         </AppBar>
