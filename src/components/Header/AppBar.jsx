@@ -13,6 +13,8 @@ import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
 import AdbIcon from '@mui/icons-material/Adb';
 
+import Link from 'next/link';
+
 //navbar links:
 const pages = ['Products', 'Pricing', 'Blog'];
 
@@ -22,6 +24,7 @@ const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
 function ResponsiveAppBar() {
     const [anchorElNav, setAnchorElNav] = React.useState(null);
     const [anchorElUser, setAnchorElUser] = React.useState(null);
+    const [anchorElAbout, setAnchorElAbout] = React.useState(null)
 
     const handleOpenNavMenu = (event) => {
         setAnchorElNav(event.currentTarget);
@@ -29,6 +32,19 @@ function ResponsiveAppBar() {
     const handleOpenUserMenu = (event) => {
         setAnchorElUser(event.currentTarget);
     };
+
+
+
+    //opening navigation menus:
+    const handleOpenAboutMenu = (event) => {
+        setAnchorElAbout(event.currentTarget);
+    };
+    const handleCloseAboutMenu = () => {
+        setAnchorElAbout(null);
+    };
+
+
+
 
     const handleCloseNavMenu = () => {
         setAnchorElNav(null);
@@ -58,7 +74,11 @@ function ResponsiveAppBar() {
                             textDecoration: 'none',
                         }}
                     >
-                        LOGO
+                        <Link href='/' className='logo-text' >
+                            <h4>Kardia</h4>
+                            <h5>Classical School</h5>
+                        </Link>
+
                     </Typography>
 
                     {/* Navigation for SMALLER SCREENS (INCLUDING THE HAMBURGER BUTTON) */}
@@ -137,22 +157,55 @@ function ResponsiveAppBar() {
 
 
 
-                    {/* Attempting to build a <Box> for each nav item so i can create dropdown... */}
-                    <Box>
-                        <Button
-                            aria-controls='about-menu'
-                            //NEED TO WRITE THIS FUNCTION:
-                            // onClick={handleOpenAboutMenu}
-                        >
+
+
+
+                    {/* MODIFY THIS TO BE NAV DROPDOWN MENU: */}
+                    <Box sx={{ flexGrow: 0 }}>
+                        <Button onClick={handleOpenAboutMenu} sx={{ p: 0 }}>
                             <Typography textAlign="center" style={{ color: 'white' }}>About</Typography>
                         </Button>
+                        <Menu
+                            sx={{ mt: '45px' }}
+                            // id="menu-appbar"
+                            anchorEl={anchorElAbout}
+                            anchorOrigin={{
+                                vertical: 'top',
+                                horizontal: 'right',
+                            }}
+                            keepMounted
+                            transformOrigin={{
+                                vertical: 'top',
+                                horizontal: 'right',
+                            }}
+                            open={anchorElAbout}
+                            onClose={handleCloseAboutMenu}
+                        >
 
-                        <Menu>
-                            <MenuItem>
-                                <Typography>Our Beginning</Typography>
+                            <MenuItem onClick={handleCloseAboutMenu}>
+                                <Link href='/beginning'>
+                                    <Typography textAlign="center">Our Beginning</Typography>
+                                </Link>
                             </MenuItem>
+                            <MenuItem onClick={handleCloseAboutMenu}>
+                                <Link href='/staff'>
+                                    <Typography textAlign="center">Faculty, Staff and School Board</Typography>
+                                </Link>
+                            </MenuItem>
+                            <MenuItem onClick={handleCloseAboutMenu}>
+                                <Link href='/contact'>
+                                    <Typography textAlign="center">Contact</Typography>
+                                </Link>
+                            </MenuItem>
+                            <MenuItem onClick={handleCloseAboutMenu}>
+                                <Link href='/employment'>
+                                    <Typography textAlign="center">Employment</Typography>
+                                </Link>
+                            </MenuItem>
+
                         </Menu>
                     </Box>
+
 
 
 
@@ -179,7 +232,7 @@ function ResponsiveAppBar() {
                                 vertical: 'top',
                                 horizontal: 'right',
                             }}
-                            open={Boolean(anchorElUser)}
+                            open={anchorElUser}
                             onClose={handleCloseUserMenu}
                         >
                             {settings.map((setting) => (
