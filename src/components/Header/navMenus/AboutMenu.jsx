@@ -32,10 +32,10 @@ const AboutMenu = ({ anchorElAbout, handleOpenAboutMenu, handleCloseAboutMenu })
         <div
             onMouseEnter={handleOpenAboutMenu}
             onMouseLeave={handleCloseAboutMenu}
-            className={`about-menu ${quicksand.className}`}
+            className='about-menu'
         >
             <Button onClick={handleOpenAboutMenu} sx={{ p: 0 }}>
-                <Typography textAlign="center" style={{ color: 'white' }}>About</Typography>
+                <Typography textAlign="center" style={{ color: 'white' }} className='nav-title'>About</Typography>
             </Button>
             <Popper
                 sx={{ mt: '45px' }}
@@ -43,39 +43,40 @@ const AboutMenu = ({ anchorElAbout, handleOpenAboutMenu, handleCloseAboutMenu })
                 anchorEl={anchorElAbout}
                 anchorOrigin={{
                     vertical: 'top',
-                    horizontal: 'right',
+                    horizontal: 'left',
                 }}
                 keepMounted
                 transformOrigin={{
                     vertical: 'top',
-                    horizontal: 'right',
+                    horizontal: 'left',
                 }}
+                placement="bottom-start"  
                 open={Boolean(anchorElAbout)}
                 onClose={handleCloseAboutMenu}
             >
                 <Box sx={{ border: '1px solid #d3d4d5', bgcolor: 'background.paper' }} >
-                <MenuItem onClick={handleCloseAboutMenu}>
-                    <Link href='/beginning'>
-                        <Typography textAlign="center">Our Beginning</Typography>
-                    </Link>
-                </MenuItem>
-                <MenuItem onClick={handleCloseAboutMenu}>
-                    <Link href='/staff'>
-                        <Typography textAlign="center">Faculty, Staff and School Board</Typography>
-                    </Link>
-                </MenuItem>
-                <MenuItem onClick={handleCloseAboutMenu}>
-                    <Link href='/contact'>
-                        <Typography textAlign="center">Contact</Typography>
-                    </Link>
-                </MenuItem>
-                <MenuItem onClick={handleCloseAboutMenu}>
-                    <Link href='/employment'>
-                        <Typography textAlign="center">Employment</Typography>
-                    </Link>
-                </MenuItem>
-            </Box>
-        </Popper>
+                    <MenuItem onClick={handleCloseAboutMenu}>
+                        <Link href='/beginning'>
+                            <Typography textAlign="center">Our Beginning</Typography>
+                        </Link>
+                    </MenuItem>
+                    <MenuItem onClick={handleCloseAboutMenu}>
+                        <Link href='/staff'>
+                            <Typography textAlign="center">Faculty, Staff and School Board</Typography>
+                        </Link>
+                    </MenuItem>
+                    <MenuItem onClick={handleCloseAboutMenu}>
+                        <Link href='/contact'>
+                            <Typography textAlign="center">Contact</Typography>
+                        </Link>
+                    </MenuItem>
+                    <MenuItem onClick={handleCloseAboutMenu}>
+                        <Link href='/employment'>
+                            <Typography textAlign="center">Employment</Typography>
+                        </Link>
+                    </MenuItem>
+                </Box>
+            </Popper>
         </div >
     )
 }

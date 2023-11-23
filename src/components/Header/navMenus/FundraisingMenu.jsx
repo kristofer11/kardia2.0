@@ -28,7 +28,7 @@ const FundraisingMenu = ({ anchorElFundraising, handleOpenFundraisingMenu, handl
             <Button
              sx={{ p: 0 }}
              >
-                <Typography textAlign="center" style={{ color: 'white' }}>Fundraising</Typography>
+                <Typography textAlign="center" style={{ color: 'white' }} className='nav-title'>Fundraising</Typography>
             </Button>
 
             <Popper
@@ -44,6 +44,7 @@ const FundraisingMenu = ({ anchorElFundraising, handleOpenFundraisingMenu, handl
                     vertical: 'top',
                     horizontal: 'right',
                 }}
+                placement="bottom-start"  
                 open={Boolean(anchorElFundraising)}
                 onClose={handleCloseFundraisingMenu}
             >

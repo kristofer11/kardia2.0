@@ -28,7 +28,7 @@ const FamiliesMenu = ({ anchorElFamilies, handleOpenFamiliesMenu,handleCloseFami
             <Button
                 sx={{ p: 0 }}
             >
-                <Typography textAlign="center" style={{ color: 'white' }}>Current Families</Typography>
+                <Typography textAlign="center" style={{ color: 'white' }} className='nav-title'>Current Families</Typography>
             </Button>
 
             <Popper
@@ -44,6 +44,7 @@ const FamiliesMenu = ({ anchorElFamilies, handleOpenFamiliesMenu,handleCloseFami
                     vertical: 'top',
                     horizontal: 'right',
                 }}
+                placement="bottom-start"  
                 open={Boolean(anchorElFamilies)}
                 onClose={handleCloseFamiliesMenu}
             >

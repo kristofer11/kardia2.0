@@ -28,7 +28,7 @@ const BlogMenu = ({ anchorElBlog, handleOpenBlogMenu, handleCloseBlogMenu }) => 
             <Button
                 sx={{ p: 0 }}
             >
-                <Typography textAlign="center" style={{ color: 'white' }}>Blog</Typography>
+                <Typography textAlign="center" style={{ color: 'white' }} className='nav-title'>Blog</Typography>
             </Button>
 
             <Popper
@@ -44,6 +44,7 @@ const BlogMenu = ({ anchorElBlog, handleOpenBlogMenu, handleCloseBlogMenu }) => 
                     vertical: 'top',
                     horizontal: 'right',
                 }}
+                placement="bottom-start"  
                 open={Boolean(anchorElBlog)}
                 onClose={handleCloseBlogMenu}
             >

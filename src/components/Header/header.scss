@@ -13,6 +13,10 @@ header {
     gap: 1.5rem;
 
     // margin-left: auto;
+
+    .nav-title {
+        text-transform: none;
+    }
     .about-menu {
         margin-left: auto;
     }
@@ -45,11 +49,11 @@ header {
 
 
 .MuiContainer-root  {
-    max-width: 1224px;
+    max-width: 999px;
 }
 
 * {
-    a{
+    a {
         text-decoration: none;
         color: var(--main-text-color);
     }
