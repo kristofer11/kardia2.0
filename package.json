@@ -19,6 +19,7 @@
     "next": "14.0.2",
     "react": "^18",
     "react-dom": "^18",
+    "react-parallax": "^3.5.1",
     "sass": "^1.69.5"
   },
   "devDependencies": {
