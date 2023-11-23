@@ -15,9 +15,22 @@ import MenuItem from '@mui/material/MenuItem';
 import AdbIcon from '@mui/icons-material/Adb';
 
 import Link from 'next/link';
+import Image from 'next/image';
+
 import AboutMenu from './navMenus/AboutMenu';
 import AdmissionsMenu from './navMenus/AdmissionsMenu';
 import FundraisingMenu from './navMenus/FundraisingMenu';
+import FamiliesMenu from './navMenus/FamiliesMenu';
+import BlogMenu from './navMenus/BlogMenu'
+
+import { Cinzel } from 'next/font/google';
+
+const cinzel = Cinzel({
+    subsets: ['latin'],
+    weight: [
+        '400', '500', '600', '700', '800', '900'
+    ]
+})
 
 //navbar links:
 const pages = ['Products', 'Pricing', 'Blog'];
@@ -31,7 +44,7 @@ function ResponsiveAppBar() {
     const [anchorElAbout, setAnchorElAbout] = React.useState(null)
     const [anchorElAdmissions, setAnchorElAdmissions] = React.useState(null)
     const [anchorElFundraising, setAnchorElFundraising] = React.useState(null)
-    const [anchorElCurrentFamilies, setAnchorElCurrentFamilies] = React.useState(null)
+    const [anchorElFamilies, setAnchorElFamilies] = React.useState(null)
     const [anchorElBlog, setAnchorElBlog] = React.useState(null)
 
     const [anchorEl, setAnchorEl] = React.useState(null);
@@ -64,13 +77,18 @@ function ResponsiveAppBar() {
     const handleCloseFundraisingMenu = () => {
         setAnchorElFundraising(null);
     };
-    // const handleOpenFundraisingMenu = (event) => {
-    //     setAnchorEl(event.currentTarget);
-    // };
-    
-    // const handleCloseFundraisingMenu = () => {
-    //     setAnchorEl(null);
-    // };
+    const handleOpenFamiliesMenu = (event) => {
+        setAnchorElFamilies(event.currentTarget);
+    };
+    const handleCloseFamiliesMenu = () => {
+        setAnchorElFamilies(null)
+    };
+    const handleOpenBlogMenu = (event) => {
+        setAnchorElBlog(event.currentTarget);
+    };
+    const handleCloseBlogMenu = () => {
+        setAnchorElBlog(null)
+    };
 
 
 
@@ -87,7 +105,23 @@ function ResponsiveAppBar() {
         <AppBar position="static">
             <Container maxWidth="xl">
                 <Toolbar disableGutters>
-                    <AdbIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} />
+                    <Box
+                        component='img'
+                        width='4rem'
+                        height='4rem'
+                        sx={{ display: { xs: 'none', md: 'flex' }, mr: 0.5 }}
+                        src='/images/logo.png'
+                    />
+
+                    {/* TRYING MUI BOX INSTEAD OF NEXT IMAGE, DELETE UNUSED IMAGE */}
+                    {/* <Image 
+                        src='/images/logo.png'
+                        width='181'
+                        height='181'
+                        alt='Kardia Classical School logo featuring the letters K and C and a cross and phoenix'
+                        className='logo'
+                        
+                    /> */}
                     <Typography
                         variant="h6"
                         noWrap
@@ -96,12 +130,13 @@ function ResponsiveAppBar() {
                         sx={{
                             mr: 2,
                             display: { xs: 'none', md: 'flex' },
-                            fontFamily: 'monospace',
+                            // fontFamily: 'monospace',
                             fontWeight: 700,
                             letterSpacing: '.3rem',
                             color: 'inherit',
                             textDecoration: 'none',
                         }}
+                        className={cinzel.className}
                     >
                         <Link href='/' className='logo-text' >
                             <h4>Kardia</h4>
@@ -189,7 +224,7 @@ function ResponsiveAppBar() {
 
 
 
-                    {/* MODIFY THIS TO BE NAV DROPDOWN MENU: */}
+                    {/* Drop-down navigation for larger screens: */}
                     <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }} className='nav-menu-lg'>
 
                         <AboutMenu
@@ -198,23 +233,29 @@ function ResponsiveAppBar() {
                             handleCloseAboutMenu={handleCloseAboutMenu}
                         />
 
-                        <AdmissionsMenu 
+                        <AdmissionsMenu
                             anchorElAdmissions={anchorElAdmissions}
                             handleOpenAdmissionsMenu={handleOpenAdmissionsMenu}
                             handleCloseAdmissionsMenu={handleCloseAdmissionsMenu}
                         />
                         {/* TO DO: FUNDRAISING MENU */}
-                        <FundraisingMenu 
+                        <FundraisingMenu
                             anchorElFundraising={anchorElFundraising}
                             handleOpenFundraisingMenu={handleOpenFundraisingMenu}
                             handleCloseFundraisingMenu={handleCloseFundraisingMenu}
                         />
-                        {/* TO DO: CURRENT FAMILIES MENU */}
-                        {/* TO DO: BLOG MENU */}
+                        {/* TO DO: CURRENT FAMILIES MENU  */}
+                        <FamiliesMenu
+                            anchorElFamilies={anchorElFamilies}
+                            handleOpenFamiliesMenu={handleOpenFamiliesMenu}
+                            handleCloseFamiliesMenu={handleCloseFamiliesMenu}
+                        />
+                        <BlogMenu
+                            anchorElBlog={anchorElBlog}
+                            handleOpenBlogMenu={handleOpenBlogMenu}
+                            handleCloseBlogMenu={handleCloseBlogMenu}
+                        />
                     </Box>
-
-
-
 
 
 

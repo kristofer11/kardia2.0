@@ -15,13 +15,24 @@ import { Popper } from '@mui/material';
 
 import Link from 'next/link';
 
+import { Quicksand } from 'next/font/google';
 
+const quicksand = Quicksand({
+    subsets: ['latin'],
+    weight: [
+        '400',
+        '500',
+        '700',
+        // '900'
+    ],
+})
 
 const AboutMenu = ({ anchorElAbout, handleOpenAboutMenu, handleCloseAboutMenu }) => {
     return (
         <div
             onMouseEnter={handleOpenAboutMenu}
             onMouseLeave={handleCloseAboutMenu}
+            className={`about-menu ${quicksand.className}`}
         >
             <Button onClick={handleOpenAboutMenu} sx={{ p: 0 }}>
                 <Typography textAlign="center" style={{ color: 'white' }}>About</Typography>

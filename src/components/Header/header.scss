@@ -1,7 +1,56 @@
+header {
+    background-color: var(--main-bg-color) !important;
+
+    * {
+        color: var(--main-text-color) !important;
+    }
+
+    padding-block: 1rem;
+
+}
+
 .nav-menu-lg {
     gap: 1.5rem;
+
+    // margin-left: auto;
+    .about-menu {
+        margin-left: auto;
+    }
 }
 
 .logo-text {
-    color: white;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+
+    h4 {
+        font-size: 2rem;
+        margin-bottom: -0.5rem;
+        font-weight: 600;
+    }
+
+    h5 {
+        font-size: 0.97rem;
+        letter-spacing: 0.0rem;
+        margin: 0;
+    }
+}
+
+.logo {
+    width: 2rem;
+    height: auto;
+}
+
+
+.MuiContainer-root  {
+    max-width: 1224px;
+}
+
+* {
+    a{
+        text-decoration: none;
+        color: var(--main-text-color);
+    }
 }

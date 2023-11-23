@@ -1,5 +1,5 @@
 :root {
-    --main-bg-color: #fff;
+    --main-bg-color: #F6F6F6;
     --main-text-color: #000;
     --main-light-text-color: #fff;
     --alt-bg-color: #A1A4A350;
@@ -7,8 +7,8 @@
     --link-hover-bg-color: #152d7d;
     --nav-link-hover-color: #008000;
     --accent-text-color: #A1474C;
-    --main-font-serif: 'Martel', serif;
-    --main-font-sans: 'Martel Sans', sans-serif;
+    // --main-font-serif: 'Martel', serif;
+    // --main-font-sans: 'Martel Sans', sans-serif;
 }
 
 * {
@@ -36,10 +36,4 @@ body {
 a {
   color: inherit;
   text-decoration: none;
-}
-
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
 }
