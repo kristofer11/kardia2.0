@@ -154,38 +154,6 @@ function ResponsiveAppBar() {
                     </div>
 
 
-                    {/* <Link href='/' className='logo-text' >
-                        <Box
-                            component='img'
-                            width='4rem'
-                            height='4rem'
-                            sx={{ display: { xs: 'flex', md: 'none' }, mr: 0.5 }}
-                            src='/images/logo.png'
-                        />
-                    </Link>
-                    <Typography
-                        variant="h6"
-                        noWrap
-                        component="a"
-                        href="#app-bar-with-responsive-menu"
-                        sx={{
-                            mr: 2,
-                            display: { xs: 'flex', md: 'none' },
-                            // fontFamily: 'monospace',
-                            fontWeight: 700,
-                            letterSpacing: '.3rem',
-                            color: 'inherit',
-                            textDecoration: 'none',
-                        }}
-                        className={cinzel.className}
-                    >
-                        <Link href='/' className='logo-text' >
-                            <h4>Kardia</h4>
-                            <h5>Classical School</h5>
-                        </Link>
-
-                    </Typography> */}
-
 
                     {/* Drop-down navigation for larger screens: */}
                     <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }} className='nav-menu-lg'>

@@ -57,7 +57,7 @@ const AboutMenu = ({ anchorElAbout, handleOpenAboutMenu, handleCloseAboutMenu })
                 <Box sx={{ border: '1px solid #d3d4d5', bgcolor: 'background.paper' }} >
                     <MenuItem onClick={handleCloseAboutMenu}>
                         <Link href='/beginning'>
-                            <Typography textAlign="center">Our Beginning</Typography>
+                            <Typography textAlign="center">Our Story</Typography>
                         </Link>
                     </MenuItem>
                     <MenuItem onClick={handleCloseAboutMenu}>
