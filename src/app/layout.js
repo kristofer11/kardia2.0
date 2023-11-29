@@ -1,5 +1,5 @@
 import { Inter } from 'next/font/google'
-import { Quicksand, Roboto } from 'next/font/google'
+import { Quicksand, Roboto, Poppins } from 'next/font/google'
 import './globals.scss';
 import Header from '../components/Header/Header';
 import 'bootstrap/dist/css/bootstrap.css';
@@ -20,6 +20,11 @@ const quicksand = Quicksand({
     ],
 })
 
+const poppins = Poppins({
+    subsets: ['latin'],
+    weight: ['200', '300', '400', '500', '600', '700', '800', '900']
+})
+
 
 export const metadata = {
     title: 'Create Next App',
@@ -31,7 +36,7 @@ export default function RootLayout({ children }) {
         <html lang="en">
             <body>
                 <Header />
-                <main className={quicksand.className}>
+                <main className={poppins.className}>
                 {children}
                 </main>
             </body>

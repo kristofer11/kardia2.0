@@ -11,7 +11,7 @@ const roboto = Roboto({
 
 export default function Home() {
     return (
-        <main className={styles.main}>
+        <main className={`${styles.main} page-main`}>
             <Banner
                 img='/banners/home-banner.jpg'
                 alt='Lightbulbs over a bookshelf in a library'
@@ -24,9 +24,46 @@ export default function Home() {
                 }
                 strength='400'
             />
-            <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt vel aspernatur obcaecati, ipsam hic aliquid impedit sequi iusto quam consequuntur ducimus perferendis excepturi? Cupiditate dicta error molestiae culpa! Esse animi, obcaecati dolorum possimus voluptatum vero expedita provident repellendus at voluptate accusamus quasi excepturi voluptatem maiores reprehenderit culpa ratione dicta, quas iusto. Est reprehenderit veniam sint asperiores rem voluptate amet dolores? Hic et asperiores beatae ab quos ipsum quaerat numquam qui, aliquid eaque non inventore fugit obcaecati labore magnam commodi, sapiente, porro temporibus? Reiciendis illum dicta officia perspiciatis consequatur consequuntur ducimus neque nemo saepe voluptate, ea voluptas expedita? Maxime, aspernatur nam!
-            </p>
+            <section className='page-content'>
+                <div className={styles.introDiv}>
+                    <div className={styles.introText}>
+                        <h4><strong>The best of both worlds</strong></h4>
+                        <p>
+                            Kardia Classical School combines the benefits of homeschooling and private school education.
+                        </p>
+
+                    </div>                    
+                    <Image
+                        src='/images/sitting.png'
+                        alt='Kardia students sitting on the floor next to a treehouse.'
+                        width='960'
+                        height='720'
+                        className={styles.sittingImg}
+                    />
+
+                </div>
+                <div className={styles.introDiv}>
+                    <div className={styles.introText}>
+                        
+                        <h4><strong>Our Mission</strong></h4>
+                        <p>
+                        Kardia Classical School aims to provide parents with the tools that they need to classically educate their children rooted in a Christian worldview. Together, parents and teachers will nurture students’ appreciation of truth, goodness, and beauty as they strive for excellence, while guiding them to live purposefully in the service of God and man.
+                        </p>
+                    </div>
+                    <Image
+                        src='/images/bubbles.png'
+                        alt='Kardia students posing with their PE teacher under a baloon arch'
+                        width='640'
+                        height='410'
+                        className={styles.bubblesImg}
+                    />                    
+                 
+
+
+                </div>
+
+            </section>
+
         </main>
     )
 }
