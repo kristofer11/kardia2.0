@@ -19,22 +19,22 @@ import Link from 'next/link';
 
 
 
-const FundraisingMenu = ({ anchorElFundraising, handleOpenFundraisingMenu, handleCloseFundraisingMenu }) => {
+const FamiliesMenu = ({ anchorElFamilies, handleOpenFamiliesMenu,handleCloseFamiliesMenu }) => {
     return (
         <div
-        onMouseEnter={handleOpenFundraisingMenu}
-        onMouseLeave={handleCloseFundraisingMenu}
+            onMouseEnter={handleOpenFamiliesMenu}
+            onMouseLeave={handleCloseFamiliesMenu}
         >
             <Button
-             sx={{ p: 0 }}
-             >
-                <Typography textAlign="center" style={{ color: 'white' }} className='nav-title'>Fundraising</Typography>
+                sx={{ p: 0 }}
+            >
+                <Typography textAlign="center" style={{ color: 'white' }} className='nav-title'>Current Families</Typography>
             </Button>
 
             <Popper
                 sx={{ mt: '45px' }}
                 // id="menu-appbar"
-                anchorEl={anchorElFundraising}
+                anchorEl={anchorElFamilies}
                 anchorOrigin={{
                     vertical: 'top',
                     horizontal: 'right',
@@ -45,29 +45,29 @@ const FundraisingMenu = ({ anchorElFundraising, handleOpenFundraisingMenu, handl
                     horizontal: 'right',
                 }}
                 placement="bottom-start"  
-                open={Boolean(anchorElFundraising)}
-                onClose={handleCloseFundraisingMenu}
+                open={Boolean(anchorElFamilies)}
+                onClose={handleCloseFamiliesMenu}
             >
-                <ClickAwayListener onClickAway={handleCloseFundraisingMenu}>
+                <ClickAwayListener onClickAway={handleCloseFamiliesMenu}>
 
                     <Box sx={{ border: '1px solid #d3d4d5', bgcolor: 'background.paper' }} >
-                        <MenuItem onClick={handleCloseFundraisingMenu}>
-                            <Link href='/fundraising'>
-                                <Typography textAlign="center">Fundraising Opportunities</Typography>
+                        <MenuItem onClick={handleCloseFamiliesMenu}>
+                            <Link href='/sycamore'>
+                                <Typography textAlign="center">Sycamore</Typography>
                             </Link>
                         </MenuItem>
-                        <MenuItem onClick={handleCloseFundraisingMenu}>
-                            <Link href='/donations'>
-                                <Typography textAlign="center">What is a <em>Donations</em>?</Typography>
+                        <MenuItem onClick={handleCloseFamiliesMenu}>
+                            <Link href='/uniforms'>
+                                <Typography textAlign="center">Uniforms</Typography>
                             </Link>
                         </MenuItem>
-                        <MenuItem onClick={handleCloseFundraisingMenu}>
-                            <Link href='/jog-a-thon'>
-                                <Typography textAlign="center">Jog-a-Thon</Typography>
+                        <MenuItem onClick={handleCloseFamiliesMenu}>
+                            <Link href='/calendar'>
+                                <Typography textAlign="center">Calendar</Typography>
                             </Link>
                         </MenuItem>
                     </Box>
-            </ClickAwayListener>
+                </ClickAwayListener>
             </Popper>
 
         </div>
@@ -75,4 +75,4 @@ const FundraisingMenu = ({ anchorElFundraising, handleOpenFundraisingMenu, handl
     )
 }
 
-export default FundraisingMenu
+export default FamiliesMenu

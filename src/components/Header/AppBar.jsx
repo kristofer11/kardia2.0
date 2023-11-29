@@ -7,6 +7,10 @@ import IconButton from '@mui/material/IconButton';
 import Typography from '@mui/material/Typography';
 import Menu from '@mui/material/Menu';
 import MenuIcon from '@mui/icons-material/Menu';
+import Drawer from '@mui/material/Drawer';
+import List from '@mui/material/List';
+import ListItem from '@mui/material/ListItem';
+import ListItemText from '@mui/material/ListItemText';
 import Container from '@mui/material/Container';
 import Avatar from '@mui/material/Avatar';
 import Button from '@mui/material/Button';
@@ -15,9 +19,34 @@ import MenuItem from '@mui/material/MenuItem';
 import AdbIcon from '@mui/icons-material/Adb';
 
 import Link from 'next/link';
+
 import AboutMenu from './navMenus/AboutMenu';
 import AdmissionsMenu from './navMenus/AdmissionsMenu';
 import FundraisingMenu from './navMenus/FundraisingMenu';
+import FamiliesMenu from './navMenus/FamiliesMenu';
+import BlogMenu from './navMenus/BlogMenu';
+import SmallScreenMenu from './navMenus/SmallScreenMenu';
+
+import { Cinzel } from 'next/font/google';
+
+const cinzel = Cinzel({
+    subsets: ['latin'],
+    weight: [
+        '400', '500', '600', '700', '800', '900'
+    ]
+})
+
+import { Quicksand } from 'next/font/google';
+
+const quicksand = Quicksand({
+    subsets: ['latin'],
+    weight: [
+        '400',
+        '500',
+        '700',
+        // '900'
+    ],
+})
 
 //navbar links:
 const pages = ['Products', 'Pricing', 'Blog'];
@@ -31,7 +60,7 @@ function ResponsiveAppBar() {
     const [anchorElAbout, setAnchorElAbout] = React.useState(null)
     const [anchorElAdmissions, setAnchorElAdmissions] = React.useState(null)
     const [anchorElFundraising, setAnchorElFundraising] = React.useState(null)
-    const [anchorElCurrentFamilies, setAnchorElCurrentFamilies] = React.useState(null)
+    const [anchorElFamilies, setAnchorElFamilies] = React.useState(null)
     const [anchorElBlog, setAnchorElBlog] = React.useState(null)
 
     const [anchorEl, setAnchorEl] = React.useState(null);
@@ -64,30 +93,37 @@ function ResponsiveAppBar() {
     const handleCloseFundraisingMenu = () => {
         setAnchorElFundraising(null);
     };
-    // const handleOpenFundraisingMenu = (event) => {
-    //     setAnchorEl(event.currentTarget);
-    // };
-    
-    // const handleCloseFundraisingMenu = () => {
-    //     setAnchorEl(null);
-    // };
-
-
+    const handleOpenFamiliesMenu = (event) => {
+        setAnchorElFamilies(event.currentTarget);
+    };
+    const handleCloseFamiliesMenu = () => {
+        setAnchorElFamilies(null)
+    };
+    const handleOpenBlogMenu = (event) => {
+        setAnchorElBlog(event.currentTarget);
+    };
+    const handleCloseBlogMenu = () => {
+        setAnchorElBlog(null)
+    };
 
 
     const handleCloseNavMenu = () => {
         setAnchorElNav(null);
     };
 
-    const handleCloseUserMenu = () => {
-        setAnchorElUser(null);
-    };
-
     return (
         <AppBar position="static">
             <Container maxWidth="xl">
                 <Toolbar disableGutters>
-                    <AdbIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} />
+                    <Link href='/' className='logo-text' >
+                        <Box
+                            component='img'
+                            width='4rem'
+                            height='4rem'
+                            sx={{ display: 'flex', mr: 0.5 }}
+                            src='/images/logo.png'
+                        />
+                    </Link>
                     <Typography
                         variant="h6"
                         noWrap
@@ -95,13 +131,14 @@ function ResponsiveAppBar() {
                         href="#app-bar-with-responsive-menu"
                         sx={{
                             mr: 2,
-                            display: { xs: 'none', md: 'flex' },
-                            fontFamily: 'monospace',
+                            display: 'flex',
+                            // fontFamily: 'monospace',
                             fontWeight: 700,
                             letterSpacing: '.3rem',
                             color: 'inherit',
                             textDecoration: 'none',
                         }}
+                        className={cinzel.className}
                     >
                         <Link href='/' className='logo-text' >
                             <h4>Kardia</h4>
@@ -111,85 +148,14 @@ function ResponsiveAppBar() {
                     </Typography>
 
                     {/* Navigation for SMALLER SCREENS (INCLUDING THE HAMBURGER BUTTON) */}
-                    <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
-                        <IconButton
-                            size="large"
-                            aria-label="account of current user"
-                            aria-controls="menu-appbar"
-                            aria-haspopup="true"
-                            onClick={handleOpenNavMenu}
-                            color="inherit"
-                        >
-                            <MenuIcon />
-                        </IconButton>
-                        <Menu
-                            id="menu-appbar"
-                            anchorEl={anchorElNav}
-                            anchorOrigin={{
-                                vertical: 'bottom',
-                                horizontal: 'left',
-                            }}
-                            keepMounted
-                            transformOrigin={{
-                                vertical: 'top',
-                                horizontal: 'left',
-                            }}
-                            open={Boolean(anchorElNav)}
-                            onClose={handleCloseNavMenu}
-                            sx={{
-                                display: { xs: 'block', md: 'none' },
-                            }}
-                        >
-                            {pages.map((page) => (
-                                <MenuItem key={page} onClick={handleCloseNavMenu}>
-                                    <Typography textAlign="center">{page}</Typography>
-                                </MenuItem>
-                            ))}
-                        </Menu>
-                    </Box>
-                    <AdbIcon sx={{ display: { xs: 'flex', md: 'none' }, mr: 1 }} />
-                    <Typography
-                        variant="h5"
-                        noWrap
-                        component="a"
-                        href="#app-bar-with-responsive-menu"
-                        sx={{
-                            mr: 2,
-                            display: { xs: 'flex', md: 'none' },
-                            flexGrow: 1,
-                            fontFamily: 'monospace',
-                            fontWeight: 700,
-                            letterSpacing: '.3rem',
-                            color: 'inherit',
-                            textDecoration: 'none',
-                        }}
-                    >
-                        LOGO
-                    </Typography>
+                    <div className='small-screen-menu-div'>
+                    <SmallScreenMenu />
 
-
-                    {/* navigation menu items LARGER SCREENS: */}
-                    {/* <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
-                        {pages.map((page) => (
-                            <Button
-                                key={page}
-                                onClick={handleCloseNavMenu}
-                                sx={{ my: 2, color: 'white', display: 'block' }}
-                            >
-                                {page}
-                            </Button>
-                        ))}
-                    </Box> */}
+                    </div>
 
 
 
-
-
-
-
-
-
-                    {/* MODIFY THIS TO BE NAV DROPDOWN MENU: */}
+                    {/* Drop-down navigation for larger screens: */}
                     <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }} className='nav-menu-lg'>
 
                         <AboutMenu
@@ -198,32 +164,33 @@ function ResponsiveAppBar() {
                             handleCloseAboutMenu={handleCloseAboutMenu}
                         />
 
-                        <AdmissionsMenu 
+                        <AdmissionsMenu
                             anchorElAdmissions={anchorElAdmissions}
                             handleOpenAdmissionsMenu={handleOpenAdmissionsMenu}
                             handleCloseAdmissionsMenu={handleCloseAdmissionsMenu}
                         />
                         {/* TO DO: FUNDRAISING MENU */}
-                        <FundraisingMenu 
+                        <FundraisingMenu
                             anchorElFundraising={anchorElFundraising}
                             handleOpenFundraisingMenu={handleOpenFundraisingMenu}
                             handleCloseFundraisingMenu={handleCloseFundraisingMenu}
                         />
-                        {/* TO DO: CURRENT FAMILIES MENU */}
-                        {/* TO DO: BLOG MENU */}
+                        {/* TO DO: CURRENT FAMILIES MENU  */}
+                        <FamiliesMenu
+                            anchorElFamilies={anchorElFamilies}
+                            handleOpenFamiliesMenu={handleOpenFamiliesMenu}
+                            handleCloseFamiliesMenu={handleCloseFamiliesMenu}
+                        />
+                        <BlogMenu
+                            anchorElBlog={anchorElBlog}
+                            handleOpenBlogMenu={handleOpenBlogMenu}
+                            handleCloseBlogMenu={handleCloseBlogMenu}
+                        />
                     </Box>
-
-
-
-
-
-
-
-
 
                 </Toolbar>
             </Container>
-        </AppBar>
+        </AppBar >
     );
 }
 export default ResponsiveAppBar;

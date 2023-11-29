@@ -10,7 +10,7 @@ function Header() {
     const toggle = () => setIsOpen(!isOpen);
 
     return (
-        <div className='header-div'>
+        <div className="header-div">
             <AppBar />
         </div>
     );

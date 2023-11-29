@@ -25,7 +25,7 @@ const AdmissionsMenu = ({ anchorElAdmissions, handleOpenAdmissionsMenu, handleCl
         >
 
             <Button onClick={handleOpenAdmissionsMenu} sx={{ p: 0 }}>
-                <Typography textAlign="center" style={{ color: 'white' }}>Admissions</Typography>
+                <Typography textAlign="center" style={{ color: 'white' }} className='nav-title'>Admissions</Typography>
             </Button>
             <Popper
                 sx={{ mt: '45px' }}
@@ -40,6 +40,7 @@ const AdmissionsMenu = ({ anchorElAdmissions, handleOpenAdmissionsMenu, handleCl
                     vertical: 'top',
                     horizontal: 'right',
                 }}
+                placement="bottom-start"  
                 open={anchorElAdmissions}
                 onClose={handleCloseAdmissionsMenu}
             >
