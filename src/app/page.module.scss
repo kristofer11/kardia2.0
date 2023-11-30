@@ -33,9 +33,17 @@
         }
     }
 
+    &.introDiv1 {
+        height: 55vh;
+    }
+
     @media only screen and (max-width: 768px){
         flex-wrap: wrap;
 
+        &.introDiv1{
+            height: unset;
+        }
+        
         .sittingImg {
             width: 88%;
         }

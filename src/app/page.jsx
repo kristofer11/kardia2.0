@@ -28,7 +28,7 @@ export default function Home() {
             <section className='page-content'>
 
                 {/* LOOK AT CHUCK'S SITE FOR HOW TO LAYOUT TEXT/IMAGES (FAMILY HISTORY SECTION I THINK....) */}
-                <div className={styles.introDiv}>
+                <div className={`${styles.introDiv} ${styles.introDiv1}`}>
                     <div className={styles.introText}>
                         <h4><strong>The best of both worlds</strong></h4>
                         <p>
