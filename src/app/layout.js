@@ -2,6 +2,7 @@ import { Inter } from 'next/font/google'
 import { Quicksand, Roboto, Poppins } from 'next/font/google'
 import './globals.scss';
 import Header from '../components/Header/Header';
+import Footer from '../components/Footer/Footer'
 import 'bootstrap/dist/css/bootstrap.css';
 
 
@@ -34,11 +35,12 @@ export const metadata = {
 export default function RootLayout({ children }) {
     return (
         <html lang="en">
-            <body>
+            <body style={{flex: 1}}>
                 <Header />
                 <main className={poppins.className}>
                 {children}
                 </main>
+                <Footer />
             </body>
         </html>
     )

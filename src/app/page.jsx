@@ -33,14 +33,14 @@ export default function Home() {
                         <p>
                             Kardia Classical School combines the benefits of homeschooling and private school education. We call this a <em><strong>parent partnership</strong></em>.
                         </p>
-                        <Button variant="contained" href='/parent-partnership'>Learn More</Button>
+                        <Button variant="contained" href='/enrollment'>Enrollment</Button>
                     </div>
                     <Image
                         src='/images/spellingbee.jpg'
                         alt='Kardia students sitting on the floor next to a treehouse.'
                         width='640'
                         height='640'
-                        className={`${styles.sittingImg} ${styles.homeImg}`}
+                        className={`${styles.spellingBeeImg} ${styles.homeImg}`}
                     />
 
 

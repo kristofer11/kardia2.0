@@ -4,10 +4,11 @@
     justify-content: center;
     align-items: center;
     gap: 3rem;
-    padding: 3rem;
+    padding: 2rem;
+    margin: 2rem;
 
-    .sittingImg {
-        width: clamp(300px, 50%, 500px);
+    .spellingBeeImg {
+        width: clamp(300px, 42%, 500px);
         height: auto;
         max-width: 100%;
         object-fit: cover;
