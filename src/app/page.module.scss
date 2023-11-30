@@ -1,20 +1,20 @@
 .introDiv {
     display: flex;
-    flex-direction: column;
+    // flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 3rem;
-    padding: 4rem;
+    padding: 3rem;
 
     .sittingImg {
-        width: 777px;
+        width: clamp(300px, 50%, 500px);
         height: auto;
         max-width: 100%;
         object-fit: cover;
     }
 
     .bubblesImg {
-        width: 444px;
+        width: clamp(300px, 50%, 500px);
         max-width: 100%;
         object-fit: cover;
     }
@@ -35,5 +35,13 @@
 
     @media only screen and (max-width: 768px){
         flex-wrap: wrap;
+
+        .sittingImg {
+            width: 88%;
+        }
+        .bubblesImg {
+            order: 2;
+            width: 88%;
+        }
     }
 }
