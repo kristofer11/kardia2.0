@@ -41,10 +41,43 @@ a {
 
     .page-content {
         max-width: 1222px;
-        min-height: 95vh;
+        min-height: 88vh;
         // padding: 1rem;
         display: flex;
         flex-direction: column;
         align-items: center;
+        padding-inline: 1rem;
     }
+}
+
+//Staff card styling
+.staff-card {
+    width: clamp(222px, 322px, 99vw);
+    text-align: center;
+
+    .card-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        img {
+            width: 95%;
+            aspect-ratio: 1/1;
+            height: auto;
+        }
+
+        .bio-modal-btn {
+            color: var(--accent-text-color);
+            border-color: var(--accent-text-color);
+            margin-top: 2rem;
+        }
+    }
+}
+
+.staff-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    padding: 3rem 1rem;;
 }

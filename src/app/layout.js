@@ -35,11 +35,11 @@ export const metadata = {
 export default function RootLayout({ children }) {
     return (
         <html lang="en">
-            <body style={{flex: 1}}>
+            <body style={{ flex: 1 }}>
                 <Header />
-                <main className={poppins.className}>
-                {children}
-                </main>
+                <div className={poppins.className}>
+                    {children}
+                </div>
                 <Footer />
             </body>
         </html>
