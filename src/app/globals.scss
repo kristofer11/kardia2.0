@@ -36,5 +36,8 @@ a {
     .page-content {
         max-width: 1222px;
         padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 }

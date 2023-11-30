@@ -27,7 +27,6 @@ export default function Home() {
             />
             <section className='page-content'>
 
-                {/* LOOK AT CHUCK'S SITE FOR HOW TO LAYOUT TEXT/IMAGES (FAMILY HISTORY SECTION I THINK....) */}
                 <div className={`${styles.introDiv} ${styles.introDiv1}`}>
                     <div className={styles.introText}>
                         <h4><strong>The best of both worlds</strong></h4>
@@ -35,14 +34,15 @@ export default function Home() {
                             Kardia Classical School combines the benefits of homeschooling and private school education. We call this a <em><strong>parent partnership</strong></em>.
                         </p>
                         <Button variant="contained" href='/parent-partnership'>Learn More</Button>
-                    </div>                    
+                    </div>
                     <Image
-                        src='/images/sitting.png'
+                        src='/images/spellingbee.jpg'
                         alt='Kardia students sitting on the floor next to a treehouse.'
-                        width='960'
-                        height='720'
+                        width='640'
+                        height='640'
                         className={`${styles.sittingImg} ${styles.homeImg}`}
                     />
+
 
                 </div>
                 <div className={styles.introDiv}>
@@ -52,17 +52,21 @@ export default function Home() {
                         width='640'
                         height='410'
                         className={`${styles.bubblesImg} ${styles.homeImg}`}
-                    />                       
+                    />
                     <div className={styles.introText}>
                         <h4><strong>Our Mission</strong></h4>
                         <p>
-                        Kardia Classical School aims to provide parents with the tools that they need to classically educate their children in a way that is rooted in a Christian worldview. Together, parents and teachers will nurture students’ appreciation of truth, goodness, and beauty as they strive for excellence.
+                            Kardia Classical School aims to provide parents with the tools that they need to classically educate their children in a way that is rooted in a Christian worldview. Together, parents and teachers will nurture students’ appreciation of truth, goodness, and beauty as they strive for excellence.
                         </p>
                         <Button variant='contained' href='/programs'>Program Options</Button>
                     </div>
-               
-                 
-
+                </div>
+                <div className={styles.homeVideoDiv}>
+                    <h4><strong>Why Do Students <em>Love</em> Kardia?</strong></h4>
+                    <video controls className={styles.homeVideo} poster='/images/homeVideoPoster.jpg'>
+                        <source src='/videos/iLoveKardia.webm' />
+                    </video>
+                    <Button variant="contained" href='/contact' className={styles.inquiryButton}>Inquire Now</Button>
 
                 </div>
 
