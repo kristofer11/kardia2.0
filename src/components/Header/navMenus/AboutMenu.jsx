@@ -70,11 +70,11 @@ const AboutMenu = ({ anchorElAbout, handleOpenAboutMenu, handleCloseAboutMenu })
                             <Typography textAlign="center">Contact</Typography>
                         </Link>
                     </MenuItem>
-                    <MenuItem onClick={handleCloseAboutMenu}>
+                    {/* <MenuItem onClick={handleCloseAboutMenu}>
                         <Link href='/employment'>
                             <Typography textAlign="center">Employment</Typography>
                         </Link>
-                    </MenuItem>
+                    </MenuItem> */}
                 </Box>
             </Popper>
         </div >

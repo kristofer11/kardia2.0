@@ -63,3 +63,21 @@ header {
     margin-left: auto;
 }
 
+.small-menu-button {
+    justify-content: center;
+    width: 100%;
+
+    a {
+        width: 99vw;
+    }
+
+    button {
+        font-size: 1.4rem;
+    }
+}
+
+    .small-menu-item {
+        font-size: 1.25rem;
+        width: 72vw;
+        min-width:max-content;
+    }
