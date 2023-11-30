@@ -54,6 +54,7 @@ a {
 .staff-card {
     width: clamp(222px, 322px, 99vw);
     text-align: center;
+    background-color: var(--main-bg-color);
 
     .card-content {
         display: flex;
