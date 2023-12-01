@@ -1,0 +1,25 @@
+.main {
+
+    .section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .firstHeader {
+            margin-top: 3rem;
+        }
+
+        h5 {
+            font-size: 2rem;
+            margin-top: 2rem;
+        }
+
+        p {
+            font-size: 1.2rem;
+        }
+
+        img {
+            padding-bottom: 2rem;
+        }
+    }
+}
