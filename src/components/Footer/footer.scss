@@ -1,0 +1,117 @@
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--main-bg-color);
+
+    .footer-section {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        max-width: 100%;
+
+        .address-block{
+
+            h5 {
+                font-weight: bold;
+            }
+        }
+
+        &.logo-section {
+            padding-block: 2rem;
+            .footer-logo {
+                display: flex;
+                flex-direction: row;
+
+                .logo-text {
+                    text-decoration: none;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    margin: 0;
+
+                    h4 {
+                        font-size: 2.7rem;
+                        margin-bottom: -0.5rem;
+                        font-weight: 600;
+                    }
+
+                    h5 {
+                        font-size: 1.24rem;
+                        letter-spacing: 0.0rem;
+                        margin: 0;
+                    }
+                }
+            }
+        }
+
+
+        &.address-section {
+            max-width: 95%;
+            width: 1444px;
+            border-bottom: 1px solid black;
+            gap: 2rem;
+            justify-content: space-around;
+            text-align: center;
+        }
+
+        &.socials-section {
+            justify-content: center;
+            align-items: center;
+
+            .footer-social {
+                width: 73px;
+
+                &.yelp {
+                    width: 63px;
+                }
+            }
+        }
+
+
+        &.orgs-section {
+            flex-direction: column;
+            align-items: center;
+            width: 1444px;
+            padding-block: 2.5rem;
+
+            .member-title {
+                text-align: center;
+                color: #A1474C; 
+                font-size: 1.3rem;
+            }
+            .logo-div {
+                display: flex;
+                flex-direction: row;
+
+                .footer-logo {
+                    width: 222px;
+                    height: auto;
+                    aspect-ratio: inherit;
+                    margin-inline: 1rem;
+                    margin-block: .5rem;
+                }
+
+                @media only screen and (max-width: 768px) {
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    align-items: center;
+                }
+            }
+
+        }
+
+        @media only screen and (max-width: 768px) {
+            flex-wrap: wrap;
+        }
+    }
+}
+
+// .logo-div{
+//     @media only screen and (max-width: 768px){
+//         flex-direction: column !important;
+//         align-items: center;
+//         border: 2px solid pink;
+//     }  
+// }

@@ -48,15 +48,9 @@ const quicksand = Quicksand({
     ],
 })
 
-//navbar links:
-const pages = ['Products', 'Pricing', 'Blog'];
-
-//Goes with avatar, delete later:
-const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
-
 function ResponsiveAppBar() {
-    const [anchorElNav, setAnchorElNav] = React.useState(null);
-    const [anchorElUser, setAnchorElUser] = React.useState(null);
+    // const [anchorElNav, setAnchorElNav] = React.useState(null);
+    // const [anchorElUser, setAnchorElUser] = React.useState(null);
     const [anchorElAbout, setAnchorElAbout] = React.useState(null)
     const [anchorElAdmissions, setAnchorElAdmissions] = React.useState(null)
     const [anchorElFundraising, setAnchorElFundraising] = React.useState(null)
@@ -149,7 +143,7 @@ function ResponsiveAppBar() {
 
                     {/* Navigation for SMALLER SCREENS (INCLUDING THE HAMBURGER BUTTON) */}
                     <div className='small-screen-menu-div'>
-                    <SmallScreenMenu />
+                        <SmallScreenMenu />
 
                     </div>
 
@@ -169,13 +163,11 @@ function ResponsiveAppBar() {
                             handleOpenAdmissionsMenu={handleOpenAdmissionsMenu}
                             handleCloseAdmissionsMenu={handleCloseAdmissionsMenu}
                         />
-                        {/* TO DO: FUNDRAISING MENU */}
                         <FundraisingMenu
                             anchorElFundraising={anchorElFundraising}
                             handleOpenFundraisingMenu={handleOpenFundraisingMenu}
                             handleCloseFundraisingMenu={handleCloseFundraisingMenu}
                         />
-                        {/* TO DO: CURRENT FAMILIES MENU  */}
                         <FamiliesMenu
                             anchorElFamilies={anchorElFamilies}
                             handleOpenFamiliesMenu={handleOpenFamiliesMenu}

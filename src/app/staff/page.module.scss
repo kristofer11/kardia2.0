@@ -1,0 +1,13 @@
+.staffPage{
+    // background-color: var(--main-bg-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.staff-card img {
+    width: 333px;
+}
+
+.staffContent {
+    max-width: 1444px;
+}

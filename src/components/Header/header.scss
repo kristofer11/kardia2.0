@@ -17,6 +17,7 @@ header {
     .nav-title {
         text-transform: none;
     }
+
     .about-menu {
         margin-left: auto;
     }
@@ -48,7 +49,7 @@ header {
 }
 
 
-.MuiContainer-root  {
+.MuiContainer-root {
     max-width: 999px;
 }
 
@@ -63,3 +64,27 @@ header {
     margin-left: auto;
 }
 
+.small-menu-button {
+    justify-content: center;
+    width: 100%;
+
+    a {
+        width: 99vw;
+    }
+
+    button {
+        font-size: 1.4rem;
+    }
+}
+
+.small-menu-item {
+    font-size: 1.25rem;
+    width: 72vw;
+    min-width: max-content;
+}
+
+// OVERRIDE MUI STYLE
+.css-1e6y48t-MuiButtonBase-root-MuiButton-root {
+    color: var(--main-text-color);
+    text-transform: unset;
+}

@@ -1,20 +1,22 @@
 .introDiv {
     display: flex;
-    flex-direction: column;
+    // flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 3rem;
-    padding: 4rem;
+    padding: 2rem;
+    margin: 2rem;
 
-    .sittingImg {
-        width: 777px;
+    .spellingBeeImg {
+        width: clamp(300px, 42%, 500px);
         height: auto;
         max-width: 100%;
         object-fit: cover;
     }
 
+
     .bubblesImg {
-        width: 444px;
+        width: clamp(300px, 50%, 500px);
         max-width: 100%;
         object-fit: cover;
     }
@@ -33,7 +35,52 @@
         }
     }
 
+    &.introDiv1 {
+        height: 55vh;
+    }
+
     @media only screen and (max-width: 768px){
         flex-wrap: wrap;
+
+        &.introDiv1{
+            height: unset;
+        }
+        
+        .sittingImg {
+            width: 88%;
+        }
+        .bubblesImg {
+            order: 2;
+            width: 88%;
+        }
     }
 }
+
+.homeVideoDiv {
+    min-height: 100vh;
+    width: 100vw;
+    padding: 5rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: var(--link-hover-bg-color);
+
+    h4{
+        font-size: 2.5rem;
+        color: var(--main-light-text-color);
+        text-align: center;
+        margin-block: 2rem;
+    }
+    .homeVideo {
+        width: clamp(300px, 777px, 100%);
+        // height: auto;
+        max-width: 100%;
+        // object-fit: cover;
+    }    
+    .inquiryButton{
+        font-size: 1.6rem;
+        margin-top: 1rem;
+    }
+}
+
