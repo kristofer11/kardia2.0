@@ -26,7 +26,7 @@ const StaffCard = ({ staff }) => {
                 {/* <Typography variant="body2" color="text.secondary">
                     {bio}
                 </Typography> */}
-                <BioModal bio={bio} />
+                <BioModal bio={bio} name={name} />
             </CardContent>
         </Card>
     );

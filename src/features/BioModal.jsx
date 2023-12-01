@@ -20,14 +20,16 @@ const style = {
     overflowY: 'auto'
   };
   
-  export default function BioModal({ bio }) {
+  export default function BioModal({ bio, name }) {
     const [open, setOpen] = useState(false);
     const handleOpen = () => setOpen(true);
     const handleClose = () => setOpen(false);
   
+    const firstName = name.split(' ')[0]
+
     return (
       <div>
-        <Button variant='outlined' onClick={handleOpen} className='bio-modal-btn'>Bio</Button>
+        <Button variant='outlined' onClick={handleOpen} className='bio-modal-btn'>{firstName}&#39;s Bio</Button>
         <Modal
           open={open}
           onClose={handleClose}
