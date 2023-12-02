@@ -40,7 +40,8 @@ a {
     align-items: center;
 
     .page-content {
-        max-width: 1222px;
+        width: 1222px;
+        max-width: 100%;
         min-height: 49vh;
         // padding: 1rem;
         display: flex;

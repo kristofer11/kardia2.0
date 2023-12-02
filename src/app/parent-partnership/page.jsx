@@ -14,8 +14,9 @@ const page = () => {
                         <h1 className='homeOverlayText'> Parent Partnership?</h1>
                     </>
                 }
-                strength={333}
+                strength={300}
             />
+
             <article className="page-content">
                 <section className={styles.section}>
                     <h5 className={styles.firstHeader}>
@@ -34,23 +35,23 @@ const page = () => {
                     </p>
                 </section>
                 <section className={styles.section}>
-                <h5 id='what-is-cc-subtitle'>
-                    <strong>High academic expectations at home and school:  </strong>
-                </h5>
-                <p style={{ textAlign: 'left' }}>
-                    We hold each child to high academic standards and know that they are capable of meeting those standards. With parent help at home, we are able to help each child live to their full academic potential. With these high standards, comes accountability from parents and teachers to do their best, as well as grace when things don’t go as planned.
-                </p>
+                    <h5 id='what-is-cc-subtitle'>
+                        <strong>High academic expectations at home and school:  </strong>
+                    </h5>
+                    <p style={{ textAlign: 'left' }}>
+                        We hold each child to high academic standards and know that they are capable of meeting those standards. With parent help at home, we are able to help each child live to their full academic potential. With these high standards, comes accountability from parents and teachers to do their best, as well as grace when things don’t go as planned.
+                    </p>
                 </section>
                 <section className={styles.section}>
-                <h5 id='what-is-cc-subtitle'>
-                    <strong>Creating a culture of life-long learners: </strong>
-                </h5>
-                <p style={{ textAlign: 'left' }}>
-                    Education is a privilege and we want our students to see it as such. Parents will educate their children at home while modeling a passion for learning to help create a lifelong learner in each of their children.
-                </p>
+                    <h5 id='what-is-cc-subtitle'>
+                        <strong>Creating a culture of life-long learners: </strong>
+                    </h5>
+                    <p style={{ textAlign: 'left' }}>
+                        Education is a privilege and we want our students to see it as such. Parents will educate their children at home while modeling a passion for learning to help create a lifelong learner in each of their children.
+                    </p>
                 </section>
                 <section className={styles.section}>
-                    <Image 
+                    <Image
                         src='/images/legos.jpg'
                         width='640'
                         height='480'

@@ -86,7 +86,7 @@ export const STAFF = [
     {
         id: 12,
         name: 'Kris Hvattum',
-        title: 'Chairman of the Board & Web Developer',
+        title: 'Board Chairman & Web Developer',
         bio: 'Kris has been teaching since 2016 and has really enjoyed learning more about the classical method. He has two children who currently attend Kardia Classical School. He has four years of experience in classical education and has worked in public and private schools. Kris has a bachelors in Biblical Literature and a Masters in Teaching. He is our video lesson Logic teacher, as well as the Chairman of the Board of Directors.',
         image: '/staff/kris.jpg'
     },
