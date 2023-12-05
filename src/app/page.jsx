@@ -3,6 +3,7 @@ import styles from './page.module.scss';
 import Button from '@mui/material/Button';
 import { Roboto, Inter } from 'next/font/google';
 import Banner from '@/components/Banner/Banner';
+import AnimateOpacity from '@/components/animations/AnimateOpacity';
 
 const inter = Inter({ subsets: ['latin'] })
 const roboto = Roboto({
@@ -28,6 +29,9 @@ export default function Home() {
             <section className='page-content'>
 
                 <div className={`${styles.introDiv} ${styles.introDiv1}`}>
+                    <AnimateOpacity dur='1'>
+
+                    </AnimateOpacity>
                     <div className={styles.introText}>
                         <h4><strong>The best of both worlds</strong></h4>
                         <p>
