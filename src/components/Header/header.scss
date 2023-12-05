@@ -62,6 +62,7 @@ header {
 
 .small-screen-menu-div {
     margin-left: auto;
+
 }
 
 .small-menu-button {
@@ -78,10 +79,21 @@ header {
 }
 
 .small-menu-item {
-    font-size: 1.25rem;
-    width: 72vw;
+    font-size: 1.22rem;
+    width: 76vw;
     min-width: max-content;
 }
+
+.close-btn-div {
+    width: 100%;
+    text-align: center;
+
+    .close-btn-sm-screen{
+        font-size: 1.4rem;
+        width: fit-content;
+    }    
+}
+
 
 // OVERRIDE MUI STYLE
 .css-1e6y48t-MuiButtonBase-root-MuiButton-root {

@@ -74,7 +74,7 @@ const Navbar = () => {
                 open={isDrawerOpen}
                 onClose={handleToggleDrawer}
             >
-                <List sx={{width: '80vw', display: 'flex', flexDirection: 'column', alignItems: 'center !important', textAlign: 'center'}}>
+                <List sx={{ width: '80vw', display: 'flex', flexDirection: 'column', alignItems: 'center !important', textAlign: 'center' }}>
                     <ListItem className='small-menu-button'>
                         <Button onClick={handleOpenAboutMenu}>About <ArrowForwardIosIcon /></Button>
                         <Menu
@@ -82,9 +82,9 @@ const Navbar = () => {
                             open={Boolean(aboutMenuAnchor)}
                             onClose={() => handleCloseMenuOnly(setAboutMenuAnchor)}
                         >
-                            <MenuItem onClick={() => handleClose(setAboutMenuAnchor)} className='small-menu-item'><Link href='/beginning' style={{width: '100%'}}>Our Story</Link></MenuItem>
-                            <MenuItem onClick={() => handleClose(setAboutMenuAnchor)} className='small-menu-item'><Link href='/staff' style={{width: '100%'}}>Faculty, Staff and School Board</Link></MenuItem>
-                            <MenuItem onClick={() => handleClose(setAboutMenuAnchor)} className='small-menu-item'><Link href='/contact' style={{width: '100%'}}>Contact</Link></MenuItem>
+                            <MenuItem onClick={() => handleClose(setAboutMenuAnchor)} className='small-menu-item'><Link href='/beginning' style={{ width: '100%' }}>Our Story</Link></MenuItem>
+                            <MenuItem onClick={() => handleClose(setAboutMenuAnchor)} className='small-menu-item'><Link href='/staff' style={{ width: '100%' }}>Faculty, Staff and School Board</Link></MenuItem>
+                            <MenuItem onClick={() => handleClose(setAboutMenuAnchor)} className='small-menu-item'><Link href='/contact' style={{ width: '100%' }}>Contact</Link></MenuItem>
                         </Menu>
                     </ListItem>
                     <ListItem className='small-menu-button'>
@@ -94,10 +94,10 @@ const Navbar = () => {
                             open={Boolean(admissionsMenuAnchor)}
                             onClose={() => handleCloseMenuOnly(setAdmissionsMenuAnchor)}
                         >
-                            <MenuItem onClick={() => handleClose(setAdmissionsMenuAnchor)} className='small-menu-item'><Link href='/programs' style={{width: '100%'}}>Program Options</Link></MenuItem>
-                            <MenuItem onClick={() => handleClose(setAdmissionsMenuAnchor)} className='small-menu-item'><Link href='/parent-partnership' style={{width: '100%'}}>What is a <em>Parent Partnership</em>?</Link></MenuItem>
-                            <MenuItem onClick={() => handleClose(setAdmissionsMenuAnchor)} className='small-menu-item'><Link href='/enrollment' style={{width: '100%'}}>Enrollment</Link></MenuItem>
-                            <MenuItem onClick={() => handleClose(setAdmissionsMenuAnchor)}><Link href='/tuition' style={{width: '100%'}}>Tuition and Fees</Link></MenuItem>
+                            <MenuItem onClick={() => handleClose(setAdmissionsMenuAnchor)} className='small-menu-item'><Link href='/programs' style={{ width: '100%' }}>Program Options</Link></MenuItem>
+                            <MenuItem onClick={() => handleClose(setAdmissionsMenuAnchor)} className='small-menu-item'><Link href='/parent-partnership' style={{ width: '100%' }}>What is a <em>Parent Partnership</em>?</Link></MenuItem>
+                            <MenuItem onClick={() => handleClose(setAdmissionsMenuAnchor)} className='small-menu-item'><Link href='/enrollment' style={{ width: '100%' }}>Enrollment</Link></MenuItem>
+                            <MenuItem onClick={() => handleClose(setAdmissionsMenuAnchor)}><Link href='/tuition' style={{ width: '100%' }}>Tuition and Fees</Link></MenuItem>
                         </Menu>
                     </ListItem>
                     <ListItem className='small-menu-button'>
@@ -107,9 +107,9 @@ const Navbar = () => {
                             open={Boolean(fundraisingMenuAnchor)}
                             onClose={() => handleCloseMenuOnly(setFundraisingMenuAnchor)}
                         >
-                            <MenuItem onClick={() => handleClose(setFundraisingMenuAnchor)} className='small-menu-item'><Link href='/fundraising' style={{width: '100%'}}>Fundraising Opportunities</Link></MenuItem>
-                            <MenuItem onClick={() => handleClose(setFundraisingMenuAnchor)} className='small-menu-item'><Link href='/donations' style={{width: '100%'}}>Donations</Link></MenuItem>
-                            <MenuItem onClick={() => handleClose(setFundraisingMenuAnchor)} className='small-menu-item'><Link href='/jog-a-thon' style={{width: '100%'}}>Jog-a-Thon</Link></MenuItem>
+                            <MenuItem onClick={() => handleClose(setFundraisingMenuAnchor)} className='small-menu-item'><Link href='/fundraising' style={{ width: '100%' }}>Fundraising Opportunities</Link></MenuItem>
+                            <MenuItem onClick={() => handleClose(setFundraisingMenuAnchor)} className='small-menu-item'><Link href='/donations' style={{ width: '100%' }}>Donations</Link></MenuItem>
+                            <MenuItem onClick={() => handleClose(setFundraisingMenuAnchor)} className='small-menu-item'><Link href='/jog-a-thon' style={{ width: '100%' }}>Jog-a-Thon</Link></MenuItem>
                         </Menu>
                     </ListItem>
                     <ListItem className='small-menu-button'>
@@ -119,15 +119,15 @@ const Navbar = () => {
                             open={Boolean(familiesMenuAnchor)}
                             onClose={() => handleCloseMenuOnly(setFamiliesMenuAnchor)}
                         >
-                            <MenuItem onClick={() => handleClose(setFamiliesMenuAnchor)} className='small-menu-item'><Link href='/sycamore' style={{width: '100%'}}>Sycamore Login</Link></MenuItem>
-                            <MenuItem onClick={() => handleClose(setFamiliesMenuAnchor)} className='small-menu-item'><Link href='/uniforms' style={{width: '100%'}}>Uniforms</Link></MenuItem>
-                            <MenuItem onClick={() => handleClose(setFamiliesMenuAnchor)} className='small-menu-item'><Link href='/calendar' style={{width: '100%'}}>Calendar</Link></MenuItem>
+                            <MenuItem onClick={() => handleClose(setFamiliesMenuAnchor)} className='small-menu-item'><Link href='/sycamore' style={{ width: '100%' }}>Sycamore Login</Link></MenuItem>
+                            <MenuItem onClick={() => handleClose(setFamiliesMenuAnchor)} className='small-menu-item'><Link href='/uniforms' style={{ width: '100%' }}>Uniforms</Link></MenuItem>
+                            <MenuItem onClick={() => handleClose(setFamiliesMenuAnchor)} className='small-menu-item'><Link href='/calendar' style={{ width: '100%' }}>Calendar</Link></MenuItem>
 
                         </Menu>
                     </ListItem>
                     <ListItem className='small-menu-button'>
                         <Button onClick={() => handleClose(setBlogMenuAnchor)}>
-                            <Link href='/blog'>Blog</Link>                        
+                            <Link href='/blog'>Blog</Link>
                         </Button>
 
                     </ListItem>
@@ -136,7 +136,9 @@ const Navbar = () => {
                 </List>
 
                 {/* Close button */}
-                <Button onClick={handleToggleDrawer}>Close</Button>
+                <div className='close-btn-div'>
+                    <Button onClick={handleToggleDrawer} className='close-btn-sm-screen' variant="outlined">Close</Button>
+                </div>
             </Drawer>
         </Box>
     );
