@@ -9,7 +9,7 @@ const StaffList = () => {
         <div className='staff-list'>
             {
                 staff.map((staff) => {
-                    return <StaffCard staff={staff} />
+                    return <StaffCard key={staff.id} staff={staff} />
                 })
             }
         </div>
