@@ -53,17 +53,17 @@ const FamiliesMenu = ({ anchorElFamilies, handleOpenFamiliesMenu,handleCloseFami
                     <Box sx={{ border: '1px solid #d3d4d5', bgcolor: 'background.paper' }} >
                         <MenuItem onClick={handleCloseFamiliesMenu}>
                             <Link href='/sycamore'>
-                                <Typography textAlign="center">Sycamore</Typography>
+                                <Typography textAlign="center">Sycamore Login</Typography>
                             </Link>
                         </MenuItem>
                         <MenuItem onClick={handleCloseFamiliesMenu}>
                             <Link href='/uniforms'>
-                                <Typography textAlign="center">Uniforms</Typography>
+                                <Typography textAlign="center">Uniform Info</Typography>
                             </Link>
                         </MenuItem>
                         <MenuItem onClick={handleCloseFamiliesMenu}>
                             <Link href='/calendar'>
-                                <Typography textAlign="center">Calendar</Typography>
+                                <Typography textAlign="center">School Calendar</Typography>
                             </Link>
                         </MenuItem>
                     </Box>

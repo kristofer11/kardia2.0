@@ -27,7 +27,22 @@
         }
 
         p {
-            font-size: 1.2rem;
+            font-size: 1.4rem;
+            text-align: center;
+
+            a{
+                background-color: var(--nav-link-color);
+                color: var(--main-light-text-color);
+                padding: 0.33rem;
+                border-radius: 11px;
+
+                &:hover {
+                    background-color: var(--nav-link-hover-color);
+                }
+                &:active {
+                    background-color: var(--alt-bg-color);
+                }
+            }
         }
 
         img {
