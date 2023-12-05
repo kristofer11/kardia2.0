@@ -1,0 +1,30 @@
+.main {
+    // * {
+    //     max-width: 100%;
+    // }
+    .section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-block: 1.5rem;
+
+        .firstHeader {
+            margin-top: 3rem;
+        }
+
+        h5 {
+            font-size: 2rem;
+            margin-top: 2rem;
+        }
+
+        p {
+            font-size: 1.2rem;
+        }
+
+        img {
+            padding-bottom: 2rem;
+            height: auto;
+            max-width: 100%;
+        }
+    }
+}

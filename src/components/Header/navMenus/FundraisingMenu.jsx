@@ -1,16 +1,7 @@
-import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
-import Toolbar from '@mui/material/Toolbar';
-import IconButton from '@mui/material/IconButton';
 import Typography from '@mui/material/Typography';
-import Menu from '@mui/material/Menu';
-import MenuIcon from '@mui/icons-material/Menu';
-import Container from '@mui/material/Container';
-import Avatar from '@mui/material/Avatar';
 import Button from '@mui/material/Button';
-import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
-import AdbIcon from '@mui/icons-material/Adb';
 import Popper from '@mui/material/Popper';
 import ClickAwayListener from '@mui/material/ClickAwayListener';
 
@@ -61,11 +52,16 @@ const FundraisingMenu = ({ anchorElFundraising, handleOpenFundraisingMenu, handl
                                 <Typography textAlign="center">Donations</Typography>
                             </Link>
                         </MenuItem>
-                        <MenuItem onClick={handleCloseFundraisingMenu}>
+
+
+                        {/* REMOVE JOG-A-THON UNTIL IT IS RELEVANT IN 2024-25 SCHOOL YEAR */}
+                        {/* <MenuItem onClick={handleCloseFundraisingMenu}>
                             <Link href='/jog-a-thon'>
                                 <Typography textAlign="center">Jog-a-Thon</Typography>
                             </Link>
-                        </MenuItem>
+                        </MenuItem> */}
+
+
                     </Box>
             </ClickAwayListener>
             </Popper>
