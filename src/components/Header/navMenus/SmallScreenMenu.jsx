@@ -127,7 +127,7 @@ const Navbar = () => {
                     </ListItem>
                     <ListItem className='small-menu-button'>
                         <Button onClick={() => handleClose(setBlogMenuAnchor)}>
-                            <Link href='/blog'>Blog</Link>
+                            <Link href='/blog' className='blog-link'>Blog</Link>
                         </Button>
 
                     </ListItem>

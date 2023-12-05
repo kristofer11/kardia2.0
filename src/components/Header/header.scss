@@ -75,6 +75,11 @@ header {
 
     button {
         font-size: 1.4rem;
+        color: rgb(25, 118, 210);
+    }
+
+    .blog-link {
+        color: rgb(25, 118, 210);
     }
 }
 
@@ -93,7 +98,6 @@ header {
         width: fit-content;
     }    
 }
-
 
 // OVERRIDE MUI STYLE
 .css-1e6y48t-MuiButtonBase-root-MuiButton-root {
