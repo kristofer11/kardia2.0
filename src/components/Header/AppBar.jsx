@@ -173,11 +173,12 @@ function ResponsiveAppBar() {
                             handleOpenFamiliesMenu={handleOpenFamiliesMenu}
                             handleCloseFamiliesMenu={handleCloseFamiliesMenu}
                         />
-                        <BlogMenu
+                        {/* <BlogMenu
                             anchorElBlog={anchorElBlog}
                             handleOpenBlogMenu={handleOpenBlogMenu}
                             handleCloseBlogMenu={handleCloseBlogMenu}
-                        />
+                        /> */}
+                        <Link href='/blog'>Blog</Link>
                     </Box>
 
                 </Toolbar>

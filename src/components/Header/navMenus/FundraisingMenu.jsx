@@ -58,7 +58,7 @@ const FundraisingMenu = ({ anchorElFundraising, handleOpenFundraisingMenu, handl
                         </MenuItem>
                         <MenuItem onClick={handleCloseFundraisingMenu}>
                             <Link href='/donations'>
-                                <Typography textAlign="center">What is a <em>Donations</em>?</Typography>
+                                <Typography textAlign="center">Donations</Typography>
                             </Link>
                         </MenuItem>
                         <MenuItem onClick={handleCloseFundraisingMenu}>

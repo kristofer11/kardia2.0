@@ -42,14 +42,14 @@ const page = () => {
                     />
                 </section>
                 <section className={styles.program}>
-                    <h3>"Tuesday Camp" - Enrichment Half Day</h3>
+                    <h3>&quot;Tuesday Camp&quot; - Enrichment Half Day</h3>
                     <p>This class will be held on Tuesdays 10:00AM - 2:00PM . This session will have a different overall theme each quarter and will include all kinds of STEAM activities. STEAM is science, technology, engineering, art, and music.</p>
                     <p>
                         You can sign up for all four quarters ahead of time if you want to save space for your child(ren). There are eight weeks in each quarter. This option can be chosen in conjunction with another program option. Uniforms are not required on Tuesday Camp days.
                     </p>
                     <p><strong>Price per session: $35</strong></p>
                     <p>
-                        We will also have a “drop-in” option for a slightly higher daily fee. See the tuition and fees tab for more information.
+                        We will also have a &quot;drop-in&quot; option for a slightly higher daily fee. See the tuition and fees tab for more information.
                     </p>
                     <Image
                         src='/images/at-home.jpg'
