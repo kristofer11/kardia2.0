@@ -11,7 +11,7 @@ const page = () => {
     return (
         <main className={`${styles.main} page-main`}>
             <Banner
-                img='/banners/enrollment-banner.jpeg'
+                img='/banners/enrollment-alt-banner.jpeg'
                 alt='Lightbulbs over a bookshelf in a library'
                 title={
                     <>

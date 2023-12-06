@@ -22,6 +22,10 @@ header {
     .about-menu {
         margin-left: auto;
     }
+
+    .blog-link {
+        font-size: 1.22rem;
+    }
 }
 
 .logo-text {
@@ -63,9 +67,12 @@ header {
 }
 
 //Small screen nav menu styling
+.css-1160xiw-MuiPaper-root-MuiDrawer-paper{
+    background-color: var(--nav-link-hover-color);
+}
+
 .small-screen-menu-div {
     margin-left: auto;
-
 }
 
 .small-menu-button {
@@ -74,16 +81,17 @@ header {
 
     a {
         width: 99vw;
+        font-size: 1.4rem;
     }
 
     button {
         font-size: 1.4rem;
-        color: var(--nav-link-color);
+        color: var(--main-light-text-color);
         text-transform: unset;
     }
 
     .blog-link {
-        color: var(--nav-link-color);
+        color: var(--main-light-text-color);
         text-transform: unset;
     }
 }
