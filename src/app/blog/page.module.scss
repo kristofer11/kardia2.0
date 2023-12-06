@@ -1,0 +1,27 @@
+.blogContent {
+
+    h3 {
+        margin-block: 2rem;
+    }
+
+    .links {
+        min-height: 65vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        .linkList {
+            list-style-type: none;
+
+            li {
+                font-size: 2rem;
+
+                a {
+                    font-size: 1.4rem;
+                    color: var(--nav-link-hover-color);
+                }
+
+            }
+        }
+    }
+}
