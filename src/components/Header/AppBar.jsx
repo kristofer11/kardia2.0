@@ -178,7 +178,7 @@ function ResponsiveAppBar() {
                             handleOpenBlogMenu={handleOpenBlogMenu}
                             handleCloseBlogMenu={handleCloseBlogMenu}
                         /> */}
-                        <Link href='/blog'>Blog</Link>
+                        <Link href='/blog' className='blog-link'>Blog</Link>
                     </Box>
 
                 </Toolbar>

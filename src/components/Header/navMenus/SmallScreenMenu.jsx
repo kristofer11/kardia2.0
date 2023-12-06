@@ -73,6 +73,7 @@ const Navbar = () => {
                 anchor="right"
                 open={isDrawerOpen}
                 onClose={handleToggleDrawer}
+                className='sm-menu-drawer'
             >
                 <List sx={{ width: '80vw', display: 'flex', flexDirection: 'column', alignItems: 'center !important', textAlign: 'center' }}>
                     <ListItem className='small-menu-button'>

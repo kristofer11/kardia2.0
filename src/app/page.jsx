@@ -35,7 +35,7 @@ export default function Home() {
                             <p>
                                 Kardia Classical School combines the benefits of homeschooling and private school education. We call this a <em><strong>parent partnership</strong></em>.
                             </p>
-                            <Button variant="contained" href='/enrollment'>Enrollment</Button>
+                            <Button variant="contained" href='/enrollment' className={styles.homeBtn}>Enrollment</Button>
                         </div>
 
                         <Image
@@ -63,7 +63,7 @@ export default function Home() {
                             <p>
                                 Kardia Classical School aims to provide parents with the tools that they need to classically educate their children in a way that is rooted in a Christian worldview. Together, parents and teachers will nurture students’ appreciation of truth, goodness, and beauty as they strive for excellence.
                             </p>
-                            <Button variant='contained' href='/programs'>Program Options</Button>
+                            <Button variant='contained' href='/programs' className={styles.homeBtn}>Program Options</Button>
                         </div>
                     </div>
                 </AnimateOpacity>

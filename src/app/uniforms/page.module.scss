@@ -51,7 +51,7 @@
             width: 777px;
             height: auto;
             max-width: 95vw;
-            margin-block: 1rem;
+            margin-block: 3rem 1rem;
             padding: 0.5rem;
             box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4);
             background-color: var(--alt-bg-color);
@@ -81,7 +81,7 @@
     }
 
     .uniforms2 {
-        background-color: var(--alt-bg-color);
+        // background-color: var(--alt-bg-color);
         width: 100vw;
         
         .uniformImg2 {
