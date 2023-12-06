@@ -14,7 +14,6 @@
         object-fit: cover;
     }
 
-
     .bubblesImg {
         width: clamp(300px, 50%, 500px);
         max-width: 100%;
@@ -36,7 +35,12 @@
     }
 
     &.introDiv1 {
-        height: 55vh;
+        // height: 55vh;
+        min-height: 60vh;
+        background-color: var(--link-hover-bg-color);
+        width: 100vw;
+        color: var(--main-light-text-color);
+        margin-top: 0;
     }
 
     @media only screen and (max-width: 768px){
@@ -44,8 +48,7 @@
 
         &.introDiv1{
             height: unset;
-            margin: 2rem 0;
-            padding: 0;
+            padding: 3rem 2rem;
         }
         
         .sittingImg {
@@ -55,6 +58,10 @@
             order: 2;
             width: 88%;
         }
+    }
+
+    .homeBtn {
+        font-size: 1.2rem;
     }
 }
 
@@ -66,16 +73,18 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: var(--link-hover-bg-color);
+    // background: var(--link-hover-bg-color);
+    background-color: white;
 
     h4{
         font-size: 2.5rem;
-        color: var(--main-light-text-color);
+        // color: var(--main-light-text-color);
+        color: var(--main-text-color);
         text-align: center;
-        margin-block: 2rem;
+        margin: 3rem 2rem;
     }
     .homeVideo {
-        width: clamp(300px, 777px, 100%);
+        width: clamp(300px, 555px, 100%);
         // height: auto;
         max-width: 100%;
         // object-fit: cover;
