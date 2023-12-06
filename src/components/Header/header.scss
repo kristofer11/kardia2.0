@@ -16,6 +16,7 @@ header {
 
     .nav-title {
         text-transform: none;
+        font-size: 1.22rem;
     }
 
     .about-menu {
@@ -48,7 +49,7 @@ header {
     height: auto;
 }
 
-
+//Override MUI style for Blog btn
 .MuiContainer-root {
     max-width: 999px;
 }
@@ -57,9 +58,11 @@ header {
     a {
         text-decoration: none;
         color: var(--main-text-color);
+        font-size: 1.011rem;
     }
 }
 
+//Small screen nav menu styling
 .small-screen-menu-div {
     margin-left: auto;
 
@@ -75,6 +78,13 @@ header {
 
     button {
         font-size: 1.4rem;
+        color: var(--nav-link-color);
+        text-transform: unset;
+    }
+
+    .blog-link {
+        color: var(--nav-link-color);
+        text-transform: unset;
     }
 }
 
@@ -87,13 +97,15 @@ header {
 .close-btn-div {
     width: 100%;
     text-align: center;
+    margin-block: auto 5rem;
 
     .close-btn-sm-screen{
         font-size: 1.4rem;
         width: fit-content;
+        background-color: var(--nav-link-hover-color);
+        border-color: var(--nav-link-hover-color);
     }    
 }
-
 
 // OVERRIDE MUI STYLE
 .css-1e6y48t-MuiButtonBase-root-MuiButton-root {

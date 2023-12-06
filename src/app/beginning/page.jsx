@@ -2,6 +2,7 @@ import Image from 'next/image';
 import Banner from "@/components/Banner/Banner";
 import './page.module.scss'
 import styles from './page.module.scss';
+import AnimateOpacity from '@/components/animations/AnimateOpacity';
 
 const page = () => {
     return (
@@ -17,6 +18,7 @@ const page = () => {
                 }
                 strength={333}
             />
+            <AnimateOpacity>
             <section className={`page-content ${styles.beginningSection}`}>
                 <div className={styles.beginningText}>
                     <h3 className={`text-center pt-4 ${styles.beginningTitle}`}>How did <em>Kardia</em> come to be?</h3>
@@ -24,6 +26,7 @@ const page = () => {
                 </div>
                 <Image src='/images/hands-up.jpeg' width='4000' height='2205' className={styles.beginningImg} alt='Kardia students on stage raising hands during performance.'  />
             </section>
+            </AnimateOpacity>
         </main>
     )
 }

@@ -109,7 +109,11 @@ const Navbar = () => {
                         >
                             <MenuItem onClick={() => handleClose(setFundraisingMenuAnchor)} className='small-menu-item'><Link href='/fundraising' style={{ width: '100%' }}>Fundraising Opportunities</Link></MenuItem>
                             <MenuItem onClick={() => handleClose(setFundraisingMenuAnchor)} className='small-menu-item'><Link href='/donations' style={{ width: '100%' }}>Donations</Link></MenuItem>
-                            <MenuItem onClick={() => handleClose(setFundraisingMenuAnchor)} className='small-menu-item'><Link href='/jog-a-thon' style={{ width: '100%' }}>Jog-a-Thon</Link></MenuItem>
+
+                            {/* REMOVE JOG-A-THON UNTIL IT IS RELEVANT IN 2024 */}
+                            
+                            {/* <MenuItem onClick={() => handleClose(setFundraisingMenuAnchor)} className='small-menu-item'><Link href='/jog-a-thon' style={{ width: '100%' }}>Jog-a-Thon</Link></MenuItem> */}
+                            
                         </Menu>
                     </ListItem>
                     <ListItem className='small-menu-button'>
@@ -127,7 +131,7 @@ const Navbar = () => {
                     </ListItem>
                     <ListItem className='small-menu-button'>
                         <Button onClick={() => handleClose(setBlogMenuAnchor)}>
-                            <Link href='/blog'>Blog</Link>
+                            <Link href='/blog' className='blog-link'>Blog</Link>
                         </Button>
 
                     </ListItem>
@@ -137,7 +141,7 @@ const Navbar = () => {
 
                 {/* Close button */}
                 <div className='close-btn-div'>
-                    <Button onClick={handleToggleDrawer} className='close-btn-sm-screen' variant="outlined">Close</Button>
+                    <Button onClick={handleToggleDrawer} className='close-btn-sm-screen' variant="contained">Close</Button>
                 </div>
             </Drawer>
         </Box>
