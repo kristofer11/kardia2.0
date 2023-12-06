@@ -25,3 +25,46 @@
         }
     }
 }
+
+.blogPost {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-block: 3rem;
+    .blogContent {
+        width: 999px;
+        // max-width: 100%;
+        line-height: 1.6;
+        section {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-block: 1rem;
+            border-bottom: 2px solid black;
+            p{
+                font-size: 1.15rem;
+            }
+            .blogTitle {
+                text-align: center;
+                font-size: 1.9rem;
+                margin-bottom: 0;
+            }
+            .author {
+                margin-bottom: 2rem;
+            }
+            .heading{
+                font-size: 1.7rem;
+                width: 100%;
+                text-align: start;
+            }
+            a{
+                color: blue;
+            }
+        }
+        .blogImg {
+            max-width: 300px;
+            height: auto;
+        }  
+    }
+  
+}

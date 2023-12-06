@@ -31,27 +31,27 @@ const page = () => {
                                 📄<Link href='/blog/october2023'>Navigating Screen Time: Striking the Right Balance for Our Children</Link>
                             </li>
                             <li className='blog-link'>
-                                📄<Link href='/august2023'>Classical Roots: The Importance of "The Lost Tools of Learning" by Dorothy Sayers</Link>
+                                📄<Link href='/blog/august2023'>Classical Roots: The Importance of "The Lost Tools of Learning" by Dorothy Sayers</Link>
                             </li>
                             <li className='blog-link'>
-                                📄<Link href='/july2023'>Unveiling the Complex Realities of AI Integration in Education</Link>
+                                📄<Link href='/blog/july2023'>Unveiling the Complex Realities of AI Integration in Education</Link>
                             </li>
                             <li className='blog-link'>
-                                📄<Link href='/july2022'>Can Martial Arts Integrate Well into a Classical Education?</Link></li>
+                                📄<Link href='/blog/july2022'>Can Martial Arts Integrate Well into a Classical Education?</Link></li>
                             <li className='blog-link'>
-                                📄<Link href='/june2022'>Five Best Practices for Retaining School Learning Over a Long Break (aka, Summer!)</Link>
+                                📄<Link href='/blog/june2022'>Five Best Practices for Retaining School Learning Over a Long Break (aka, Summer!)</Link>
                             </li>
                             <li className='blog-link'>
-                                📄<Link href='/june2022siblings'>25 Ways To Keep Younger Siblings Busy During Homeschooling</Link>
+                                📄<Link href='/blog/june2022siblings'>25 Ways To Keep Younger Siblings Busy During Homeschooling</Link>
                             </li>
                             <li className='blog-link'>
-                                📄<Link href='/july2021'>Why a Well-Rounded Education Includes Music</Link>
+                                📄<Link href='/blog/july2021'>Why a Well-Rounded Education Includes Music</Link>
                             </li>
                             <li className='blog-link'>
-                                📄<Link href='/june2021'>What Does “Parent Partnership” Mean?</Link>
+                                📄<Link href='/blog/june2021'>What Does “Parent Partnership” Mean?</Link>
                             </li>
                             <li className='blog-link'>
-                                📄<Link href='/may2021'>What Does it Mean to be a “Classical School?”</Link>
+                                📄<Link href='/blog/may2021'>What Does it Mean to be a “Classical School?”</Link>
                             </li>
                         </ul>
                     </section>
