@@ -1,0 +1,112 @@
+.main {
+
+    h1 {
+        font-size: 3rem;
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+    }
+
+    .section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+
+        &.section1{
+            min-height: 75vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        &.introDiv {
+            flex-direction: row;
+
+            .mainImg {
+                width: clamp(300px, 44%, 444px);
+                max-width: 95vw;
+                height: auto;
+                margin-bottom: 1rem;
+            }            
+        }
+
+        .firstHeader {
+            margin-top: 3rem;
+        }
+
+        h5 {
+            font-size: 2rem;
+            margin-top: 2rem;
+        }
+
+        p {
+            font-size: 1.2rem;
+            width: clamp(300px, 777px, 95vw);
+            max-width: 95vw;
+            text-align: center;
+        }
+
+        .uniformImg {
+            width: 777px;
+            height: auto;
+            max-width: 95vw;
+            margin-block: 1rem;
+            padding: 0.5rem;
+            box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4);
+            background-color: var(--alt-bg-color);
+        }
+
+        @media only screen and (max-width: 768px){
+            &.introDiv {
+                flex-direction: column;                
+                align-items: center;
+
+                p{
+                    order: 2
+                }
+                .mainImg{
+                    order: 1;
+                    width: 444px;
+                    max-width: 95vw;
+                }
+            }
+        }
+    }
+
+    .uniforms1{
+        background-color: var(--link-hover-bg-color);
+        width: 100vw;
+        color: var(--main-light-text-color);
+    }
+
+    .uniforms2 {
+        background-color: var(--alt-bg-color);
+        width: 100vw;
+        
+        .uniformImg2 {
+            background-color: var(--main-bg-color);
+        }
+    }
+}
+
+
+
+.cardSection {
+    .enrollCard {
+        background-color: var(--main-bg-color);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 2rem;
+        padding: 1rem;
+        width: 777px;
+        max-width: 94vw;
+
+        .cardImg {
+            width: 95%;
+            height: auto;
+            margin: 1rem;
+        }
+    }
+}

@@ -26,7 +26,6 @@ const page = () => {
                 </article>
             </main>
         </AnimateOpacity>
-
     )
 }
 
