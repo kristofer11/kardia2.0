@@ -42,7 +42,7 @@ const page = () => {
                                 📄<Link href='/blog/june2022'>Five Best Practices for Retaining School Learning Over a Long Break (aka, Summer!)</Link>
                             </li>
                             <li className='blog-link'>
-                                📄<Link href='/blog/june2022siblings'>25 Ways To Keep Younger Siblings Busy During Homeschooling</Link>
+                                📄<Link href='/blog/june2022-siblings'>25 Ways To Keep Younger Siblings Busy During Homeschooling</Link>
                             </li>
                             <li className='blog-link'>
                                 📄<Link href='/blog/july2021'>Why a Well-Rounded Education Includes Music</Link>
