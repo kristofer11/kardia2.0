@@ -1,10 +1,60 @@
 .contactMain {
-    
+    .contactContent {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        min-height: 60vh;
+        margin-bottom: 3rem;
+
+        h2 {
+            margin-block: 1rem 2rem;
+        }
+
+        .contactDiv {
+            display: flex;
+            img {
+                width: 30%;
+                height: auto;
+                aspect-ratio: 1/1;
+                object-fit: cover;
+            }
+            @media only screen and (max-width: 768px){
+                flex-direction: column;
+                align-items: center;
+                img {
+                    height: 222px;
+                    width: 333px;
+                    order: 2
+                }
+            }
+            .linkDiv {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                margin: 1rem;
+            }
+        }
+    }
     section {
         margin-top: 3rem;
+        .animated{
+            max-width: 100%;
+        }
     }
 }
 
-.contactLink {
-    padding-inline: 1rem;
+.contactText {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0.5rem;
+    text-transform: uppercase;
+
+    .contactLink {
+        margin: 0.25rem;
+        a {
+            padding-inline: 0.5rem;
+            font-size: 1.2rem;
+        }
+    }    
 }
