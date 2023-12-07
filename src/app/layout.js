@@ -3,7 +3,7 @@ import { Quicksand, Roboto, Poppins } from 'next/font/google'
 import './globals.scss';
 import Header from '../components/Header/Header';
 import Footer from '../components/Footer/Footer'
-// import 'bootstrap/dist/css/bootstrap.css';
+import 'bootstrap/dist/css/bootstrap.css';
 
 import MessengerChat from '@/components/MessengerChat';
 
