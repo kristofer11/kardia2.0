@@ -41,17 +41,17 @@ const page = () => {
                         <section className={styles.section}>
 
                             <p>
-                                In today's fast-paced, tech-driven world, screen time management has become a significant concern for parents and educators. As we navigate the digital age, it's crucial to find a balanced approach that upholds our values and educational principles. In this article, we'll delve into the art of nurturing wisdom while managing screen time for our children. Many parents, including myself, often struggle with where to draw the line when it comes to our children's technology use. We'll explore some key challenges and offer general tips for addressing them.
+                                In today&#39;s fast-paced, tech-driven world, screen time management has become a significant concern for parents and educators. As we navigate the digital age, it&#39;s crucial to find a balanced approach that upholds our values and educational principles. In this article, we'll delve into the art of nurturing wisdom while managing screen time for our children. Many parents, including myself, often struggle with where to draw the line when it comes to our children&#39;s technology use. We&#39;ll explore some key challenges and offer general tips for addressing them.
                             </p>
                         </section>
                     </AnimateOpacity>
                     <AnimateOpacity>
                         <section className={styles.section}>
                             <h5 className={`${lato.className} ${styles.heading}`}><strong>The Digital Dilemma</strong></h5>
-                            <p>Screens are ubiquitous, offering both incredible opportunities and potential pitfalls for our children's development. As parents, we encounter the following challenges:</p>
+                            <p>Screens are ubiquitous, offering both incredible opportunities and potential pitfalls for our children&#39;s development. As parents, we encounter the following challenges:</p>
                             <ol>
                                 <li>
-                                    <p><strong>Distracted Minds</strong>: Children's excessive screen time often leads to diminished attention spans, making it harder for them to engage deeply in their education.</p>
+                                    <p><strong>Distracted Minds</strong>: Children&#39;s excessive screen time often leads to diminished attention spans, making it harder for them to engage deeply in their education.</p>
                                 </li>
                                 <li>
                                     <p><strong>Sedentary Lifestyles</strong>: Prolonged screen use frequently translates to reduced physical activity, which is essential for a healthy lifestyle.</p>
@@ -92,16 +92,16 @@ const page = () => {
                                 </li>                    <li>
                                     <p><strong>Establish Screen-Free Bedtimes</strong>: Create screen-free routines before bedtime to ensure children get the rest they need for a productive day.</p>
                                 </li>                    <li>
-                                    <p><strong>Open Dialogue</strong>: Encourage open conversations about online experiences, challenges, and concerns. Provide guidance and support while respecting children's autonomy.</p>
+                                    <p><strong>Open Dialogue</strong>: Encourage open conversations about online experiences, challenges, and concerns. Provide guidance and support while respecting children&#39;s autonomy.</p>
                                 </li>                    <li>
-                                    <p><strong>Continuous Adaptation</strong>: Regularly reassess your approach and remain flexible in adapting to your children's developmental stages.</p>
+                                    <p><strong>Continuous Adaptation</strong>: Regularly reassess your approach and remain flexible in adapting to your children&#39;s developmental stages.</p>
                                 </li>
                             </ol>
                         </section>
                     </AnimateOpacity>
                     <AnimateOpacity>
                         <section className={styles.section}>
-                            <p>Balancing screen time for our children is a dynamic process that calls for wisdom and discernment. As parents, we have the privilege of nurturing our children's minds and bodies. By thoughtfully managing screen time, we ensure our children receive the best education while navigating the digital age with virtue and wisdom. The journey may have its challenges, but it's a rewarding one that shapes our children's futures and strengthens family bonds.</p>
+                            <p>Balancing screen time for our children is a dynamic process that calls for wisdom and discernment. As parents, we have the privilege of nurturing our children&#39;s minds and bodies. By thoughtfully managing screen time, we ensure our children receive the best education while navigating the digital age with virtue and wisdom. The journey may have its challenges, but it&#39;s a rewarding one that shapes our children's futures and strengthens family bonds.</p>
 
                             <figure className='py-3'>
                                 <Image
