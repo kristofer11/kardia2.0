@@ -42,7 +42,7 @@ const page = () => {
                         <section className={styles.section}>
 
                             <p>
-                                In today's fast-paced, tech-driven world, screen time management has become a significant concern for parents and educators. As we navigate the digital age, it's crucial to find a balanced approach that upholds our values and educational principles. In this article, we'll delve into the art of nurturing wisdom while managing screen time for our children. Many parents, including myself, often struggle with where to draw the line when it comes to our children's technology use. We'll explore some key challenges and offer general tips for addressing them.
+                                In today&#39;s fast-paced, tech-driven world, screen time management has become a significant concern for parents and educators. As we navigate the digital age, it&#39;s crucial to find a balanced approach that upholds our values and educational principles. In this article, we&#39;ll delve into the art of nurturing wisdom while managing screen time for our children. Many parents, including myself, often struggle with where to draw the line when it comes to our children&#39;s technology use. We&#39;ll explore some key challenges and offer general tips for addressing them.
                             </p>
                         </section>
                     </AnimateOpacity>

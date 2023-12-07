@@ -41,7 +41,7 @@ const page = () => {
                         <section className={styles.section}>
 
                             <p>
-                                In today&#39;s fast-paced, tech-driven world, screen time management has become a significant concern for parents and educators. As we navigate the digital age, it&#39;s crucial to find a balanced approach that upholds our values and educational principles. In this article, we'll delve into the art of nurturing wisdom while managing screen time for our children. Many parents, including myself, often struggle with where to draw the line when it comes to our children&#39;s technology use. We&#39;ll explore some key challenges and offer general tips for addressing them.
+                                In today&#39;s fast-paced, tech-driven world, screen time management has become a significant concern for parents and educators. As we navigate the digital age, it&#39;s crucial to find a balanced approach that upholds our values and educational principles. In this article, we	&#39;ll delve into the art of nurturing wisdom while managing screen time for our children. Many parents, including myself, often struggle with where to draw the line when it comes to our children&#39;s technology use. We&#39;ll explore some key challenges and offer general tips for addressing them.
                             </p>
                         </section>
                     </AnimateOpacity>
@@ -101,7 +101,7 @@ const page = () => {
                     </AnimateOpacity>
                     <AnimateOpacity>
                         <section className={styles.section}>
-                            <p>Balancing screen time for our children is a dynamic process that calls for wisdom and discernment. As parents, we have the privilege of nurturing our children&#39;s minds and bodies. By thoughtfully managing screen time, we ensure our children receive the best education while navigating the digital age with virtue and wisdom. The journey may have its challenges, but it&#39;s a rewarding one that shapes our children's futures and strengthens family bonds.</p>
+                            <p>Balancing screen time for our children is a dynamic process that calls for wisdom and discernment. As parents, we have the privilege of nurturing our children&#39;s minds and bodies. By thoughtfully managing screen time, we ensure our children receive the best education while navigating the digital age with virtue and wisdom. The journey may have its challenges, but it&#39;s a rewarding one that shapes our children	&#39;s futures and strengthens family bonds.</p>
 
                             <figure className='py-3'>
                                 <Image
