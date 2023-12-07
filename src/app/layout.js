@@ -3,8 +3,9 @@ import { Quicksand, Roboto, Poppins } from 'next/font/google'
 import './globals.scss';
 import Header from '../components/Header/Header';
 import Footer from '../components/Footer/Footer'
-import 'bootstrap/dist/css/bootstrap.css';
+// import 'bootstrap/dist/css/bootstrap.css';
 
+import MessengerChat from '@/components/MessengerChat';
 
 const inter = Inter({ subsets: ['latin'] })
 const roboto = Roboto({
@@ -36,6 +37,7 @@ export default function RootLayout({ children }) {
     return (
         <html lang="en">
             <body style={{ flex: 1 }}>
+                <MessengerChat />
                 <Header />
                 <div className={poppins.className}>
                     {children}
