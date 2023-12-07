@@ -41,7 +41,7 @@ const page = () => {
                         <section className={styles.section}>
 
                             <p>
-                                In the realm of educational philosophy, certain texts stand as timeless guides, continually shedding light on the path to effective and meaningful learning. One such beacon is Dorothy Sayers' essay, <em>The Lost Tools of Learning.</em> Written in 1947, this essay remains a cornerstone of the classical education revival and offers profound insights into the art of teaching and learning. Let's delve into the importance of <em>The Lost Tools of Learning</em> and why it continues to resonate with educators, parents, and students alike.
+                                In the realm of educational philosophy, certain texts stand as timeless guides, continually shedding light on the path to effective and meaningful learning. One such beacon is Dorothy Sayers&#39; essay, <em>The Lost Tools of Learning.</em> Written in 1947, this essay remains a cornerstone of the classical education revival and offers profound insights into the art of teaching and learning. Let&#39;s delve into the importance of <em>The Lost Tools of Learning</em> and why it continues to resonate with educators, parents, and students alike.
                             </p>
                         </section>
                     </AnimateOpacity>
@@ -74,7 +74,7 @@ const page = () => {
                                 </li>
                                 <li>
                                     <h5>Educational Reform</h5>
-                                    <p><em>The Lost Tools of Learning</em> has played a pivotal role in educational reform efforts worldwide. It has inspired the establishment of classical schools and homeschooling curricula that adhere to Sayers' principles.</p>
+                                    <p><em>The Lost Tools of Learning</em> has played a pivotal role in educational reform efforts worldwide. It has inspired the establishment of classical schools and homeschooling curricula that adhere to Sayers&#39; principles.</p>
                                 </li>
 
                                 <li>
