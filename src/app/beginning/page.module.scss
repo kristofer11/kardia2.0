@@ -1,11 +1,11 @@
-.beginningImg {
-    width: clamp(300px, 777px, 100%);
-    height: auto;
-}
-
 .beginningSection {
     margin-bottom: 2rem;
-    
+
+    .beginningImg {
+        width: clamp(300px, 777px, 100%);
+        height: auto;
+    }
+
     .beginningTitle {
         font-size: 3rem;
         font-weight: 500;
