@@ -30,7 +30,8 @@ const page = () => {
                             alt='Pre Kindergarten students playing on playground'
                         />
                         <div className={styles.linkDiv}>
-                            <h4 className='text-center m-2'>You can reach us via phone, email or Facebook Messenger (see the link in the lower right corner).</h4>
+                            <h4 className='m-2'>You can reach us via phone, email or Facebook Messenger</h4>
+                            <h5 className='m-2'>(Look for a the link for Messenger in the lower right corner of any page.)</h5>
 
                             <div className={styles.contactText} style={{ fontSize: '1.3rem' }}>
                                 <span>Email:</span>

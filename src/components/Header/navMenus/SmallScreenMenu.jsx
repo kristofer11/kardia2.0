@@ -55,7 +55,7 @@ const Navbar = () => {
     // }
 
     return (
-        <Box sx={{ display: { xs: 'flex', md: 'none' } }}>
+        <Box sx={{ display: { xs: 'flex', md: 'none', zIndex: '50' } }}>
             <Toolbar>
                 <IconButton
                     size="large"

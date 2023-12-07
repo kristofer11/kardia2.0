@@ -3,28 +3,13 @@ import * as React from 'react';
 import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
-import IconButton from '@mui/material/IconButton';
 import Typography from '@mui/material/Typography';
-import Menu from '@mui/material/Menu';
-import MenuIcon from '@mui/icons-material/Menu';
-import Drawer from '@mui/material/Drawer';
-import List from '@mui/material/List';
-import ListItem from '@mui/material/ListItem';
-import ListItemText from '@mui/material/ListItemText';
 import Container from '@mui/material/Container';
-import Avatar from '@mui/material/Avatar';
-import Button from '@mui/material/Button';
-import Tooltip from '@mui/material/Tooltip';
-import MenuItem from '@mui/material/MenuItem';
-import AdbIcon from '@mui/icons-material/Adb';
-
 import Link from 'next/link';
-
 import AboutMenu from './navMenus/AboutMenu';
 import AdmissionsMenu from './navMenus/AdmissionsMenu';
 import FundraisingMenu from './navMenus/FundraisingMenu';
 import FamiliesMenu from './navMenus/FamiliesMenu';
-import BlogMenu from './navMenus/BlogMenu';
 import SmallScreenMenu from './navMenus/SmallScreenMenu';
 
 import { Cinzel } from 'next/font/google';
@@ -51,6 +36,7 @@ const quicksand = Quicksand({
 function ResponsiveAppBar() {
     // const [anchorElNav, setAnchorElNav] = React.useState(null);
     // const [anchorElUser, setAnchorElUser] = React.useState(null);
+    
     const [anchorElAbout, setAnchorElAbout] = React.useState(null)
     const [anchorElAdmissions, setAnchorElAdmissions] = React.useState(null)
     const [anchorElFundraising, setAnchorElFundraising] = React.useState(null)
@@ -58,15 +44,6 @@ function ResponsiveAppBar() {
     const [anchorElBlog, setAnchorElBlog] = React.useState(null)
 
     const [anchorEl, setAnchorEl] = React.useState(null);
-
-    const handleOpenNavMenu = (event) => {
-        setAnchorElNav(event.currentTarget);
-    };
-    const handleOpenUserMenu = (event) => {
-        setAnchorElUser(event.currentTarget);
-    };
-
-
 
     //opening navigation menus:
     const handleOpenAboutMenu = (event) => {
@@ -93,20 +70,17 @@ function ResponsiveAppBar() {
     const handleCloseFamiliesMenu = () => {
         setAnchorElFamilies(null)
     };
-    const handleOpenBlogMenu = (event) => {
-        setAnchorElBlog(event.currentTarget);
-    };
-    const handleCloseBlogMenu = () => {
-        setAnchorElBlog(null)
-    };
 
-
-    const handleCloseNavMenu = () => {
-        setAnchorElNav(null);
-    };
+//NOT CURRENTLY USING BLOG MENU. ADD THESE BACK IF WE DECIDE TO HAVE BLOG DROPDOWN
+    // const handleOpenBlogMenu = (event) => {
+    //     setAnchorElBlog(event.currentTarget);
+    // };
+    // const handleCloseBlogMenu = () => {
+    //     setAnchorElBlog(null)
+    // };
 
     return (
-        <AppBar position="static">
+        <AppBar position="static" className='app-bar'>
             <Container maxWidth="xl">
                 <Toolbar disableGutters>
                     <Link href='/' className='logo-text' >

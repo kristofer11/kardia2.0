@@ -24,6 +24,7 @@ const BlogMenu = ({ anchorElBlog, handleOpenBlogMenu, handleCloseBlogMenu }) => 
         <div
             onMouseEnter={handleOpenBlogMenu}
             onMouseLeave={handleCloseBlogMenu}
+            className='lg-menu'
         >
             <Button
                 sx={{ p: 0 }}

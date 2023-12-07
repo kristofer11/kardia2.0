@@ -15,6 +15,7 @@ const FundraisingMenu = ({ anchorElFundraising, handleOpenFundraisingMenu, handl
         <div
         onMouseEnter={handleOpenFundraisingMenu}
         onMouseLeave={handleCloseFundraisingMenu}
+        className='lg-menu'
         >
             <Button
              sx={{ p: 0 }}
@@ -23,7 +24,7 @@ const FundraisingMenu = ({ anchorElFundraising, handleOpenFundraisingMenu, handl
             </Button>
 
             <Popper
-                sx={{ mt: '45px' }}
+                sx={{ mt: '45px', zIndex: 1000, }}
                 // id="menu-appbar"
                 anchorEl={anchorElFundraising}
                 anchorOrigin={{

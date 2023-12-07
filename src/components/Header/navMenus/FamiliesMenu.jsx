@@ -24,6 +24,7 @@ const FamiliesMenu = ({ anchorElFamilies, handleOpenFamiliesMenu,handleCloseFami
         <div
             onMouseEnter={handleOpenFamiliesMenu}
             onMouseLeave={handleCloseFamiliesMenu}
+            className='lg-menu'
         >
             <Button
                 sx={{ p: 0 }}
@@ -32,7 +33,7 @@ const FamiliesMenu = ({ anchorElFamilies, handleOpenFamiliesMenu,handleCloseFami
             </Button>
 
             <Popper
-                sx={{ mt: '45px' }}
+                sx={{ mt: '45px', zIndex: 1000, }}
                 // id="menu-appbar"
                 anchorEl={anchorElFamilies}
                 anchorOrigin={{

@@ -38,7 +38,7 @@ const AboutMenu = ({ anchorElAbout, handleOpenAboutMenu, handleCloseAboutMenu })
                 <Typography textAlign="center" style={{ color: 'white' }} className='nav-title'>About</Typography>
             </Button>
             <Popper
-                sx={{ mt: '45px' }}
+                sx={{ mt: '45px', zIndex: 1000,}}
                 // id="menu-appbar"
                 anchorEl={anchorElAbout}
                 anchorOrigin={{
@@ -50,7 +50,7 @@ const AboutMenu = ({ anchorElAbout, handleOpenAboutMenu, handleCloseAboutMenu })
                     vertical: 'top',
                     horizontal: 'left',
                 }}
-                placement="bottom-start"  
+                placement="bottom-start"
                 open={Boolean(anchorElAbout)}
                 onClose={handleCloseAboutMenu}
             >

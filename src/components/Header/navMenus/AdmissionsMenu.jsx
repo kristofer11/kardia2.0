@@ -22,13 +22,14 @@ const AdmissionsMenu = ({ anchorElAdmissions, handleOpenAdmissionsMenu, handleCl
         <div
         onMouseEnter={handleOpenAdmissionsMenu}
         onMouseLeave={handleCloseAdmissionsMenu}
+        className='lg-menu'
         >
 
             <Button onClick={handleOpenAdmissionsMenu} sx={{ p: 0 }}>
                 <Typography textAlign="center" style={{ color: 'white' }} className='nav-title'>Admissions</Typography>
             </Button>
             <Popper
-                sx={{ mt: '45px' }}
+                sx={{ mt: '45px', zIndex: 1000, }}
                 // id="menu-appbar"
                 anchorEl={anchorElAdmissions}
                 anchorOrigin={{
