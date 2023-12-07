@@ -44,7 +44,7 @@ const page = () => {
 
                 <AnimateOpacity>
                     <section className={styles.section} style={{ marginBottom: '2rem' }}>
-                        <p><em>These are the uniform requirements for the 2023-2024 school year. Please note that there are several changes.</em></p>
+                        <p style={{textAlign: 'center'}}><em>These are the uniform requirements for the 2023-2024 school year. Please note that there are several changes.</em></p>
                     </section>
                 </AnimateOpacity>
                 </div>
@@ -62,7 +62,7 @@ const page = () => {
                 </AnimateOpacity>
                 <AnimateOpacity>
                     <section className={styles.section} style={{ marginBottom: '2rem' }}>
-                        <p><em>These are the Pre-K uniform requirements for the 2023-2024 school year.</em></p>
+                        <p style={{textAlign: 'center'}}><em>These are the Pre-K uniform requirements for the 2023-2024 school year.</em></p>
                     </section>
                 </AnimateOpacity>
                 </div>
