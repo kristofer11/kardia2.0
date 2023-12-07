@@ -1,11 +1,12 @@
-.beginningImg {
-    width: clamp(300px, 777px, 100%);
-    height: auto;
-}
-
 .beginningSection {
     margin-bottom: 2rem;
-    
+    text-align: center;
+
+    .beginningImg {
+        width: clamp(300px, 777px, 100%);
+        height: auto;
+    }
+
     .beginningTitle {
         font-size: 3rem;
         font-weight: 500;
@@ -14,5 +15,6 @@
     .beginningText {
         font-size: 1.3rem;
         margin: 2rem 0 3rem;
+        text-align: start;
     }
 }

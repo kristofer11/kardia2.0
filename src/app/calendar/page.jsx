@@ -6,7 +6,7 @@ import AnimateOpacity from '@/components/animations/AnimateOpacity';
 
 const page = () => {
     return (
-        <main className={`${styles.programsMain} page-main`}>
+        <main className={`${styles.main} page-main`}>
 
             <article className={`page-content`}>
                 <AnimateOpacity>
