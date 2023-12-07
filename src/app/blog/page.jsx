@@ -21,7 +21,7 @@ const page = () => {
             <article className={`page-content ${styles.blogContent}`}>
                 <AnimateOpacity>
                     <section>
-                        <h3 className='text-center'>Welcome to Kardia's blog where you will find articles written by various members of our community!</h3>
+                        <h3 className='text-center'>Welcome to Kardia&#39;s blog where you will find articles written by various members of our community!</h3>
                     </section>
                 </AnimateOpacity>
                 <AnimateOpacity>
@@ -31,7 +31,7 @@ const page = () => {
                                 📄<Link href='/blog/october2023'>Navigating Screen Time: Striking the Right Balance for Our Children</Link>
                             </li>
                             <li className='blog-link'>
-                                📄<Link href='/blog/august2023'>Classical Roots: The Importance of "The Lost Tools of Learning" by Dorothy Sayers</Link>
+                                📄<Link href='/blog/august2023'>Classical Roots: The Importance of &#34;The Lost Tools of Learning&#34; by Dorothy Sayers</Link>
                             </li>
                             <li className='blog-link'>
                                 📄<Link href='/blog/july2023'>Unveiling the Complex Realities of AI Integration in Education</Link>
@@ -48,10 +48,10 @@ const page = () => {
                                 📄<Link href='/blog/july2021'>Why a Well-Rounded Education Includes Music</Link>
                             </li>
                             <li className='blog-link'>
-                                📄<Link href='/blog/june2021'>What Does “Parent Partnership” Mean?</Link>
+                                📄<Link href='/blog/june2021'>What Does &#34;Parent Partnership&#34; Mean?</Link>
                             </li>
                             <li className='blog-link'>
-                                📄<Link href='/blog/may2021'>What Does it Mean to be a “Classical School?”</Link>
+                                📄<Link href='/blog/may2021'>What Does it Mean to be a &#34;Classical School?&#34;</Link>
                             </li>
                         </ul>
                     </section>

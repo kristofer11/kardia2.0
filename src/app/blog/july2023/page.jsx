@@ -42,7 +42,7 @@ const page = () => {
                         <section className={styles.section}>
 
                             <p>
-                                Artificial Intelligence (AI) has made its way into the realm of education, including private schools. There is no getting around it, students are already aware of ChatGPT and are taking advantage of it, for better or for worse. As educators, we must do our due dilligence to take advantage of this technology when appropriate, yet safeguard students from potential pitfalls. In this article, we'll explore the potential benefits of AI in private school education while keeping a keen eye on academic honesty and the temptation to take shortcuts.
+                                Artificial Intelligence (AI) has made its way into the realm of education, including private schools. There is no getting around it, students are already aware of ChatGPT and are taking advantage of it, for better or for worse. As educators, we must do our due dilligence to take advantage of this technology when appropriate, yet safeguard students from potential pitfalls. In this article, we&#39;ll explore the potential benefits of AI in private school education while keeping a keen eye on academic honesty and the temptation to take shortcuts.
                             </p>
                         </section>
                     </AnimateOpacity>
@@ -51,10 +51,10 @@ const page = () => {
                             <h5 className={`${lato.className} ${styles.heading}`}>
                                 <strong>Potential Advantages of AI in Education</strong>
                             </h5>
-                            <p>Screens are ubiquitous, offering both incredible opportunities and potential pitfalls for our children's development. As parents, we encounter the following challenges:</p>
+                            <p>Screens are ubiquitous, offering both incredible opportunities and potential pitfalls for our children&#39;s development. As parents, we encounter the following challenges:</p>
                             <ol>
                                 <li>
-                                    <p>Personalized Learning: AI enables personalized learning experiences tailored to individual students' needs. It can analyze strengths, weaknesses, and learning styles to provide customized content, helping students stay engaged and motivated.</p>
+                                    <p>Personalized Learning: AI enables personalized learning experiences tailored to individual students&#39; needs. It can analyze strengths, weaknesses, and learning styles to provide customized content, helping students stay engaged and motivated.</p>
                                 </li>
                                 <li>
                                     <p>                        Enhanced Student Support: AI-powered tools like virtual assistants and chatbots offer immediate and accessible support to students. They can provide answers to questions, explanations of concepts, and additional resources, assisting students even outside traditional classroom hours.</p>
@@ -92,13 +92,13 @@ const page = () => {
 
                             <ol>
                                 <li>
-                                    <p>Ethical Considerations: The use of AI in education raises ethical concerns, particularly regarding data privacy and security. School leaders must prioritize transparent data practices, secure data storage, and adhere to data protection regulations to maintain trust and protect students' privacy.</p>
+                                    <p>Ethical Considerations: The use of AI in education raises ethical concerns, particularly regarding data privacy and security. School leaders must prioritize transparent data practices, secure data storage, and adhere to data protection regulations to maintain trust and protect students&#39; privacy.</p>
                                 </li>
                                 <li>
                                     <p>Balancing Technology and Human Interaction: While AI can enhance learning experiences, maintaining a balance between technology and human interaction is crucial. Preserving the vital teacher-student relationship and promoting critical thinking skills require an approach that combines the benefits of AI with genuine human connection.</p>
                                 </li>
                                 <li>
-                                    <p>Fostering Academic Integrity: While AI offers assistance, it's essential to emphasize the importance of academic honesty. It is unfortunately becoming far too easy for students to cheat. Tools are available to detect the usage of AI in papers students turn in, however, it is far more important that we foster a culture of integrity and appreciation for satisfaction rigorous academic work brings.</p>
+                                    <p>Fostering Academic Integrity: While AI offers assistance, it&#39;s essential to emphasize the importance of academic honesty. It is unfortunately becoming far too easy for students to cheat. Tools are available to detect the usage of AI in papers students turn in, however, it is far more important that we foster a culture of integrity and appreciation for satisfaction rigorous academic work brings.</p>
                                 </li>
                             </ol>
                         </section>
