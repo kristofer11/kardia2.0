@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import styles from '../page.module.scss';
 import AnimateOpacity from '@/components/animations/AnimateOpacity';
-import { Merriweather, Lato } from 'next/font/google'
+import { Merriweather, Lato } from 'next/font/google';
 
 const merriweather = Merriweather({
     subsets: ['latin'],
