@@ -28,25 +28,28 @@ export default function Home() {
             />
             <section className='page-content'>
                 <AnimateOpacity>
-                    <div className={`${styles.introDiv} ${styles.introDiv1}`}>
+                    <div className={styles.heroBg}>
+                        <div className={`${styles.introDiv} ${styles.introDiv1}`}>
 
-                        <div className={styles.introText}>
-                            <h4><strong>The best of both worlds</strong></h4>
-                            <p>
-                                Kardia Classical School combines the benefits of homeschooling and private school education. We call this a <em><strong>parent partnership</strong></em>.
-                            </p>
-                            <Button variant="contained" href='/enrollment' className={styles.homeBtn}>Enrollment</Button>
+                            <div className={styles.introText}>
+                                <h4><strong>The best of both worlds</strong></h4>
+                                <p>
+                                    Kardia Classical School combines the benefits of homeschooling and private school education. We call this a <em><strong>parent partnership</strong></em>.
+                                </p>
+                                <Button variant="contained" href='/enrollment' className={styles.homeBtn}>Enrollment</Button>
+                            </div>
+
+                            <Image
+                                src='/images/spellingbee.jpg'
+                                alt='Kardia students sitting on the floor next to a treehouse.'
+                                width='640'
+                                height='640'
+                                className={`${styles.spellingBeeImg} ${styles.homeImg}`}
+                            />
+
                         </div>
-
-                        <Image
-                            src='/images/spellingbee.jpg'
-                            alt='Kardia students sitting on the floor next to a treehouse.'
-                            width='640'
-                            height='640'
-                            className={`${styles.spellingBeeImg} ${styles.homeImg}`}
-                        />
-
                     </div>
+
                 </AnimateOpacity>
                 <AnimateOpacity>
                     <div className={styles.introDiv}>
@@ -61,7 +64,7 @@ export default function Home() {
                         <div className={styles.introText}>
                             <h4><strong>Our Mission</strong></h4>
                             <p>
-                                Kardia Classical School aims to provide parents with the tools that they need to classically educate their children in a way that is rooted in a Christian worldview. Together, parents and teachers will nurture students’ appreciation of truth, goodness, and beauty as they strive for excellence.
+                                Kardia Classical School aims to provide parents with the tools that they need to classically educate their children in a way that is rooted in a Christian worldview. Together, parents and teachers will nurture students&#39; appreciation of truth, goodness, and beauty as they strive for excellence.
                             </p>
                             <Button variant='contained' href='/programs' className={styles.homeBtn}>Program Options</Button>
                         </div>
@@ -75,7 +78,7 @@ export default function Home() {
                         </video>
                         <Button variant="contained" href='/contact' className={styles.inquiryButton}>Inquire Now</Button>
 
-                    </div>                    
+                    </div>
                 </AnimateOpacity>
             </section>
 
