@@ -79,7 +79,7 @@ header {
 }
 
 //Small screen nav menu styling
-.css-1160xiw-MuiPaper-root-MuiDrawer-paper{
+.MuiPaper-root.MuiPaper-elevation.MuiPaper-elevation16.MuiDrawer-paper.MuiDrawer-paperAnchorRight.css-1160xiw-MuiPaper-root-MuiDrawer-paper{
     background-color: var(--nav-link-hover-color) !important;
 }
 
@@ -118,6 +118,7 @@ header {
     width: 100%;
     text-align: center;
     margin-block: auto 5rem;
+    background-color: var(--nav-link-hover-color);
 
     .close-btn-sm-screen{
         font-size: 1.4rem;
