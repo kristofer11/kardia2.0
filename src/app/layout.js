@@ -1,6 +1,7 @@
 import { Inter } from 'next/font/google'
 import { Quicksand, Roboto, Poppins } from 'next/font/google'
 import './globals.scss';
+import Head from 'next/head';
 import Header from '../components/Header/Header';
 import Footer from '../components/Footer/Footer'
 import 'bootstrap/dist/css/bootstrap.css';
@@ -36,6 +37,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
     return (
         <html lang="en">
+            <Head>
+                <link rel="canonical" href="https://kardiaclassical.org" />
+            </Head>
             <body style={{ flex: 1 }}>
                 <MessengerChat />
                 <Header />
