@@ -62,10 +62,10 @@ const page = () => {
                 <AnimateOpacity>
                 <section className={styles.section}>
                     <Image
-                        src='/images/legos.jpg'
+                        src='/images/christmas2023.jpeg'
                         width='640'
                         height='480'
-                        alt='Several elementary-age students being creative with legos'
+                        alt='Kardia students performing at their Christmas event.'
                     />
                 </section>
                 </AnimateOpacity>
