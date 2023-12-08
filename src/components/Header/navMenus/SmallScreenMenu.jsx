@@ -55,7 +55,7 @@ const Navbar = () => {
     // }
 
     return (
-        <Box sx={{ display: { xs: 'flex', md: 'none', zIndex: '50' } }}>
+        <Box sx={{ display: { xs: 'flex', md: 'none', zIndex: '50', } }}>
             <Toolbar>
                 <IconButton
                     size="large"
@@ -66,16 +66,15 @@ const Navbar = () => {
                 >
                     <MenuIcon />
                 </IconButton>
-                {/* Other AppBar content */}
             </Toolbar>
-
             <Drawer
                 anchor="right"
                 open={isDrawerOpen}
                 onClose={handleToggleDrawer}
                 className='sm-menu-drawer'
+                sx={{backgroundColor: '#14611A' }}
             >
-                <List sx={{ width: '80vw', display: 'flex', flexDirection: 'column', alignItems: 'center !important', textAlign: 'center' }}>
+                <List sx={{ width: '80vw', display: 'flex', flexDirection: 'column', alignItems: 'center !important', textAlign: 'center', }}>
                     <ListItem className='small-menu-button'>
                         <Button onClick={handleOpenAboutMenu}>About <ArrowForwardIosIcon /></Button>
                         <Menu
