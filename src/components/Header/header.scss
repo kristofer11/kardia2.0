@@ -80,8 +80,7 @@ header {
 
 //Small screen nav menu styling
 .css-1160xiw-MuiPaper-root-MuiDrawer-paper{
-    // background-color: var(--nav-link-hover-color);
-    background-color: #14611A;
+    background-color: var(--nav-link-hover-color) !important;
 }
 
 .small-screen-menu-div {
@@ -99,12 +98,12 @@ header {
 
     button {
         font-size: 1.4rem;
-        // color: var(--main-light-text-color);
+        color: var(--main-light-text-color);
         text-transform: unset;
     }
 
     .blog-link {
-        // color: var(--main-light-text-color);
+        color: var(--main-light-text-color);
         text-transform: unset;
     }
 }
