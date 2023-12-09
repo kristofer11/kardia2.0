@@ -22,7 +22,7 @@ const page = () => {
                         <Image
                             width='640'
                             height='440'
-                            src='/images/baloonscience.jpeg'
+                            src='/images/baloonScience.jpeg'
                             alt='Five Kardia students sitting on the floor in uniform.'
                             className={styles.mainImg}
                         />
