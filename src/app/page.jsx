@@ -15,7 +15,7 @@ export default function Home() {
     return (
         <main className={`${styles.main} page-main`}>
             <Banner
-                img='/banners/home-banner.jpg'
+                img='/banners/trees-banner.jpeg'
                 alt='Lightbulbs over a bookshelf in a library'
                 title={
                     <>
