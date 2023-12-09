@@ -5,7 +5,7 @@
     align-items: center;
     gap: 3rem;
     padding: 2rem;
-    margin: 2rem;
+    margin: 2rem 0;
 
     .spellingBeeImg {
         aspect-ratio: 1/1;
@@ -38,12 +38,12 @@
     }
 
     &.introDiv1 {
-        // height: 55vh;
+        min-height: 60vh;
         background-color: var(--link-hover-bg-color);
         // width: 100vw;
-        max-width: 1222px;
+        max-width: 999px;
         color: var(--main-light-text-color);
-        margin-top: 0;
+        margin-block: 2rem;
     }
 
     @media only screen and (max-width: 768px){
@@ -51,6 +51,7 @@
 
         &.introDiv1{
             height: unset;
+            min-height: unset;
             padding: 3rem 2rem;
         }
         
@@ -77,9 +78,9 @@
 }
 
 .homeVideoDiv {
-    min-height: 100vh;
+    min-height: 60vh;
     width: 100vw;
-    padding: 5rem 2rem;
+    padding: 2rem 2rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -92,12 +93,14 @@
         // color: var(--main-light-text-color);
         color: var(--main-text-color);
         text-align: center;
-        margin: 3rem 2rem;
+        margin: 1rem 2rem;
     }
     .homeVideo {
         width: clamp(300px, 555px, 100%);
         // height: auto;
         max-width: 100%;
+        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.7);
+        border-radius: 1%;
         // object-fit: cover;
     }    
     .inquiryButton{

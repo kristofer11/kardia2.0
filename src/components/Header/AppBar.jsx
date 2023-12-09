@@ -88,7 +88,7 @@ function ResponsiveAppBar() {
                             component='img'
                             width='4rem'
                             height='4rem'
-                            sx={{ display: 'flex', mr: 0.5 }}
+                            sx={{ display: 'flex', mr: 0.5, boxShadow: 'unset' }}
                             src='/images/logo.png'
                         />
                     </Link>
