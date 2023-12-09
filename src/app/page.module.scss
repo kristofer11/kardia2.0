@@ -5,7 +5,6 @@
     align-items: center;
     gap: 3rem;
     padding: 2rem;
-    margin: 2rem 0;
 
     .spellingBeeImg {
         aspect-ratio: 1/1;
@@ -39,10 +38,7 @@
 
     &.introDiv1 {
         min-height: 60vh;
-        background-color: var(--link-hover-bg-color);
-        // width: 100vw;
         max-width: 999px;
-        color: var(--main-light-text-color);
         margin-block: 2rem;
     }
 
@@ -67,11 +63,14 @@
     .homeBtn {
         font-size: 1.2rem;
     }
+    .enrollmentBtn, .programsBtn, .programBtn {
+        background-color: var(--link-hover-bg-color);
+    }
 }
 
 .heroBg {
     width: 100vw;
-    background-color: var(--link-hover-bg-color);
+    // background-color: var(--alt-bg-color);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -106,6 +105,27 @@
     .inquiryButton{
         font-size: 1.6rem;
         margin-top: 1rem;
+        background-color: var(--link-hover-bg-color);
     }
 }
 
+
+.homeSlogan{
+    width: 100vw;
+    max-width: 100vw;
+    min-height: 66px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: var(--link-hover-bg-color);
+    color: var(--main-light-text-color);
+    padding-block: 0.77rem;
+
+    h4{
+        max-width: 100%;
+        text-align: center;
+        font-size: 2rem;
+        margin-inline: 2rem;
+    }
+}
