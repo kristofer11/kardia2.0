@@ -28,6 +28,10 @@ export default function Home() {
             />
             <section className='page-content'>
                 <AnimateOpacity>
+                    <div className={styles.homeSlogan}>
+                        <h4>Now enrolling for the 2023-2024 school year</h4>
+                        <Button href='/contact' variant='contained'>Inquire Now</Button>
+                    </div>
                     <div className={styles.heroBg}>
                         <div className={`${styles.introDiv} ${styles.introDiv1}`}>
 
@@ -36,7 +40,7 @@ export default function Home() {
                                 <p>
                                     Kardia Classical School combines the benefits of homeschooling and private school education. We call this a <em><strong>parent partnership</strong></em>.
                                 </p>
-                                <Button variant="contained" href='/enrollment' className={styles.homeBtn}>Enrollment</Button>
+                                <Button variant="contained" href='/enrollment' className={`${styles.homeBtn} ${styles.enrollmentBtn}`}>Enrollment</Button>
                             </div>
 
                             <Image
@@ -49,7 +53,6 @@ export default function Home() {
 
                         </div>
                     </div>
-
                 </AnimateOpacity>
                 <AnimateOpacity>
                     <div className={styles.introDiv}>
@@ -66,9 +69,12 @@ export default function Home() {
                             <p>
                                 Kardia Classical School aims to provide parents with the tools that they need to classically educate their children in a way that is rooted in a Christian worldview. Together, parents and teachers will nurture students&#39; appreciation of truth, goodness, and beauty as they strive for excellence.
                             </p>
-                            <Button variant='contained' href='/programs' className={styles.homeBtn}>Program Options</Button>
+                            <Button variant='contained' href='/programs' className={`${styles.homeBtn} ${styles.programsBtn}`}>Program Options</Button>
                         </div>
                     </div>
+                </AnimateOpacity>
+                <AnimateOpacity>
+                    <div style={{borderBottom: '2px solid #14611A', width: '999px', maxWidth: '92vw'}}></div>
                 </AnimateOpacity>
                 <AnimateOpacity>
                     <div className={styles.homeVideoDiv}>
