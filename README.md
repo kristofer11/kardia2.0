@@ -1,6 +1,6 @@
 # Kardia Classical School Website
 
-![Project Screenshot](/images/KardiaScreenshot.png)
+![Project Screenshot](./public/images/KardiaScreenshot.png)
 
 ## Overview
 
