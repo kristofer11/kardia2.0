@@ -25,7 +25,7 @@ Explore the live site: [Kardia Classical School](https://www.kardiaclassical.org
 - Framer Motion
 - Sass
 
-## Copyright 2023 Your Organization. All rights reserved.
+## &copy; 2023 Kardia Classical School. All rights reserved.
 
 ---
 
