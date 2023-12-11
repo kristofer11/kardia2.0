@@ -97,6 +97,9 @@ const Footer = () => {
                     <img src='/images/footer/yelp.png' alt="Instagram Logo" className='footer-social yelp' />
                 </a>
             </section>
+            <section className='footer-section'>
+                <small>&copy; 2023 Kardia Classical School</small>
+            </section>
         </footer>
     )
 }
