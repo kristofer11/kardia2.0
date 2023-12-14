@@ -47,6 +47,7 @@ export default function RootLayout({ children }) {
                 <div className={poppins.className}>
                     {children}
                 </div>
+                <Analytics />
                 <Footer />
             </body>
         </html>
