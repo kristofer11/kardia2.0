@@ -98,7 +98,7 @@ const Footer = () => {
                 </a>
             </section>
             <section className='footer-section'>
-                <small>&copy; 2023 Kardia Classical School</small>
+                <small><span>&copy; 2023 Kardia Classical School | </span><span>Designed and built by <Link href='http://krishvattum.com' target="_blank" style={{color: '#1A1461', fontWeight: 'bold'}} > <em>Kris Hvattum</em></Link></span></small>
             </section>
         </footer>
     )
