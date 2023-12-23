@@ -79,15 +79,15 @@ export const STAFF = [
     {
         id: 11,
         name: 'Ashlea Hayter',
-        title: 'Financial Director & Board Treasurer',
+        title: 'Financial Dir. & Board Treasurer',
         bio: 'Ashlea has an accounting degree from Seattle Pacific University. Before taking time off to raise her daughters Ashlea worked for the regional CPA firm, Peterson Sullivan (acquired in 2019 by BDO), as a senior accountant for over 8 years. Her primary industries of audit expertise were real estate investments and private schools throughout the Pacific Northwest. Ashlea is also the Coordinator of Antioch MOPS in Kirkland. She has two girls enrolled at Kardia and one future student. Ashlea and her husband Chris feel a Classical education provides the academic excellence and moral framework that will help prepare their children for a meaningful future.',
         image: '/staff/HayterAshlea.jpg'
     },
     {
         id: 12,
         name: 'Kris Hvattum',
-        title: 'Board Chairman & Web Developer',
-        bio: 'Kris has been teaching since 2016 and has really enjoyed learning more about the classical method. He has two children who currently attend Kardia Classical School. He has four years of experience in classical education and has worked in public and private schools. Kris has a bachelors in Biblical Literature and a Masters in Teaching. He is our video lesson Logic teacher, as well as the Chairman of the Board of Directors.',
+        title: 'Board Chairman',
+        bio: 'Kris has been teaching since 2016 and has really enjoyed learning more about the classical method. He has two children who currently attend Kardia Classical School. He has 4 years of experience in classical education and has worked in public and private schools. Kris has a bachelors in Biblical Literature and a Masters in Teaching. He is the Chairman of the Board of Directors and developed Kardia\'s website.',
         image: '/staff/kris.jpg'
     },
     {
@@ -107,7 +107,7 @@ export const STAFF = [
     {
         id: 15,
         name: 'Tracy Whitfield',
-        title: 'Co-Founder & Video Lesson Teacher',
+        title: 'Co-Founder',
         bio: 'Tracy Whitfield is a co-founder of Kardia Classical School, and has been teaching since 2009, most of those years in classical, Christian education. Having graduated from Hillsdale College, Tracy is passionate about the value of classical education. After teaching in the public school system, Tracy found that she wanted to be able to share Christ with her students and mentor them. After leaving the public school system, Tracy eagerly began teaching classical education. She has taught at Cornerstone Academy, Kardia Classical School, and The Bear Creek School. She is a video lesson teacher for upper elementary grammar, cursive and manuscript handwriting, 3rd through 5th-grade math, and more.',
         image: '/staff/tracy.jpg'
     }
