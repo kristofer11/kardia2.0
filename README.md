@@ -25,6 +25,10 @@ Explore the live site: [Kardia Classical School](https://www.kardiaclassical.org
 - Framer Motion
 - Sass
 
+## Photo Credit
+
+auction(poppies): Corina Ardeleanu on Unsplash https://unsplash.com/photos/red-poppy-flower-field-at-daytime-sWlxCweDzzs
+
 ## &copy; 2023 Kardia Classical School. All rights reserved.
 
 ---
