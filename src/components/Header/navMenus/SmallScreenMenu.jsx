@@ -109,6 +109,7 @@ const Navbar = () => {
                         >
                             <MenuItem onClick={() => handleClose(setFundraisingMenuAnchor)} className='small-menu-item'><Link href='/fundraising' style={{ width: '100%' }}>Fundraising Opportunities</Link></MenuItem>
                             <MenuItem onClick={() => handleClose(setFundraisingMenuAnchor)} className='small-menu-item'><Link href='/donations' style={{ width: '100%' }}>Donations</Link></MenuItem>
+                            <MenuItem onClick={() => handleClose(setFundraisingMenuAnchor)} className='small-menu-item'><Link href='/auction' style={{ width: '100%' }}>Auction</Link></MenuItem>
 
                             {/* REMOVE JOG-A-THON UNTIL IT IS RELEVANT IN 2024 */}
                             
