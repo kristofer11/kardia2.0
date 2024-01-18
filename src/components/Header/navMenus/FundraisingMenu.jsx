@@ -53,6 +53,11 @@ const FundraisingMenu = ({ anchorElFundraising, handleOpenFundraisingMenu, handl
                                 <Typography textAlign="center">Donations</Typography>
                             </Link>
                         </MenuItem>
+                        <MenuItem onClick={handleCloseFundraisingMenu}>
+                            <Link href='/auction'>
+                                <Typography textAlign="center">Auction</Typography>
+                            </Link>
+                        </MenuItem>
 
 
                         {/* REMOVE JOG-A-THON UNTIL IT IS RELEVANT IN 2024-25 SCHOOL YEAR */}
