@@ -30,5 +30,3 @@ Explore the live site: [Kardia Classical School](https://www.kardiaclassical.org
 ---
 
 Thank you for checking out the Kardia Classical School website! We hope you enjoy exploring our work.
-
-
