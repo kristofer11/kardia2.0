@@ -5,6 +5,7 @@ import Head from 'next/head';
 import Header from '../components/Header/Header';
 import Footer from '../components/Footer/Footer'
 import 'bootstrap/dist/css/bootstrap.css';
+import { Analytics } from '@vercel/analytics/react';
 
 import MessengerChat from '@/components/MessengerChat';
 
@@ -46,6 +47,7 @@ export default function RootLayout({ children }) {
                 <div className={poppins.className}>
                     {children}
                 </div>
+                <Analytics />
                 <Footer />
             </body>
         </html>

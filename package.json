@@ -15,6 +15,7 @@
     "@mui/icons-material": "^5.14.18",
     "@mui/material": "^5.14.18",
     "@mui/system": "^5.14.20",
+    "@vercel/analytics": "^1.1.1",
     "bootstrap": "^5.3.2",
     "framer-motion": "^10.16.9",
     "install": "^0.13.0",
