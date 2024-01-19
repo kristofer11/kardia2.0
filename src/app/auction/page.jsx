@@ -18,7 +18,7 @@ const page = () => {
                 strength='400'
             />
             <div className={styles.auctionImgDiv}>
-                <Link href='https://www.paycomonline.net/v4/ats/web.php/jobs/ViewJobDetails?job=129336&clientkey=FD86B4C26FC36774A8A7B421DEA7317C' target="_blank">
+                <Link href='https://event.auctria.com/098ec287-a306-4325-a86b-4ea46c1ad013/' target="_blank">
                     <Image 
                         src='/images/auction.jpg'
                         width='900'
