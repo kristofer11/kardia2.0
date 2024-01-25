@@ -12,7 +12,7 @@ const page = () => {
                 <article className="page-content">
                     <section className={styles.cardSection}>
                         <Card className={styles.enrollCard}>
-                            <Typography variant="h5" component="div" sx={{ textAlign: 'center' }}>
+                            <Typography variant="h5" component="div" sx={{ textAlign: 'center', fontSize: '1.8rem' }}>
                                 Accepting applications for the 2024-25 school year starting February 15th!
                             </Typography>
                             <CardMedia
