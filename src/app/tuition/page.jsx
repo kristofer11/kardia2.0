@@ -12,13 +12,13 @@ const page = () => {
                 <article className="page-content">
                     <section className={styles.cardSection}>
                         <Card className={styles.enrollCard}>
-                            <Typography variant="h5" component="div" sx={{ textAlign: 'center' }}>
-                                Now accepting applications for the 2023-2024 school year!
+                            <Typography variant="h5" component="div" sx={{ textAlign: 'center', fontSize: '1.8rem' }}>
+                                Accepting applications for the 2024-25 school year starting February 15th!
                             </Typography>
                             <CardMedia
                                 component='img'
                                 height='777'
-                                image='/images/enroll/tuitionChart2023-24.png'
+                                image='/images/enroll/2024-25-tuition.jpg'
                                 alt='Charts displaying tuition prices.'
                                 className={styles.cardImg}
                             />
@@ -29,7 +29,7 @@ const page = () => {
                     </section>
                     <section>
                         <p >
-                            Visit our <a href='/Programs'>Program Options</a> page to see all of the options for the 2023-2024 school year.
+                            Visit our <a href='/Programs'>Program Options</a> page to see all of the options for the 2024-2025 school year.
                         </p>
                     </section>
                 </article>
