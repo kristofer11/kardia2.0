@@ -1,0 +1,27 @@
+form {
+    display: flex;
+    flex-direction: column;
+    // align-items: center;
+    // width: 444px;
+    width: 555px;
+    max-width: 95%;
+    height: 100%;
+
+    button {
+        width: 111px;
+        align-self: center;
+        margin-top: 2rem;
+        font-size: 1.6rem;
+        margin-top: 1rem;
+        background-color: var(--link-hover-bg-color);
+    }
+
+    .message-input {
+        height: 133px;
+    }
+    @media only screen and (max-width: 768px){
+        width: 90vw;
+        max-width: 100%;
+    }
+
+}

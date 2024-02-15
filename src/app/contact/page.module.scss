@@ -3,17 +3,19 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        min-height: 60vh;
-        margin-bottom: 3rem;
+        // min-height: 60vh;
+        // margin-bottom: 3rem;
 
         h2 {
-            margin-block: 1rem 2rem;
+            margin-block: 2rem;
         }
 
         .contactDiv {
             display: flex;
+            justify-content: space-between;
+            max-width: 100%;
             img {
-                width: 30%;
+                width: 35%;
                 height: auto;
                 aspect-ratio: 1/1;
                 object-fit: cover;
@@ -22,21 +24,27 @@
                 flex-direction: column;
                 align-items: center;
                 img {
-                    height: 222px;
-                    width: 333px;
-                    order: 2
+                    // height: 222px;
+                    // width: 333px;
+                    // max-width: 100vw;
+                    // order: 2;
+                    // margin-top: 2rem;
+                    display: none;
                 }
             }
             .linkDiv {
                 display: flex;
                 flex-direction: column;
                 // justify-content: center;
-                margin: 1rem;
+                // align-items: end;
+                max-width: 98vw;
+                margin: 0 1rem;
+
             }
         }
     }
     section {
-        margin-top: 3rem;
+        // margin-top: 3rem;
         .animated{
             max-width: 100%;
         }
