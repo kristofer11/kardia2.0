@@ -4,6 +4,7 @@ import { useForm, ValidationError } from '@formspree/react';
 import Button from '@mui/material/Button';
 
 function ContactForm() {
+    const [captcha, getCaptchaProps] = useCaptcha();
     const [state, handleSubmit] = useForm("xnqylggz");
     if (state.succeeded) {
         return <p>Thanks for contacting Kardia! We will reply as soon as possible.</p>;
@@ -50,6 +51,9 @@ function ContactForm() {
                 field="message"
                 errors={state.errors}
             />
+            {captcha}
+
+
             <Button type="submit" disabled={state.submitting} variant='contained' className='mt-3'>Submit</Button>
 
         </form>
