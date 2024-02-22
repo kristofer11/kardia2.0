@@ -10,7 +10,7 @@ function ContactForm() {
     // Need to add the key for development.
     // const formspreeApiKey = process.env.FORMSPREE_API_KEY;
 
-    const [state, handleSubmit] = useForm(`${FORMSPREE_API_KEY}`);
+    const [state, handleSubmit] = useForm(`${process.env.FORMSPREE_API_KEY}`);
     const [potFilled, setPotFilled] = useState('false')
 
     const submitForm = async (event) => {
@@ -19,7 +19,7 @@ function ContactForm() {
         if (honeypotField.value) {
             console.log("Honeypot field filled. Likely a bot submission.");
             setPotFilled(true);
-            console.log(FORMSPREE_API_KEY)
+            console.log(process.env.FORMSPREE_API_KEY)
             return;
         }
         handleSubmit(event);
