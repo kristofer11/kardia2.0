@@ -6,7 +6,9 @@ import Button from '@mui/material/Button';
 
 function ContactForm() {
     // const [captcha, getCaptchaProps] = useCaptcha();
-    const formspreeApiKey = FORMSPREE_API_KEY;
+
+    // Need to add the key for development.
+    const formspreeApiKey = process.env.FORMSPREE_API_KEY;
 
     const [state, handleSubmit] = useForm(`${formspreeApiKey}`);
     const [potFilled, setPotFilled] = useState('false')
