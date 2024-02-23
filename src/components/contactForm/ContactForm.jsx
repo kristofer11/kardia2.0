@@ -19,7 +19,6 @@ function ContactForm() {
         if (honeypotField.value) {
             console.log("Honeypot field filled. Likely a bot submission.");
             setPotFilled(true);
-            console.log(process.env.FORMSPREE_API_KEY)
             return;
         }
         handleSubmit(event);
