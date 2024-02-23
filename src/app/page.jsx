@@ -29,7 +29,7 @@ export default function Home() {
             <section className='page-content'>
                 <AnimateOpacity>
                     <div className={styles.homeSlogan}>
-                        <h4>Enrolling for the 2024-2025 school year starting February 15th</h4>
+                        <h4>Now enrolling for the 2024-2025 school year!</h4>
                         <Button href='/contact' variant='contained'>Inquire Now</Button>
                     </div>
                     <div className={styles.heroBg}>
