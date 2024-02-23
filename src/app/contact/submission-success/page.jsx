@@ -1,20 +1,32 @@
 "use client"
 import Banner from '../../../components/Banner/Banner';
+import { use, useEffect } from 'react';
 import styles from './page.module.scss';
 import Image from 'next/image';
 import Link from 'next/link';
 import { Button } from '@mui/material';
 import AnimateOpacity from '@/components/animations/AnimateOpacity';
 import Confetti from 'react-confetti';
+import { useRouter } from 'next/navigation';
 
 const page = () => {
+    const router = useRouter();
+
+    const navigateHome = () => {
+        router.push('/');
+    }
+
+    useEffect(() => {
+        setTimeout(navigateHome, 12000);
+    }, [])
+
     return (
         <main className={`page-main ${styles.contactMain}`}>
             <Confetti />
             <AnimateOpacity>
-                <section className={`page-content ${styles.contactContent}`} style={{ maxWidth: '98vw', marginTop: '2rem'}}>
-                    <h2 className='text-center' style={{ color: '#152d7d'}}>Thanks for contacting Kardia!</h2>
-                    <h4 className='text-center' style={{ color: '#152d7d'}}>We will be in touch soon.</h4>
+                <section className={`page-content ${styles.contactContent}`} style={{ maxWidth: '98vw', marginTop: '2rem' }}>
+                    <h2 className='text-center' style={{ color: '#152d7d' }}>Thanks for contacting Kardia!</h2>
+                    <h4 className='text-center' style={{ color: '#152d7d' }}>We will be in touch soon.</h4>
                     <div className={styles.buttons}>
                         <Button variant='contained' href='/'>Home</Button>
                         <Button variant='contained' href='/enrollment'>Enrollment</Button>
