@@ -23,6 +23,7 @@
     "next": "14.0.2",
     "npm": "^10.2.4",
     "react": "^18",
+    "react-confetti": "^6.1.0",
     "react-dom": "^18",
     "react-intersection-observer": "^9.5.3",
     "react-parallax": "^3.5.1",

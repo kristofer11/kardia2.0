@@ -1,0 +1,44 @@
+.hatcheryImg {
+    width: 444px;
+    height: auto;
+    max-width: 95vw;
+    margin: 3rem 0 7rem;
+}
+
+.contactContent {
+    h2 {
+        font-size: 2.8rem;
+        margin-top: 6rem;
+    }
+
+    h4 {
+        font-size: 2.3rem;
+    }
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    margin-top: 3rem;
+
+    h6 {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .contactContent {
+        h2 {
+            font-size: 2rem;
+        }
+
+        h4 {
+            font-size: 1.4rem;
+            ;
+        }
+    }
+
+}

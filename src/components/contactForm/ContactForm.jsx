@@ -3,12 +3,15 @@ import './contactForm.scss';
 import { useState } from 'react';
 import { useForm, ValidationError } from '@formspree/react';
 import Button from '@mui/material/Button';
+import { useRouter } from 'next/navigation';
 
 function ContactForm() {
     // const [captcha, getCaptchaProps] = useCaptcha();
 
     // Need to add the key for development.
     // const formspreeApiKey = process.env.FORMSPREE_API_KEY;
+
+    const router = useRouter();
 
     const [state, handleSubmit] = useForm("xnqylggz");
     const [potFilled, setPotFilled] = useState('false')
@@ -19,14 +22,16 @@ function ContactForm() {
         if (honeypotField.value) {
             console.log("Honeypot field filled. Likely a bot submission.");
             setPotFilled(true);
+            router.push('/contact/submission-success');
             return;
         }
         handleSubmit(event);
+        router.push('/contact/submission-success');
     }
 
-    if (state.succeeded || potFilled == true) {
-        return <p>Thanks for contacting Kardia! We will reply as soon as possible.</p>;
-    }
+    // if (state.succeeded || potFilled == true) {
+    //     return <p>Thanks for contacting Kardia! We will reply as soon as possible.</p>;
+    // }
     return (
         <form onSubmit={submitForm}>
             <label htmlFor="name">Name:</label>
@@ -82,7 +87,6 @@ function ContactForm() {
 
 
             <Button type="submit" disabled={state.submitting} variant='contained' className='mt-3'>Submit</Button>
-
         </form>
     );
 }
