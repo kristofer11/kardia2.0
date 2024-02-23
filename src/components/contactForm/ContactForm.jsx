@@ -10,7 +10,7 @@ function ContactForm() {
     // Need to add the key for development.
     // const formspreeApiKey = process.env.FORMSPREE_API_KEY;
 
-    const [state, handleSubmit] = useForm(`${process.env.FORMSPREE_API_KEY}`);
+    const [state, handleSubmit] = useForm(process.env.FORMSPREE_API_KEY);
     const [potFilled, setPotFilled] = useState('false')
 
     const submitForm = async (event) => {
