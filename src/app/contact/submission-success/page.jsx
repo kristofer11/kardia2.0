@@ -1,6 +1,6 @@
 "use client"
 import Banner from '../../../components/Banner/Banner';
-import { use, useEffect } from 'react';
+import { useEffect } from 'react';
 import styles from './page.module.scss';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -9,7 +9,7 @@ import AnimateOpacity from '@/components/animations/AnimateOpacity';
 import Confetti from 'react-confetti';
 import { useRouter } from 'next/navigation';
 
-const page = () => {
+const Page = () => {
     const router = useRouter();
 
     const navigateHome = () => {
@@ -46,4 +46,4 @@ const page = () => {
     )
 }
 
-export default page
+export default Page
