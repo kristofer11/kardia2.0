@@ -14,13 +14,13 @@ const Footer = () => {
     return (
         <footer>
             <section className='footer-section logo-section'>
-            <div className="footer-logo">
+                <div className="footer-logo">
                     <Link href='/' className='logo-text' >
                         <Box
                             component='img'
                             width='6rem'
                             height='6rem'
-                            sx={{ display: 'flex', mr: 0.5 }}
+                            sx={{ display: 'flex', mr: 0.5, boxShadow: 'none' }}
                             src='/images/logo.png'
                         />
                     </Link>
@@ -60,13 +60,13 @@ const Footer = () => {
                 <div className="address-block">
                     <address>
                         <h5>Physical Address</h5>
-                        <p style={{marginBottom: '0'}}>Hope Foursquare Church</p>
+                        <p style={{ marginBottom: '0' }}>Hope Foursquare Church</p>
                         <p>5002 Bickford Ave<br />Snohomish, WA 98290</p>
                     </address>
                 </div>
                 <div className="address-block">
                     <h5>Hours</h5>
-                    <p style={{marginBottom: 0}}>Monday–Friday: </p>
+                    <p style={{ marginBottom: 0 }}>Monday–Friday: </p>
                     <p>9:00AM–4:00PM<br />Saturday-Sunday: Closed</p>
                 </div>
             </section>
@@ -98,7 +98,7 @@ const Footer = () => {
                 </a>
             </section>
             <section className='footer-section'>
-                <small><span>&copy; 2023 Kardia Classical School | </span><span>Designed and built by <Link href='http://krishvattum.com' target="_blank" style={{color: '#1A1461', fontWeight: 'bold'}} > <em>Kris Hvattum</em></Link></span></small>
+                <small><span>&copy; 2023 Kardia Classical School | </span><span>Designed and built by <Link href='http://krishvattum.com' target="_blank" style={{ color: '#1A1461', fontWeight: 'bold' }} > <em>Kris Hvattum</em></Link></span></small>
             </section>
         </footer>
     )
