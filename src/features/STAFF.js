@@ -10,7 +10,7 @@ export const STAFF = [
         id: 1,
         name: 'Tracy Molina',
         title: 'Teacher',
-        bio: 'Tracy Molina has been teaching since 2002 in a variety of schools and grades, predominantly K-3. She loves teaching children how to read and become better readers. She loves how exciting it is to see how much students can learn in just one year! Tracy is a firm believer in the classical method. She is one of our in-person classroom teachers and runs our STEM/enrichment 1/2 day camps. She teaches video lessons for kindergarten through second-grade phonics, math for grades first and second, and more!',
+        bio: 'Tracy Molina has been teaching since 2002 in a variety of schools and grades, predominantly K-3. She loves teaching children how to read and become better readers. She loves how exciting it is to see how much students can learn in just one year! Tracy is a firm believer in the classical method. She teaches video lessons for kindergarten through second-grade phonics, math for grades first and second, and more!',
         image: '/staff/MolinaTracy.jpg'
     },
     {

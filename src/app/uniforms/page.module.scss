@@ -13,7 +13,7 @@
         align-items: center;
         gap: 1rem;
 
-        &.section1{
+        &.section1 {
             min-height: 75vh;
             display: flex;
             flex-direction: column;
@@ -29,7 +29,7 @@
                 max-width: 95vw;
                 height: auto;
                 margin-bottom: 1rem;
-            }            
+            }
         }
 
         .firstHeader {
@@ -45,6 +45,14 @@
             font-size: 1.2rem;
             width: clamp(300px, 777px, 95vw);
             max-width: 95vw;
+
+            .SBLink {
+                color: blue;
+                font-weight: bold;
+                background-color: rgba(128, 128, 128, 0.5);
+                border-radius: 4px;
+                padding-inline: 0.4rem;
+            }
         }
 
         .uniformImg {
@@ -57,15 +65,16 @@
             background-color: var(--alt-bg-color);
         }
 
-        @media only screen and (max-width: 768px){
+        @media only screen and (max-width: 768px) {
             &.introDiv {
-                flex-direction: column;                
+                flex-direction: column;
                 align-items: center;
 
-                p{
+                p {
                     order: 2
                 }
-                .mainImg{
+
+                .mainImg {
                     order: 1;
                     width: 444px;
                     max-width: 95vw;
@@ -74,7 +83,7 @@
         }
     }
 
-    .uniforms1{
+    .uniforms1 {
         background-color: var(--link-hover-bg-color);
         width: 100vw;
         color: var(--main-light-text-color);
@@ -83,7 +92,7 @@
     .uniforms2 {
         // background-color: var(--alt-bg-color);
         width: 100vw;
-        
+
         .uniformImg2 {
             background-color: var(--main-bg-color);
         }
