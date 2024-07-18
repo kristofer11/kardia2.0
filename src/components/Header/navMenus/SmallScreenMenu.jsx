@@ -113,7 +113,7 @@ const Navbar = () => {
 
                             {/* REMOVE JOG-A-THON UNTIL IT IS RELEVANT IN 2024 */}
 
-                            <MenuItem onClick={() => handleClose(setFundraisingMenuAnchor)} className='small-menu-item'><Link href='/jog-a-thon' style={{ width: '100%' }}>Jog-a-Thon</Link></MenuItem>
+                            {/* <MenuItem onClick={() => handleClose(setFundraisingMenuAnchor)} className='small-menu-item'><Link href='/jog-a-thon' style={{ width: '100%' }}>Jog-a-Thon</Link></MenuItem> */}
 
                         </Menu>
                     </ListItem>

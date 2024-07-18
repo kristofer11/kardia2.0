@@ -34,7 +34,7 @@ export const STAFF = [
         name: 'Amanda Lauderbach',
         title: 'Teacher',
         bio: 'Amanda has a Bachelor of Science from Gonzaga University.  At Gonzaga, she worked with a mentorship program that served underprivileged students from local elementary schools.  After graduation, she pursued a career in Commercial Real Estate.  She now homeschools her two boys, Damien (7) and Elliot (5), who also attend Kardia. Before becoming a teacher, Amanda was a devoted volunteer and substitute teacher.  She is excited to teach in a Christ-centered environment.  In her spare time, Amanda enjoys camping and spending time outdoors with her family.  She is also an avid reader and loves jigsaw puzzles.',
-        image: '/staff/Amanda.jpeg'
+        image: '/staff/Amanda.jpg'
     },
     {
         id: 6,
