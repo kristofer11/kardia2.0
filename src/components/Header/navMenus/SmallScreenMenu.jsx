@@ -82,7 +82,7 @@ const Navbar = () => {
                             open={Boolean(aboutMenuAnchor)}
                             onClose={() => handleCloseMenuOnly(setAboutMenuAnchor)}
                         >
-                            <MenuItem onClick={() => handleClose(setAboutMenuAnchor)} className='small-menu-item'><Link href='/beginning' style={{ width: '100%' }}>Our Story</Link></MenuItem>
+                            <MenuItem onClick={() => handleClose(setAboutMenuAnchor)} className='small-menu-item'><Link href='/beginning' style={{ width: '100%' }}>About Kardia</Link></MenuItem>
                             <MenuItem onClick={() => handleClose(setAboutMenuAnchor)} className='small-menu-item'><Link href='/staff' style={{ width: '100%' }}>Faculty, Staff and School Board</Link></MenuItem>
                             <MenuItem onClick={() => handleClose(setAboutMenuAnchor)} className='small-menu-item'><Link href='/contact' style={{ width: '100%' }}>Contact</Link></MenuItem>
                         </Menu>

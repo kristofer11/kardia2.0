@@ -12,8 +12,8 @@ const page = () => {
                 alt='Lightbulbs over a bookshelf in a library'
                 title={
                     <>
-                        <h1 className='homeOverlayText'> Our </h1>
-                        <h1 className='homeOverlayText'> Beginning</h1>
+                        <h1 className='homeOverlayText'>About</h1>
+                        <h1 className='homeOverlayText'>  Kardia</h1>
                     </>
                 }
                 strength={333}
