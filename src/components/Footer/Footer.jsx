@@ -54,7 +54,7 @@ const Footer = () => {
                 <div className="address-block">
                     <h5>Mailing Address</h5>
                     <address>
-                        <p>1429 Avenue D #239<br /> #239<br />Snohomish, WA 98290</p>
+                        <p>1429 Avenue D<br /> #239<br />Snohomish, WA 98290</p>
                     </address>
                 </div>
                 <div className="address-block">
