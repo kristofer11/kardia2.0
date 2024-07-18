@@ -39,10 +39,11 @@ const page = () => {
                         <p>Kardia Classical School offers a Pre-Kindergarten program designed to meet the needs of the child who is age four and potty trained by August 31. The goal is to provide a loving and nurturing Christian environment where children can grow and progress in all areas for the glory of God. The developmentally centered curriculum incorporates a variety of techniques, resources, materials and hands-on experiences in order to address different learning styles. Children develop a love for learning and school through hands-on experiences, discussions and explorations.</p>
                         <p>The Pre-Kindergarten curriculum prepares a child for kindergarten and is structured to be fun, yet challenging. The program involves active learning and is devised to address the needs of the whole child. Activities and materials engage the students in social, physical, emotional and intellectual development.</p>
                         <Image
-                            src='/images/tuesday.jpg'
+                            src='/images/preK 3.jpg'
                             alt='Two girls creating Christmas crafts with pipe cleaners.'
-                            width='1024'
-                            height='870'
+                            width='1536'
+                            height='2048'
+                            className={styles.prekImage}
                         />
                     </section>
                 </AnimateOpacity>
@@ -56,7 +57,7 @@ const page = () => {
                         <p><strong>Price per session: $35</strong></p>
 
                         <Image
-                            src='/images/at-home.jpg'
+                            src='/images/tuesday.jpg'
                             width='1024'
                             height='768'
                             alt='Three students of various ages working on school work at kitchen table.'
