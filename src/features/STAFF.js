@@ -34,7 +34,7 @@ export const STAFF = [
         name: 'Amanda Lauderbach',
         title: 'Teacher',
         bio: 'Amanda has a Bachelor of Science from Gonzaga University.  At Gonzaga, she worked with a mentorship program that served underprivileged students from local elementary schools.  After graduation, she pursued a career in Commercial Real Estate.  She now homeschools her two boys, Damien (7) and Elliot (5), who also attend Kardia. Before becoming a teacher, Amanda was a devoted volunteer and substitute teacher.  She is excited to teach in a Christ-centered environment.  In her spare time, Amanda enjoys camping and spending time outdoors with her family.  She is also an avid reader and loves jigsaw puzzles.',
-        image: '/staff/DeborahClingan.jpeg'
+        image: '/staff/Amanda.jpeg'
     },
     {
         id: 6,
@@ -98,8 +98,8 @@ export const STAFF = [
     {
         id: 18,
         name: 'Lacey Hvattum',
-        title: 'Teacher',
-        bio: 'Lacey Hvattum is the Head of School, and one of the co-founders of Kardia Classical School. She has lived almost her whole life in Monroe, Washington, and has dedicated her life to her passion for teaching. She attended Northwest University in Kirkland, Washington for her BA, MIT, and professional certification (pro-cert). Her first full-time job was at The Bear Creek School, where she fell in love with Classical Christian Education. That is where the journey began, but it has not stopped since she left TBCS in 2014. She started teaching in 2007 and started classically teaching in 2008. She has many years of experience as a classical educator as well as three years as a Beginning School Director and is passionate about spreading the word about this fantastic methodology and what it has done not only for her children but for her students over the years. Lacey has also attended numerous classical conferences to further her classical training. She has three children, and two of them are currently attending KCS. She also has a toddler who is a future Kardia student. Lacey is a teacher on in-person days and does video lessons for middle school math, Kindergarten Continents (history), 1st through 3rd-grade grammar, and more!',
+        title: 'Co-Founder & Ex-Officio Board Member',
+        bio: 'Lacey Hvattum was one of the co-founders of Kardia Classical School, and the head of school for Kardia\'s first four years. She is now serving Kardia Classical School in a more advisory role as an "ex officio" board member and consultant. You will also see her on many of the videos available to enrolled Kardia students. Lacey and her family currently reside in Eastern Washington, and she teaches at The Oaks Classical Christian Academy where her three kids also attend.  She has dedicated most of her adult life to teaching! She attended Northwest University in Kirkland, Washington for her BA, MIT, and professional certification (pro-cert). Her first full-time job was at The Bear Creek School, where she fell in love with Classical Christian Education. That is where the journey began, but it has not stopped since she left TBCS in 2014. She has many years of experience as a classical educator and administrator and is passionate about spreading the word about this fantastic methodology and what it has done not only for her children but for her students over the years. Lacey has also attended numerous classical conferences to further her classical training.',
         image: '/staff/HvattumLacey.jpg'
     },
     {

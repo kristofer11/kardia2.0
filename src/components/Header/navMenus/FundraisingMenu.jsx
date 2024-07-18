@@ -61,11 +61,11 @@ const FundraisingMenu = ({ anchorElFundraising, handleOpenFundraisingMenu, handl
 
 
                         {/* REMOVE JOG-A-THON UNTIL IT IS RELEVANT IN 2024-25 SCHOOL YEAR */}
-                        {/* <MenuItem onClick={handleCloseFundraisingMenu}>
+                        <MenuItem onClick={handleCloseFundraisingMenu}>
                             <Link href='/jog-a-thon'>
                                 <Typography textAlign="center">Jog-a-Thon</Typography>
                             </Link>
-                        </MenuItem> */}
+                        </MenuItem>
 
 
                     </Box>

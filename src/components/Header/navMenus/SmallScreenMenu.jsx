@@ -72,7 +72,7 @@ const Navbar = () => {
                 open={isDrawerOpen}
                 onClose={handleToggleDrawer}
                 className='sm-menu-drawer'
-                sx={{backgroundColor: '#14611A' }}
+                sx={{ backgroundColor: '#14611A' }}
             >
                 <List sx={{ width: '80vw', display: 'flex', flexDirection: 'column', alignItems: 'center !important', textAlign: 'center', }}>
                     <ListItem className='small-menu-button'>
@@ -112,9 +112,9 @@ const Navbar = () => {
                             <MenuItem onClick={() => handleClose(setFundraisingMenuAnchor)} className='small-menu-item'><Link href='/auction' style={{ width: '100%' }}>Auction</Link></MenuItem>
 
                             {/* REMOVE JOG-A-THON UNTIL IT IS RELEVANT IN 2024 */}
-                            
-                            {/* <MenuItem onClick={() => handleClose(setFundraisingMenuAnchor)} className='small-menu-item'><Link href='/jog-a-thon' style={{ width: '100%' }}>Jog-a-Thon</Link></MenuItem> */}
-                            
+
+                            <MenuItem onClick={() => handleClose(setFundraisingMenuAnchor)} className='small-menu-item'><Link href='/jog-a-thon' style={{ width: '100%' }}>Jog-a-Thon</Link></MenuItem>
+
                         </Menu>
                     </ListItem>
                     <ListItem className='small-menu-button'>
