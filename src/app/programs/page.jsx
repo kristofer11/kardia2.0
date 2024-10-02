@@ -40,7 +40,7 @@ const page = () => {
                         <p>The Pre-Kindergarten curriculum prepares a child for kindergarten and is structured to be fun, yet challenging. The program involves active learning and is devised to address the needs of the whole child. Activities and materials engage the students in social, physical, emotional and intellectual development.</p>
                         <Image
                             src='/images/prekColoring.jpg'
-                            alt='Two girls creating Christmas crafts with pipe cleaners.'
+                            alt='Young Kardia students coloring.'
                             width='1536'
                             height='2048'
                             className={styles.prekImage}
@@ -60,7 +60,7 @@ const page = () => {
                             src='/images/tuesday.jpg'
                             width='1024'
                             height='768'
-                            alt='Three students of various ages working on school work at kitchen table.'
+                            alt='Two girls making a craft during art time with pipe-cleaners.'
                         />
                     </section>
                 </AnimateOpacity>
