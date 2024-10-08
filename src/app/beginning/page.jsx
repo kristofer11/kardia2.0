@@ -4,7 +4,7 @@ import './page.module.scss'
 import styles from './page.module.scss';
 import AnimateOpacity from '@/components/animations/AnimateOpacity';
 
-const page = () => {
+const Page = () => {
     return (
         <main className="page-main">
             <Banner
