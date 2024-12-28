@@ -13,14 +13,14 @@ export const STAFF = [
         name: 'Lisa Davison',
         title: 'Teacher',
         bio: 'Lisa is married to Chad and has 3 children; Ariana (16), Brynn (13), and Eli (11). She also has 2 Akitas, Duffy and Ribbon. She grew up in Eastern Canada which is where she earned her Bachelor of Arts followed by a Bachelor of Education. Chad and Lisa moved to Washington in 1999 and she taught a range of ages from preschool to high school before having their first child. She currently homeschools the girls and most recently taught (children other than her own) Math 3 at Cornerstone Academy. She is excited to work at Kardia for a few hours each week and loves being able to teach at a Christian school. She enjoys reading and walking in her spare time.',
-        image: '/staff/Davison-Lisa.jpg'
+        image: '/staff/Davison-Lisa2.jpg'
     },
     {
         id: 3,
         name: 'Bianca Bahr',
         title: 'Teacher',
         bio: `Bianca graduated from Grand Canyon University with a Bachelor's degree in Elementary Education. She has had experience teaching 3rd-5th grade. She is passionate about creating an environment where students develop both their academics and their relationship with God, learning meaningful lessons that carry on outside the classroom. Bianca believes the classroom should feel like a community where everyone's strengths are cultivated. She is intrigued by Classical Education and the traditional values and character development that it promotes. In her free time, Bianca enjoys singing, baking, and spending time with her family, especially her dog, Mia. She feels grateful to be a part of the Kardia community.`,
-        image: '/staff/Bahr-Bianca.jpg'
+        image: '/staff/Bahr-Bianca2.jpg'
     },
     {
         id: 4,

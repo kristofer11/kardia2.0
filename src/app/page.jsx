@@ -29,8 +29,8 @@ export default function Home() {
             <section className='page-content'>
                 <AnimateOpacity>
                     <div className={styles.homeSlogan}>
-                        <h4>Now enrolling for the 2024-2025 school year!</h4>
-                        <Button href='/contact' variant='contained'>Inquire Now</Button>
+                        <h4>Visit our <em>Open House</em>: January 31st 9am - 12pm!</h4>
+                        <Button href='/open-house' variant='contained'>View Details</Button>
                     </div>
                     <div className={styles.heroBg}>
                         <div className={`${styles.introDiv} ${styles.introDiv1}`}>
@@ -74,7 +74,7 @@ export default function Home() {
                     </div>
                 </AnimateOpacity>
                 <AnimateOpacity>
-                    <div style={{borderBottom: '2px solid #14611A', width: '999px', maxWidth: '92vw'}}></div>
+                    <div style={{ borderBottom: '2px solid #14611A', width: '999px', maxWidth: '92vw' }}></div>
                 </AnimateOpacity>
                 <AnimateOpacity>
                     <div className={styles.homeVideoDiv}>
