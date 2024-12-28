@@ -5,7 +5,7 @@ export const STAFF = [
         name: 'Tracy Molina',
         title: 'Head of School & Teacher',
         bio: 'Tracy graduated from Northern Arizona University in 1996 with a Bachelor of Science degree in General Studies. She escaped the heat of Phoenix with her husband and moved to the Seattle area shortly after she graduated. After working in the business world for five years, she decided to pursue her teaching degree, and graduated with her teacher certification from UW Bothell in 2002. Tracy has been teaching since 2002 in a variety of schools and grades, predominantly K-3. She loves how exciting it is to see how much students can learn in just one year! Tracy is a firm believer in the classical method and has been teaching in classical schools since 2008. She has been with Kardia since the beginning teaching video lessons and mostly kindergarten and first grade, and now Head of School. Tracy has two adult children and enjoys gardening and hanging out with her dog Winston.',
-        image: '/staff/MolinaTracy.jpg'
+        image: '/staff/TracyMolina.jpg'
     },
 
     {
@@ -27,21 +27,21 @@ export const STAFF = [
         name: 'Laura Pope',
         title: 'Teacher',
         bio: `Laura has been working with children for over 20 years. She started volunteering at her church and realized she wanted to do more so she became an assistant teacher. Later, she became a director of a before and after school program. During her employment she was approached to be an assistant paraeducator and office assistant, which she really enjoyed. She left this position to care for two little girls. After her youngest was old enough, she helped run a "pod class" for Kindergarten through 8th graders. At a young age she knew that God gave her a gift to love children and help them grow academically and spiritually. Laura has her associates degree in early childhood education and has taken extra classes on childhood education. She loves teaching her children and spending time with them day to day while exploring new things.`,
-        image: '/staff/Pope-Laura.jpg'
+        image: '/staff/LauraPope.jpg'
     },
     {
         id: 5,
         name: 'Amanda Lauderbach',
         title: 'Teacher',
         bio: 'Amanda has a Bachelor of Science from Gonzaga University.  At Gonzaga, she worked with a mentorship program that served underprivileged students from local elementary schools.  After graduation, she pursued a career in Commercial Real Estate.  She now homeschools her two boys, Damien (7) and Elliot (5), who also attend Kardia. Before becoming a teacher, Amanda was a devoted volunteer and substitute teacher.  She is excited to teach in a Christ-centered environment.  In her spare time, Amanda enjoys camping and spending time outdoors with her family.  She is also an avid reader and loves jigsaw puzzles.',
-        image: '/staff/Amanda.jpg'
+        image: '/staff/AmandaLauderbach.jpg'
     },
     {
         id: 6,
         name: 'Leslie Schmunk',
         title: 'Music Teacher',
         bio: 'Leslie has been homeschooling her two (now teenage) children since preschool, and it has been a privilege to do so. Through parenting her own children, she has been challenged to grow in many areas of her life, spiritually, as well as, acquiring new skills such as crochet, healthy cooking, and teaching the Bible to children. She has been making music almost her entire life, singing her first public solo at age four. As a child, she studied piano and violin and sang in numerous choral groups. Leslie received a Bachelor of Arts degree in Sacred Music in 1987 from Northwest College in Kirkland, WA. She has been teaching private piano and violin lessons since 1980 and has directed several choral and instrumental groups. She is also an active instrumentalist and vocalist on her church\’s worship team. Shortly after the birth of her daughter in 2004, she began researching music education options for her. Through that search, she discovered and began teaching Musikgarten\’s Family Music series and Music Makers series. In more recent years, she has discovered the joy of teaching in the elementary music classroom. Her passion is to instill a love of music and singing in her students. The thing she loves most about teaching music is seeing the light bulb go on in a student, and they get excited because they\’ve "figured it out."',
-        image: '/staff/SchmunkLeslie.jpg'
+        image: '/staff/LeslieSchmunk.jpg'
     },
 
 
@@ -57,14 +57,14 @@ export const STAFF = [
         name: 'JeriLynn Dunkin',
         title: 'Drama Teacher',
         bio: 'JeriLynn, graduate of Lighthouse Christian Academy, not only grew a love and respect for Christ-centered education, but also for Theatre. For three years she rigorously studied and acted on stage under the guidance of retired performers, collaborated on scripts, and was promoted assistant director of her old troupe. Her main goals are to instill the magic of the thespian arts and show that spreading the Gospel doesn\'t always have to be conventional!',
-        image: '/staff/JeriLynn.jpg'
+        image: '/staff/JeriLynnDunkin.jpg'
     },
     {
         id: 13,
         name: 'Katie Lemaire',
         title: 'Office Administrator',
         bio: 'Katie took office admin classes at Edmonds Community College, and has worked at several medical offices doing everything from medical records to manning the front desk. She worked as a Health Unit Coordinator at Providence Hospital in the heart/critical care unit for almost 13 years. Katie took some time off work to raise her two rambunctious boys. They started attending a classical school when her oldest started 1st grade and have been attending a classical school ever since. She started working part-time when both boys were in school as an Office Admin for Cornerstone Academy and now she is here at Kardia! She loves working in a school environment. “The teachers at Kardia are amazing! Watching our kids grow academically and spiritually has been great to see.”',
-        image: '/staff/LemaireKatie.jpg'
+        image: '/staff/KatieLemaire.jpg'
     },
     {
         id: 14,
