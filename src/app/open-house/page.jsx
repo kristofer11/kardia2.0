@@ -25,6 +25,7 @@ const page = () => {
                 >
                    Click here to RSVP
                 </Button>
+                
                 <Image
                     src='/images/open_house.png'
                     width='900'
