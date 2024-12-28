@@ -30,7 +30,7 @@ export default function Home() {
                 <AnimateOpacity>
                     <div className={styles.homeSlogan}>
                         <h4>Visit our <em>Open House</em>: January 31st 9am - 12pm!</h4>
-                        <Button href='/open-house' variant='contained'>View Details</Button>
+                        <Button href='/openhouse' variant='contained'>View Details</Button>
                     </div>
                     <div className={styles.heroBg}>
                         <div className={`${styles.introDiv} ${styles.introDiv1}`}>
