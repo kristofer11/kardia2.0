@@ -77,7 +77,7 @@ export const STAFF = [
     {
         id: 15,
         name: 'Adrian Lemaire',
-        title: 'Board Secretary',
+        title: 'Board Chairman',
         bio: "Adrian is familiar with small private schools as he attended one from pre-kindergarten through graduation in 1999 from a local Snohomish County private school. After graduation, he obtained his two-year Associate of Arts and Science (AAS) in Criminal Justice from Shoreline Community College. He also recently received his two-year Associate of Technical Arts (ATA) in Network Technology from Edmonds Community College. Over the years he has worked for Crista Ministries, many years in customer service jobs, and finally landed in IT around the time his first son was born. Adrian currently works for the City of Everett. He has two sons attending Kardia Classical School. Adrian feels that Classical education provides the learning environment and curriculum that is missing in many of today\’s schools.",
         image: '/staff/Adrian.jpeg'
     },
@@ -91,7 +91,7 @@ export const STAFF = [
     {
         id: 17,
         name: 'Erin Smith',
-        title: 'Board Member',
+        title: 'Board Secretary',
         bio: ' Erin Smith has a Bachelor of Arts in English Literature from Northwest University in Kirkland, Washington. Together, she and her husband Brian have two sons, whom she has homeschooled since 2020. In the process of homeschooling, she has developed a passion for Classical Christian education. She has tutored for Classical Conversations, taught 2nd grade Latin at Cornerstone Academy, and has experience as an elementary school behavior tech and substitute teacher. She is passionately committed to equipping and instilling confidence in parents as the primary educators of their children and to promoting Classical Christian education as a tool for raising the next generation of godly leaders. ',
         image: '/staff/Erin.jpg'
     },
