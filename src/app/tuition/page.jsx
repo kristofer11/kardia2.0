@@ -29,7 +29,7 @@ const page = () => {
                     </section>
                     <section>
                         <p >
-                            Visit our <a href='/Programs'>Program Options</a> page to see all of the options for the 2024-2025 school year.
+                            Visit our <a href='/Programs'>Program Options</a> page to see all of the options for the 2025-2026 school year.
                         </p>
                     </section>
                 </article>
