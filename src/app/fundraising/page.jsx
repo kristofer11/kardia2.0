@@ -26,7 +26,7 @@ const page = () => {
                             <strong>Why do we fundraise?</strong>
                         </h5>
                         <Image
-                            src='/images/jogathon.jpeg'
+                            src='/images/jogathon_2024.JPG'
                             width='790'
                             height='436'
                             alt='Students celebrating a successful jogathon fundraiser with a baloon arch.'

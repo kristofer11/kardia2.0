@@ -1,11 +1,13 @@
 import styles from './page.module.scss';
 import Banner from '../../components/Banner/Banner';
 import Image from 'next/image';
+import Link from 'next/link';
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import AnimateOpacity from '@/components/animations/AnimateOpacity';
+import { fontWeight } from '@mui/system';
 
 const page = () => {
     return (
@@ -27,7 +29,8 @@ const page = () => {
                             <strong>We are a current family, how do I enroll?</strong>
                         </h5>
                         <p style={{ textAlign: 'left' }}>
-                            Current Kardia families, please go to your Sycamore Education login page on the “current families” page. Once you are logged in, click on “My School” in the menu on the left-hand side of your screen. Then click on “Enrollment” and then “Online Portal.” You will then be redirected to our online application for enrollment. You can also follow the steps below, but log in under “I already have an account” and use your Sycamore Family username and password to enroll for the new year. Enrollment for current families will open on Wednesday, February 1, 2023.
+                            {/* Current Kardia families, please go to your Sycamore Education login page on the “current families” page. Once you are logged in, click on “My School” in the menu on the left-hand side of your screen. Then click on “Enrollment” and then “Online Portal.” You will then be redirected to our online application for enrollment. You can also follow the steps below, but log in under “I already have an account” and use your Sycamore Family username and password to enroll for the new year. Enrollment for current families will open on Wednesday, February 1, 2023. */}
+                            If you are a currently enrolled family, there is no need to enroll for next year. Students who are invited to re-enroll will be enrolled automatically, and will have the option to withdraw if they choose not to return. You should have received information via email on updated enrollment dates and tuition. If you did not, please contact <Link variant='contained' href='mailto: office@kardiaclassical.org'> <span style={{ color: 'green', fontWeight: 600 }}>office@KardiaClassical.org</span></Link>.
                         </p>
                     </section>
                 </AnimateOpacity>
