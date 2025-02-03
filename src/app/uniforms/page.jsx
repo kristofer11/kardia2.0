@@ -33,7 +33,7 @@ const page = () => {
                     <AnimateOpacity>
                         <section className={styles.section}>
                             <Image
-                                src='/images/uniforms2425.png'
+                                src='/images/uniform_25.jpg'
                                 width='1187'
                                 height='1536'
                                 alt='Several elementary-age students being creative with legos'
@@ -44,7 +44,7 @@ const page = () => {
 
                     <AnimateOpacity>
                         <section className={styles.section} style={{ marginBottom: '2rem' }}>
-                            <p style={{ textAlign: 'center' }}><em>These are the uniform requirements for the 2023-2024 school year. Please note that there are several changes.</em></p>
+                            <p style={{ textAlign: 'center' }}><em>These are the uniform requirements for the 2025-2026 school year. Please note that there are several changes.</em></p>
                         </section>
                     </AnimateOpacity>
                 </div>
@@ -52,7 +52,7 @@ const page = () => {
                     <AnimateOpacity>
                         <section className={styles.section}>
                             <Image
-                                src='/images/Pre-K Uniform Policy2425.png'
+                                src='/images/prek_screenshot.png'
                                 width='1545'
                                 height='2000'
                                 alt='Several elementary-age students being creative with legos'
@@ -62,7 +62,7 @@ const page = () => {
                     </AnimateOpacity>
                     <AnimateOpacity>
                         <section className={styles.section} style={{ marginBottom: '2rem' }}>
-                            <p style={{ textAlign: 'center' }}><em>These are the Pre-K uniform requirements for the 2023-2024 school year.</em></p>
+                            <p style={{ textAlign: 'center' }}><em>These are the Pre-K uniform requirements for the 2025-2026 school year.</em></p>
                         </section>
                     </AnimateOpacity>
                 </div>
