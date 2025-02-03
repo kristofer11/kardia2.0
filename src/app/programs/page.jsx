@@ -47,7 +47,7 @@ const page = () => {
                         />
                     </section>
                 </AnimateOpacity>
-                <AnimateOpacity>
+                {/* <AnimateOpacity>
                     <section className={styles.program}>
                         <h3>&quot;Tuesday Camp&quot; - Enrichment Half Day</h3>
                         <p>This class will be held on Tuesdays 10:00AM - 2:00PM . This session will have a different overall theme each quarter and will include all kinds of STEAM activities. STEAM is science, technology, engineering, art, and music.</p>
@@ -63,7 +63,7 @@ const page = () => {
                             alt='Two girls making a craft during art time with pipe-cleaners.'
                         />
                     </section>
-                </AnimateOpacity>
+                </AnimateOpacity> */}
             </article>
         </main>
     )
