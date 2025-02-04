@@ -18,7 +18,7 @@ const page = () => {
                             <CardMedia
                                 component='img'
                                 height='777'
-                                image='/images/enroll/2025-26_tuition.png'
+                                image='/images/enroll/2025_tuition.png'
                                 alt='Charts displaying tuition prices.'
                                 className={styles.cardImg}
                             />

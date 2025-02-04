@@ -28,9 +28,13 @@ export default function Home() {
             />
             <section className='page-content'>
                 <AnimateOpacity>
-                    <div className={styles.homeSlogan}>
+                    {/* <div className={styles.homeSlogan}>
                         <h4>Visit our <em>Open House</em>: January 31st 9am - 12pm!</h4>
                         <Button href='/openhouse' variant='contained'>View Details</Button>
+                    </div> */}
+                    <div className={styles.homeSlogan}>
+                        <h4>Now enrolling for the 2025-2026 school year!</h4>
+                        <Button href='/contact' variant='contained'>Inquire Now</Button>
                     </div>
                     <div className={styles.heroBg}>
                         <div className={`${styles.introDiv} ${styles.introDiv1}`}>
