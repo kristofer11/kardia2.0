@@ -25,7 +25,7 @@ const page = () => {
                         </Card>
                     </section>
                     <section>
-                        <p><strong>Please note, there is a $50 per family application fee for new families.</strong><em> This is a one-time fee.</em></p>
+                        <p><strong>Please note, there is a $125 per family application fee for new families.</strong><em> This is a one-time fee.</em></p>
                     </section>
                     <section>
                         <p >

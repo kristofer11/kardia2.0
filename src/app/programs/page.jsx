@@ -21,7 +21,7 @@ const page = () => {
                 <AnimateOpacity>
                     <section className={styles.program}>
                         <h3>Two Full Days In-person</h3>
-                        <p>Our feature program option offers two full days in-person a week. This includes enrichment classes (art/music/PE), with history,  science, grammar, and writing taught at school. You will also get a formal report for your records. However, the best part is that parents may drop students off and leave on in-person days. For your three at-home days, there will be video lessons for more complex subjects. We send out a curriculum list for easy purchasing. Kardia also provides weekly lesson plans, and a monthly in-person, over-the-phone, or online parent-teacher check-in.</p>
+                        <p>Our feature program option offers two full days in-person a week. This includes enrichment classes (art/music/drama), with history,  science, grammar, and writing taught at school. You will also get a formal report for your records. However, the best part is that parents may drop students off and leave on in-person days. For your three at-home days, there will be video lessons for more complex subjects. We send out a curriculum list for easy purchasing. Kardia also provides weekly lesson plans, and a monthly in-person, over-the-phone, or online parent-teacher check-in.</p>
                         <p>
                             Kardia Classical School is a member of the Association of Classical Christian Schools <a href='https://classicalchristian.org/https://classicalchristian.org/' target='_blank'>(ACCS)</a>. Please see the teacher job description (see document section below) for more information about daily expectations.
                         </p>
