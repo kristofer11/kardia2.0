@@ -55,7 +55,7 @@ const page = () => {
                         <strong>Creating a culture of life-long learners: </strong>
                     </h5>
                     <p style={{ textAlign: 'left' }}>
-                        Education is a privilege and we want our students to see it as such. Parents will educate their children at home while modeling a passion for learning to help create a lifelong learner in each of their children.
+                        Education is a privilege and we want our students to see it as such. Parents will educate their children at home while modeling a passion for learning to help create a lifelong learner in each of their children. Students will also engage in learning at school two days a week, where dedicated teachers will promote excitement and the desire to seek truth, goodness, and beauty in all that they do. This blended approach ensures that the love of learning is cultivated both at home and in the classroom environment.
                     </p>
                 </section>
                 </AnimateOpacity>

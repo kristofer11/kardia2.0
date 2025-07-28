@@ -44,7 +44,14 @@ const page = () => {
 
 
                         <p style={{ textAlign: 'left' }}>
-                            We are glad you are interested in joining our community! Please click <a href='https://sycamore.school/login?schoolId=4125' target='_blank'>HERE</a> to access the new family application (see below for instructions on how to navigate the admissions platform). This link will redirect you to our online application portal. Once you have completed the online application and submitted all required signed forms, you will be called by the Head of School to chat about the next steps. To fully save your place, you will need to pay enrollment fees listed on our tuition document.
+                            We are glad you are interested in joining our community! Please 
+                            <a
+                                className={styles.link}
+                                href='https://sycamore.school/login?schoolId=4125'
+                                target='_blank'
+                            >
+                               click here
+                            </a> to access the new family application (see below for instructions on how to navigate the admissions platform). This link will redirect you to our online application portal. Once you have completed the online application and submitted all required signed forms, you will be emailed regarding next steps. To fully save your place, you will need to pay enrollment fees listed on our tuition document.
                         </p>
                     </section>
                 </AnimateOpacity>

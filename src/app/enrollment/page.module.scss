@@ -22,7 +22,19 @@
         img {
             padding-bottom: 2rem;
         }
-
+        .link {
+            background-color: var(--nav-link-color);
+            color: var(--main-light-text-color);
+            padding: 0.33rem;
+            border-radius: 11px;
+            margin-left: 0.25rem;
+            &:hover {
+                background-color: var(--nav-link-hover-color);
+            }
+            &:active {
+                background-color: var(--alt-bg-color);
+            }
+        }
     }
 }
 
