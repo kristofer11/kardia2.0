@@ -28,7 +28,7 @@ const SponsorLink = ({
                     maxWidth: '80vw',
                     // width: level === 'Platinum Sponsor' ? '100%' :'444px', 
                     // maxWidth: '80vw', 
-                    height: level === 'Platinum Sponsor' ? '265px' : '235px',
+                    height: level === 'Platinum Sponsor' ? '270px' : '235px',
                     padding: '2rem',
                     boxShadow: '0px 2px 4px rgba(0, 0, 0, 0.4)',
                     border: level === 'Platinum Sponsor' ? '4px solid #a3a3a3' : '3px solid #cd7f32',
@@ -40,12 +40,12 @@ const SponsorLink = ({
                         src={imageUrl}
                         alt={imageAlt || `${companyName} logo`}
                         // className="object-contain"
-                        style={{ maxHeight: level === 'Platinum Sponsor' ? '155px' : '125px' }}
+                        style={{ maxHeight: level === 'Platinum Sponsor' ? '155px' : '125px', }}
                     />
                 </div>
                 <div>
                     <h3
-                        style={{ fontSize: level === 'Platinum Sponsor' ? '1.75rem' : '1.65rem', marginBottom: '0', marginTop: '0.5rem' }}
+                        style={{ fontSize: level === 'Platinum Sponsor' ? '1.75rem' : '1.65rem', marginBottom: '0', marginTop: '0.5rem',  textAlign: 'center' }}
                     >
                         {companyName}
                     </h3>

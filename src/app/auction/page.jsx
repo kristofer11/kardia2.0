@@ -43,10 +43,8 @@ const page = () => {
                         url='whitfields.com'
                         level='Platinum Sponsor'
                         imageAlt='Whitfields Auto Licensing Logo'
-
                         target="_blank"
                         rel="noopener noreferrer"
-                        
                     />
                     </div>
                     <div className={styles.sponsors}>
