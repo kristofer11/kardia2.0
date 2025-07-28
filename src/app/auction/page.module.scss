@@ -1,23 +1,49 @@
-.auctionImgDiv{
+.auctionImgDiv {
     width: 100%;
     text-align: center;
     padding: 2rem;
 
-    h3{
+    h3 {
         margin-top: 2rem;
     }
 
-    h4{
+    h4 {
         margin-top: 1rem;
         font-size: 1.3rem;
         font-style: italic;
     }
-    
+
     .auctionImg {
         width: 555px;
         height: auto;
         max-width: 100%;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
 
-    }    
+    }
+}
+
+.main {
+    .section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+         .firstHeader {
+            margin-top: 3rem;
+        }
+
+        h5 {
+            font-size: 2rem;
+            margin-top: 2rem;
+        }
+          p {
+            font-size: 1.2rem;
+        }
+        .sponsors {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 2rem;
+        }
+    }
 }
