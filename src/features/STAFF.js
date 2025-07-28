@@ -52,13 +52,13 @@ export const STAFF = [
         bio: 'Deborah Clingan has been teaching and working with students since 1992 where she served as a PreSchool-Teacher for 6 years and then for many years helped coordinate and bring a specialty to Art and Music Programs for after school programs and Summer Programs with Pre-K to 6 th grade students at Precious Child Care and at her church, Christ The Rock Fellowship in Lynnwood WA. Her great passion is the creative arts and seeing the joy that is kindled in hearts through the arts. Deborah has taught Art in a variety of mediums, and various forms of art. Examples are: perception, view point, cross hatch, pointillism, various styles of art and mediums, mixed mediums, Glass Art, Stepping Stones, Rock Art, Seasonal art projects and more. Deborah Served at Christ The Rock as the Sunday School Coordinator &amp; Music Coordinator for many years – planning Art programs for Sunday School and VBS. From 2015 to 2019 She worked at Madrona Middle School as a support to Teachers, Principal and VP for Behavior and other programs. Deborah has taught Art and Music for over 30 years through private lessons and through Daycare and Church settings. Deborah studied at SPU on Art Scholarships and has continued in private study in various Art Mediums. She also has worked with fused glass and has a kiln for small glass fusing. Deborah has an Audio Engineering AAAS and Electronic Music Productions AAAS from Shoreline, WA. She also currently owns a small music studio where she does side work as an audio engineer, Music Producer, Singer Songwriter, Audio Books, ADR, SFX, and more. Deborah and her husband Gary have raised three boys and one daughter.',
         image: '/staff/Clingan-Deborah.jpg'
     },
-    {
-        id: 12,
-        name: 'JeriLynn Dunkin',
-        title: 'Drama Teacher',
-        bio: 'JeriLynn, graduate of Lighthouse Christian Academy, not only grew a love and respect for Christ-centered education, but also for Theatre. For three years she rigorously studied and acted on stage under the guidance of retired performers, collaborated on scripts, and was promoted assistant director of her old troupe. Her main goals are to instill the magic of the thespian arts and show that spreading the Gospel doesn\'t always have to be conventional!',
-        image: '/staff/JeriLynnDunkin.jpg'
-    },
+    // {
+    //     id: 12,
+    //     name: 'JeriLynn Dunkin',
+    //     title: 'Drama Teacher',
+    //     bio: 'JeriLynn, graduate of Lighthouse Christian Academy, not only grew a love and respect for Christ-centered education, but also for Theatre. For three years she rigorously studied and acted on stage under the guidance of retired performers, collaborated on scripts, and was promoted assistant director of her old troupe. Her main goals are to instill the magic of the thespian arts and show that spreading the Gospel doesn\'t always have to be conventional!',
+    //     image: '/staff/JeriLynnDunkin.jpg'
+    // },
     {
         id: 13,
         name: 'Katie Lemaire',
