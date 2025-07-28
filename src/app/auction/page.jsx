@@ -26,7 +26,7 @@ const page = () => {
                             <strong>Check back for more info about our annual auction</strong>
                         </h5>
                         <p style={{ textAlign: 'left' }}>
-                            Each year, our nonprofit hosts an annual auction in March to support our mission and programs. It's a special event that brings our community together for a great cause. As the date approaches, we&apos;ll share more details and provide links to our website where you can learn how to participate, donate, or sponsor. Stay tuned—we look forward to having you join us!
+                            Each year, our nonprofit hosts an annual auction in March to support our mission and programs. It&apos;s a special event that brings our community together for a great cause. As the date approaches, we&apos;ll share more details and provide links to our website where you can learn how to participate, donate, or sponsor. Stay tuned—we look forward to having you join us!
                         </p>
                     </section>
                 </AnimateOpacity>
