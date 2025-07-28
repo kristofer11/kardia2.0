@@ -40,7 +40,7 @@ const page = () => {
                     <SponsorLink
                         imageUrl='/images/whitfields-logo.png'
                         companyName='Whitfields Licensing'
-                        url='whitfields.com'
+                        url='https://www.whitfieldslicensing.com/'
                         level='Platinum Sponsor'
                         imageAlt='Whitfields Auto Licensing Logo'
                         target="_blank"
@@ -54,8 +54,7 @@ const page = () => {
                         companyName='KFC Snohomish'
                         url='https://locations.kfc.com/wa/snohomish/1209-avenue-d?fbclid=IwY2xjawLzz2ZleHRuA2FlbQIxMAABHbfC2oyoeZrlRSVx19dt4bhpbCUeAPlBs1KQg2ctdAns6bBwZP7-uGu01A_aem_wy_JNwtiX7aMneCNCrzj-w'
                         level='Bronze Sponsor'
-                        imageAlt='Whitfields Auto Licensing Logo'
-
+                        imageAlt='KFC Snohomish Logo'
                         target="_blank"
                         rel="noopener noreferrer"
                     />
@@ -64,8 +63,7 @@ const page = () => {
                         companyName='Schultz Financial'
                         url='https://www.schultzfinancialpartners.com/advisor/e477c3edd9b3db8ea5e31cd5bfc2a855/krystal-schultz'
                         level='Bronze Sponsor'
-                        imageAlt='Whitfields Auto Licensing Logo'
-
+                        imageAlt='Schultz Financial Logo'
                         target="_blank"
                         rel="noopener noreferrer"
                     />
