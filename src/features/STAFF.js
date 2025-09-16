@@ -69,7 +69,7 @@ export const STAFF = [
     {
         id: 14,
         name: 'Ashlea Hayter',
-        title: 'Financial Dir. & Board Treasurer',
+        title: 'Financial Director',
         bio: 'Ashlea has an accounting degree from Seattle Pacific University. Before taking time off to raise her daughters Ashlea worked for the regional CPA firm, Peterson Sullivan (acquired in 2019 by BDO), as a senior accountant for over 8 years. Her primary industries of audit expertise were real estate investments and private schools throughout the Pacific Northwest. Ashlea is also the Coordinator of Antioch MOPS in Kirkland. She has two girls enrolled at Kardia and one future student. Ashlea and her husband Chris feel a Classical education provides the academic excellence and moral framework that will help prepare their children for a meaningful future.',
         image: '/staff/HayterAshlea.jpg'
     },
@@ -98,7 +98,7 @@ export const STAFF = [
     {
         id: 18,
         name: 'Lacey Hvattum',
-        title: 'Co-Founder & Ex-Officio Board Member',
+        title: 'Co-Founder',
         bio: 'Lacey Hvattum was one of the co-founders of Kardia Classical School, and the head of school for Kardia\'s first four years. She is now serving Kardia Classical School in a more advisory role as an "ex officio" board member and consultant. You will also see her on many of the videos available to enrolled Kardia students. Lacey and her family currently reside in Eastern Washington, and she teaches at The Oaks Classical Christian Academy where her three kids also attend.  She has dedicated most of her adult life to teaching! She attended Northwest University in Kirkland, Washington for her BA, MIT, and professional certification (pro-cert). Her first full-time job was at The Bear Creek School, where she fell in love with Classical Christian Education. That is where the journey began, but it has not stopped since she left TBCS in 2014. She has many years of experience as a classical educator and administrator and is passionate about spreading the word about this fantastic methodology and what it has done not only for her children but for her students over the years. Lacey has also attended numerous classical conferences to further her classical training.',
         image: '/staff/HvattumLacey.jpg'
     },
