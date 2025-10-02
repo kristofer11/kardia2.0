@@ -55,7 +55,7 @@ const page = () => {
                         </p>
                         <Button variant='contained'>
                             <a
-                                href="https://na01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fgo.rallyup.com%2Fkardia%2F&data=05%7C02%7C%7Cc51453ada521446456f908dca771247a%7C84df9e7fe9f640afb435aaaaaaaaaaaa%7C1%7C0%7C638569351973738209%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C0%7C%7C%7C&sdata=ddeapTIjKa%2Bvh8TgRaCBTJ4j8MkweAc%2Fs7V7j45usxo%3D&reserved=0"
+                                href="https://go.rallyup.com/campaigns?Layout=grid&PageSize=6&PageIndex=1&SortByProperty=CreatedDate&SortDirection=desc&openedCampaignId=350397"
                                 target='_blank'
                                 className='jogathonLink'
                                 style={{ color: 'white' }}
