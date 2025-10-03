@@ -55,7 +55,7 @@ const page = () => {
                         </p>
                         <Button variant='contained'>
                             <a
-                                href="https://go.rallyup.com/campaigns?Layout=grid&PageSize=6&PageIndex=1&SortByProperty=CreatedDate&SortDirection=desc&openedCampaignId=350397"
+                                href="https://go.rallyup.com/runforkardia/Campaign/Details"
                                 target='_blank'
                                 className='jogathonLink'
                                 style={{ color: 'white' }}
