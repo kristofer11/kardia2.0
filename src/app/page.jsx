@@ -14,8 +14,9 @@ const roboto = Roboto({
 export default function Home() {
     return (
         <main className={`${styles.main} page-main`}>
+
             <Banner
-                img='/banners/trees-banner.jpeg'
+                // img='/banners/trees-banner.jpeg'
                 alt='Lightbulbs over a bookshelf in a library'
                 title={
                     <>
@@ -25,7 +26,9 @@ export default function Home() {
                     </>
                 }
                 strength='400'
+                bgColor="#1A1461"
             />
+
             <section className='page-content'>
                 <AnimateOpacity>
                     {/* <div className={styles.homeSlogan}>
@@ -62,8 +65,8 @@ export default function Home() {
                     <div className={styles.introDiv}>
 
                         <Image
-                            src='/images/bubbles.png'
-                            alt='Kardia students posing with their PE teacher under a baloon arch'
+                            src='/images/science.webp'
+                            alt='Kardia students posing with their science project'
                             width='640'
                             height='410'
                             className={`${styles.bubblesImg} ${styles.homeImg}`}

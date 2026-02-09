@@ -53,7 +53,7 @@ const page = () => {
                         <p style={{ textAlign: 'left' }}>
                             Our students kick off the year, raise donations, and jog laps! Teachers and parents are welcome to join in and jog with students. We will have a jog-a-thon t-shirt available to be ordered and worn on the big day. Corporate sponsors are welcome to be a part of the fun. We’ll add their logo to the back of the t-shirts as a benefit of their sponsorship. Information will go home in late summer and at parent orientation.
                         </p>
-                        <Button variant='contained'>
+                        {/* <Button variant='contained'>
                             <a
                                 href="https://go.rallyup.com/runforkardia/Campaign/Details"
                                 target='_blank'
@@ -64,7 +64,7 @@ const page = () => {
                                     JOG-A-THON PLEDGES
                                 </div>
                             </a>
-                        </Button>
+                        </Button> */}
 
                     </section>
                 </AnimateOpacity>

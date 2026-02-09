@@ -60,8 +60,8 @@ const Footer = () => {
                 <div className="address-block">
                     <address>
                         <h5>Physical Address</h5>
-                        <p style={{ marginBottom: '0' }}>Hope Foursquare Church</p>
-                        <p>5002 Bickford Ave<br />Snohomish, WA 98290</p>
+                        {/* <p style={{ marginBottom: '0' }}>Hope Foursquare Church</p> */}
+                        <p>2500 Lake Avenue<br />Snohomish, WA 98290<br />(for the 2026-2027 school year)</p>
                     </address>
                 </div>
                 <div className="address-block">

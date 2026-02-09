@@ -30,7 +30,7 @@ const page = () => {
                         </p>
                     </section>
                 </AnimateOpacity>
-                <section className={`${styles.section} ${styles.generalInfo}`}>
+                {/* <section className={`${styles.section} ${styles.generalInfo}`}>
                     <h5 className={styles.header}>
                         <strong>Thanks to our 2025 sponsors for your generous support!</strong>
                     </h5>
@@ -68,7 +68,7 @@ const page = () => {
                         rel="noopener noreferrer"
                     />
                     </div>
-                </section>
+                </section> */}
                 {/* <div className={styles.auctionImgDiv}>
                 <Link href='https://fundraiser.support/KardiaClassical2025' target='_blank' ><Image
                     src='/images/2025_auction.jpg'

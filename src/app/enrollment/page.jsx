@@ -47,7 +47,7 @@ const page = () => {
                             We are glad you are interested in joining our community! Please 
                             <a
                                 className={styles.link}
-                                href='https://sycamore.school/login?schoolId=4125'
+                                href='https://sycamore.school/family/admissions/register?school_id=4125'
                                 target='_blank'
                             >
                                click here

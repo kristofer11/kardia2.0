@@ -19,7 +19,7 @@ export const STAFF = [
         id: 3,
         name: 'Bianca Bahr',
         title: 'Teacher',
-        bio: `Bianca graduated from Grand Canyon University with a Bachelor's degree in Elementary Education. She has had experience teaching 3rd-5th grade. She is passionate about creating an environment where students develop both their academics and their relationship with God, learning meaningful lessons that carry on outside the classroom. Bianca believes the classroom should feel like a community where everyone's strengths are cultivated. She is intrigued by Classical Education and the traditional values and character development that it promotes. In her free time, Bianca enjoys singing, baking, and spending time with her family, especially her dog, Mia. She feels grateful to be a part of the Kardia community.`,
+        bio: `Bianca holds a Bachelor\’s degree in Elementary Education from Grand Canyon University and a Master of Education in Curriculum and Instruction from Western Governors University. She has experience teaching students in grades three through eight and is passionate about fostering an environment where children grow both academically and spiritually, learning meaningful lessons that extend beyond the classroom. Bianca believes the classroom should feel like a community where each student\’s strengths are recognized and developed. She is deeply appreciative of Classical Education and the traditional values and character formation it encourages. In her free time, Bianca enjoys singing, baking, and spending time with her family, especially her dog, Mia. She feels truly grateful to be part of the Kardia community.`,
         image: '/staff/Bahr-Bianca2.jpg'
     },
     {

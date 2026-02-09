@@ -22,8 +22,8 @@ const page = () => {
                             <Image
                                 width='640'
                                 height='440'
-                                src='/images/baloonScience.jpeg'
-                                alt='Five Kardia students sitting on the floor in uniform.'
+                                src='/images/uniform.webp'
+                                alt='A Kardia class standing in a classroom in their formal uniforms.'
                                 className={styles.mainImg}
                             />
                         </div>
@@ -33,10 +33,10 @@ const page = () => {
                     <AnimateOpacity>
                         <section className={styles.section}>
                             <Image
-                                src='/images/uniform_25.jpg'
+                                src='/images/uniforms-26.png'
                                 width='1187'
                                 height='1536'
-                                alt='Several elementary-age students being creative with legos'
+                                alt='Uniform policy document'
                                 className={styles.uniformImg}
                             />
                         </section>
@@ -44,7 +44,7 @@ const page = () => {
 
                     <AnimateOpacity>
                         <section className={styles.section} style={{ marginBottom: '2rem' }}>
-                            <p style={{ textAlign: 'center' }}><em>These are the uniform requirements for the 2025-2026 school year. Please note that there are several changes.</em></p>
+                            <p style={{ textAlign: 'center' }}><em>These are the uniform requirements for the 2026-2027 school year.</em></p>
                         </section>
                     </AnimateOpacity>
                 </div>
@@ -52,17 +52,17 @@ const page = () => {
                     <AnimateOpacity>
                         <section className={styles.section}>
                             <Image
-                                src='/images/prek_screenshot.png'
+                                src='/images/uniforms-prek-26.png'
                                 width='1545'
                                 height='2000'
-                                alt='Several elementary-age students being creative with legos'
+                                alt='Pre-K uniform policy document'
                                 className={`${styles.uniformImg} ${styles.uniformImg2}`}
                             />
                         </section>
                     </AnimateOpacity>
                     <AnimateOpacity>
                         <section className={styles.section} style={{ marginBottom: '2rem' }}>
-                            <p style={{ textAlign: 'center' }}><em>These are the Pre-K uniform requirements for the 2025-2026 school year.</em></p>
+                            <p style={{ textAlign: 'center' }}><em>These are the Pre-K uniform requirements for the 2026-2027 school year.</em></p>
                         </section>
                     </AnimateOpacity>
                 </div>

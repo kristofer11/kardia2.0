@@ -25,7 +25,7 @@ const page = () => {
                         <h3 className={`text-center pt-4 ${styles.beginningTitle}`}>Kardia&apos;s Mission </h3>
                         <p> Kardia Classical School aims to provide parents with the tools that they need to classically educate their children rooted in a Christian worldview. Together, parents and teachers will nurture students&apos; appreciation of truth, goodness, and beauty as they strive for excellence while guiding them to live purposefully in the service of God and man.</p>
                     </div>
-                    <Image src='/images/hands-up.jpeg' width='4000' height='2205' className={styles.beginningImg} alt='Kardia students on stage raising hands during performance.' />
+                    <Image src='/images/drum.webp' width='4000' height='2205' className={styles.beginningImg} alt='Kardia students learning rhyth using buckets as drums' />
                 </AnimateOpacity>
                 <AnimateOpacity>
                     <div className={styles.beginningText}>
