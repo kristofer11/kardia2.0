@@ -13,7 +13,7 @@ const page = () => {
                     <section className={styles.cardSection}>
                         <Card className={styles.enrollCard}>
                             <Typography variant="h5" component="div" sx={{ textAlign: 'center', fontSize: '1.8rem' }}>
-                                Accepting applications for the 2025-26 school year!
+                                Accepting applications for the 2026-27 school year!
                             </Typography>
                             <CardMedia
                                 component='img'
@@ -29,7 +29,7 @@ const page = () => {
                     </section>
                     <section>
                         <p >
-                            Visit our <a href='/Programs'>Program Options</a> page to see all of the options for the 2025-2026 school year.
+                            Visit our <a href='/Programs'>Program Options</a> page to see all of the options for the 2026-2027 school year.
                         </p>
                     </section>
                 </article>

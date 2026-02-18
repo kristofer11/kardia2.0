@@ -36,7 +36,7 @@ export default function Home() {
                         <Button href='/openhouse' variant='contained'>View Details</Button>
                     </div> */}
                     <div className={styles.homeSlogan}>
-                        <h4>Now enrolling for the 2025-2026 school year!</h4>
+                        <h4>Now enrolling for the 2026-2027 school year!</h4>
                         <Button href='/contact' variant='contained'>Inquire Now</Button>
                     </div>
                     <div className={styles.heroBg}>
