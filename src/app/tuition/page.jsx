@@ -13,12 +13,12 @@ const page = () => {
                     <section className={styles.cardSection}>
                         <Card className={styles.enrollCard}>
                             <Typography variant="h5" component="div" sx={{ textAlign: 'center', fontSize: '1.8rem' }}>
-                                Accepting applications for the 2025-26 school year!
+                                Accepting applications for the 2026-2027 school year!
                             </Typography>
                             <CardMedia
                                 component='img'
                                 height='777'
-                                image='/images/enroll/tuition-and-fees-2026-27.png'
+                                image='/images/enroll/tuition-26.png'
                                 alt='Charts displaying tuition prices.'
                                 className={styles.cardImg}
                             />
