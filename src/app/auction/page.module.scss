@@ -27,7 +27,8 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-         .firstHeader {
+
+        .firstHeader {
             margin-top: 3rem;
         }
 
@@ -35,9 +36,11 @@
             font-size: 2rem;
             margin-top: 2rem;
         }
-          p {
+
+        p {
             font-size: 1.2rem;
         }
+
         .sponsors {
             display: flex;
             flex-wrap: wrap;
@@ -46,4 +49,20 @@
             margin-bottom: 2rem;
         }
     }
+}
+
+.whitfields2026Img {
+    width: 100%;
+    height: auto;
+    margin-block: 2rem;
+    max-width: 800px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+.auction2026Img {
+    width: 100%;
+    height: auto;
+    margin-top: 2rem;
+    max-width: 800px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
 }

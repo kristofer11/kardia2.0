@@ -30,45 +30,75 @@ const page = () => {
                         </p>
                     </section>
                 </AnimateOpacity>
-                {/* <section className={`${styles.section} ${styles.generalInfo}`}>
-                    <h5 className={styles.header}>
+                <section
+                    className={`${styles.section} ${styles.generalInfo}`
+                    }
+                >
+                    <Image
+                        src="/images/auction2026.webp"
+                        className={styles.auction2026Img}
+                        width={1600}
+                        height={2000}
+                        alt="information about the 2026 annual auction supporting Kardia Classical School"
+                    />
+                </section>
+                <section
+                    className={`${styles.section} ${styles.generalInfo}`}
+                >
+                    <Image
+                        className={styles.whitfields2026Img}
+                        src="/images/whitfields2026.webp"      // image in /public folder
+                        alt="Thank you message to Whitfields Licensing for being a platinum sponsor of the 2026 annual auction supporting Kardia Classical School"
+                        width={1600}
+                        height={1130}
+                    />
+                    {/* <h5 className={styles.header}>
                         <strong>Thanks to our 2025 sponsors for your generous support!</strong>
                     </h5>
                     <div
-                    style={{marginTop: '1rem'}}
+                        style={{ marginTop: '1rem' }}
                     >
-                    <SponsorLink
-                        imageUrl='/images/whitfields-logo.png'
-                        companyName='Whitfields Licensing'
-                        url='https://www.whitfieldslicensing.com/'
-                        level='Platinum Sponsor'
-                        imageAlt='Whitfields Auto Licensing Logo'
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    />
-                    </div>
-                    <div className={styles.sponsors}>
-                    
-                    <SponsorLink
-                        imageUrl='/images/kfc-logo.png'
-                        companyName='KFC Snohomish'
-                        url='https://locations.kfc.com/wa/snohomish/1209-avenue-d?fbclid=IwY2xjawLzz2ZleHRuA2FlbQIxMAABHbfC2oyoeZrlRSVx19dt4bhpbCUeAPlBs1KQg2ctdAns6bBwZP7-uGu01A_aem_wy_JNwtiX7aMneCNCrzj-w'
-                        level='Bronze Sponsor'
-                        imageAlt='KFC Snohomish Logo'
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    />
-                    <SponsorLink
-                        imageUrl='/images/schultz-logo.jpg'
-                        companyName='Schultz Financial'
-                        url='https://www.schultzfinancialpartners.com/advisor/e477c3edd9b3db8ea5e31cd5bfc2a855/krystal-schultz'
-                        level='Bronze Sponsor'
-                        imageAlt='Schultz Financial Logo'
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    />
-                    </div>
-                </section> */}
+                        <SponsorLink
+                            imageUrl='/images/whitfields2026.webp'
+                            companyName='Whitfields Licensing'
+                            url='https://www.whitfieldslicensing.com/'
+                            level='Platinum Sponsor'
+                            imageAlt='Whitfields Auto Licensing Logo'
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        />
+                    </div> */}
+                    {/* <Image 
+                        src='/images/auction2026.webp'
+                        width='900'
+                        height='900'
+                        alt='information about the 2026 annual auction supporting Kardia Classical School'
+                        className={styles.auctionImg}
+                    /> */}
+                    {/* <h4>Check back for more info about our annual auction</h4> */}
+                    {/* <h3>Open from Friday March 21st at 7pm to Sunday March 23rd at 7pm</h3> */}
+                    {/* <div className={styles.sponsors}>
+
+                        <SponsorLink
+                            imageUrl='/images/kfc-logo.png'
+                            companyName='KFC Snohomish'
+                            url='https://locations.kfc.com/wa/snohomish/1209-avenue-d?fbclid=IwY2xjawLzz2ZleHRuA2FlbQIxMAABHbfC2oyoeZrlRSVx19dt4bhpbCUeAPlBs1KQg2ctdAns6bBwZP7-uGu01A_aem_wy_JNwtiX7aMneCNCrzj-w'
+                            level='Bronze Sponsor'
+                            imageAlt='KFC Snohomish Logo'
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        />
+                        <SponsorLink
+                            imageUrl='/images/schultz-logo.jpg'
+                            companyName='Schultz Financial'
+                            url='https://www.schultzfinancialpartners.com/advisor/e477c3edd9b3db8ea5e31cd5bfc2a855/krystal-schultz'
+                            level='Bronze Sponsor'
+                            imageAlt='Schultz Financial Logo'
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        />
+                    </div> */}
+                </section>
                 {/* <div className={styles.auctionImgDiv}>
                 <Link href='https://fundraiser.support/KardiaClassical2025' target='_blank' ><Image
                     src='/images/2025_auction.jpg'
