@@ -30,7 +30,7 @@ const page = () => {
                         </p>
                     </section>
                 </AnimateOpacity>
-                <section
+                {/* <section
                     className={`${styles.section} ${styles.generalInfo}`
                     }
                 >
@@ -41,7 +41,7 @@ const page = () => {
                         height={2000}
                         alt="information about the 2026 annual auction supporting Kardia Classical School"
                     />
-                </section>
+                </section> */}
                 <section
                     className={`${styles.section} ${styles.generalInfo}`}
                 >
