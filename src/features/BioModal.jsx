@@ -18,30 +18,30 @@ const style = {
     pt: 1,
     maxHeight: '80vh',
     overflowY: 'auto'
-  };
-  
-  export default function BioModal({ bio, name }) {
+};
+
+export default function BioModal({ bio, name }) {
     const [open, setOpen] = useState(false);
     const handleOpen = () => setOpen(true);
     const handleClose = () => setOpen(false);
-  
-    const firstName = name.split(' ')[0]
+
+    const firstName = /^(ms|mr|mrs)\b/i.test(name) ? name : name.split(' ')[0]
 
     return (
-      <div>
-        <Button variant='outlined' onClick={handleOpen} className='bio-modal-btn'>{firstName}&#39;s Bio</Button>
-        <Modal
-          open={open}
-          onClose={handleClose}
-          aria-labelledby="modal-modal-title"
-          aria-describedby="modal-modal-description"
-        >
-          <Box sx={style}>
-            <Typography id="modal-modal-description" sx={{ mt: 2 }}>
-              { bio }
-            </Typography>
-          </Box>
-        </Modal>
-      </div>
+        <div>
+            <Button variant='outlined' onClick={handleOpen} className='bio-modal-btn'>{firstName}&#39;s Bio</Button>
+            <Modal
+                open={open}
+                onClose={handleClose}
+                aria-labelledby="modal-modal-title"
+                aria-describedby="modal-modal-description"
+            >
+                <Box sx={style}>
+                    <Typography id="modal-modal-description" sx={{ mt: 2 }}>
+                        {bio}
+                    </Typography>
+                </Box>
+            </Modal>
+        </div>
     );
-  }
+}

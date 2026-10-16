@@ -16,7 +16,7 @@ const StaffCard = ({ staff }) => {
                     <CardMedia
                         component='img'
                         height='140'
-                        image={image}
+                        image={image || '/staff/placeholder.svg'}
                         alt={`Photo of ${title} ${name}`}
                     />
                     <Typography variant="h5" component="div">
